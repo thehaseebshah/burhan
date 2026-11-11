@@ -1,0 +1,944 @@
+{
+ "id": "ch4",
+ "number": 4,
+ "title": "The Slow Descent",
+ "summary": "",
+ "minutes": 50,
+ "meta": {
+  "veil": "calls itself Progress; its true name, spoken in Urdu, is اترائی (subtitle: The Slow Descent). It stands for modernism.",
+  "station": "Faqr (need of Allah).",
+  "guides": "Imam Ghazali, then Ibn Rushd.",
+  "pillar": "Taleem o Taalum, learning."
+ },
+ "scenes": [
+  {
+   "id": "ch4.s01",
+   "key": "1",
+   "title": "The condition",
+   "where": "The small mosque near the caves, just after Fajr.",
+   "who": "BURHAN, SAIN.",
+   "play": "",
+   "kind": "islamabad",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch4.s01.l01",
+     "speaker": "SAIN",
+     "direction": "",
+     "ur": "تین دن میرے ساتھ چلو گے؟",
+     "en": "Will you walk with me for three days?",
+     "audio": "ch4.s01.l01",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch4.s01.l02",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "کہاں؟",
+     "en": "Where?",
+     "audio": "ch4.s01.l02",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch4.s01.l03",
+     "speaker": "SAIN",
+     "direction": "",
+     "ur": "جہاں راستہ لے جائے۔ ایک شرط ہے: جب تک میں نہ بتاؤں، کیوں مت پوچھنا۔",
+     "en": "Wherever the road goes. One condition: don't ask why until I tell you.",
+     "audio": "ch4.s01.l03",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch4.s01.l04",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "منظور۔",
+     "en": "Agreed.",
+     "audio": "ch4.s01.l04",
+     "hooks": []
+    }
+   ],
+   "depths": {
+    "clear": [
+     "Sain asks for trust before he explains anything."
+    ],
+    "deep": [
+     "Some knowledge only comes after patience. You can't argue your way to it."
+    ],
+    "deepest": [
+     "This is the condition the hidden teacher sets in Surah Al-Kahf: \"ask me about nothing until I mention it to you\" (18:70). The next three acts follow that story with ordinary people."
+    ]
+   }
+  },
+  {
+   "id": "ch4.s02",
+   "key": "2",
+   "title": "The phone",
+   "where": "A ridge path in the Margallas. Morning.",
+   "who": "",
+   "play": "Walking. Burhan's phone keeps pinging with SURAT notifications.",
+   "kind": "islamabad",
+   "optional": false,
+   "items": [
+    {
+     "type": "direction",
+     "text": "Sain stops, holds out his hand, and Burhan gives him the phone. Sain smashes it on a rock."
+    },
+    {
+     "type": "line",
+     "id": "ch4.s02.l01",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "یہ کیا کیا آپ نے؟!",
+     "en": "What did you just do?!",
+     "audio": "ch4.s02.l01",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch4.s02.l02",
+     "speaker": "SAIN",
+     "direction": "",
+     "ur": "ابھی نہیں۔",
+     "en": "Not yet.",
+     "audio": "ch4.s02.l02",
+     "hooks": []
+    }
+   ],
+   "depths": {
+    "clear": [
+     "Something precious is broken for no reason Burhan can see."
+    ],
+    "deep": [
+     "The phone is how the modern world goes everywhere with you."
+    ],
+    "deepest": [
+     "In Al-Kahf, the boat is damaged to save it from a king who seized every sound boat. Its explanation comes in scene 12."
+    ]
+   }
+  },
+  {
+   "id": "ch4.s03",
+   "key": "3",
+   "title": "The chai stall",
+   "where": "A roadside dhaba on the Murree road. Afternoon.",
+   "who": "BURHAN, SAIN, an OLD MAN (a retired clerk).",
+   "play": "The wheel opens, and Burhan's best proof line is lit and ready. Before the player can choose it, Sain's hand lands on his shoulder and the wheel closes.",
+   "kind": "islamabad",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch4.s03.l01",
+     "speaker": "OLD MAN",
+     "direction": "",
+     "ur": "نماز سے کیا ملتا ہے؟ میں نے چالیس سال نوکری کی، نماز کے بغیر۔ کیا بگڑا؟",
+     "en": "What does prayer get you? I worked forty years without praying. What went wrong?",
+     "audio": "ch4.s03.l01",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "The wheel closes. Sain pays for the old man's tea and walks on. Burhan catches him up on the road."
+    },
+    {
+     "type": "line",
+     "id": "ch4.s03.l02",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "میں جیت رہا تھا!",
+     "en": "I was winning!",
+     "audio": "ch4.s03.l02",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch4.s03.l03",
+     "speaker": "SAIN",
+     "direction": "",
+     "ur": "ابھی نہیں۔",
+     "en": "Not yet.",
+     "audio": "ch4.s03.l03",
+     "hooks": []
+    }
+   ],
+   "depths": {
+    "clear": [
+     "Sain stopped Burhan from winning an argument."
+    ],
+    "deep": [
+     "Winning an argument and winning a person are different things, and sometimes the first destroys the second."
+    ],
+    "deepest": [
+     "The second act of the hidden teacher. Its meaning comes in scene 12."
+    ]
+   }
+  },
+  {
+   "id": "ch4.s04",
+   "key": "4",
+   "title": "The wall",
+   "where": "Saidpur village at the foot of the Margallas. From evening through the night.",
+   "who": "BURHAN, SAIN, VILLAGERS.",
+   "play": "The villagers turn them away. Sain finds a crumbling old wall at the edge of one courtyard. All night, the player carries stones while Sain sets them in place.",
+   "kind": "islamabad",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch4.s04.l01",
+     "speaker": "BURHAN",
+     "direction": "to a villager",
+     "ur": "پانی مل سکتا ہے؟ ہم صبح سے چل رہے ہیں۔",
+     "en": "Could we have some water? We've been walking since morning.",
+     "audio": "ch4.s04.l01",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch4.s04.l02",
+     "speaker": "VILLAGER",
+     "direction": "",
+     "ur": "یہاں سیاحوں کو مفت کچھ نہیں ملتا۔",
+     "en": "Tourists get nothing free here.",
+     "audio": "ch4.s04.l02",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "Sain is already lifting the first stone."
+    },
+    {
+     "type": "line",
+     "id": "ch4.s04.l03",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "ان لوگوں نے پانی تک نہیں دیا، اور آپ ان کی دیوار بنا رہے ہیں؟ کم از کم مزدوری تو مانگ لیں!",
+     "en": "These people wouldn't even give us water, and you're building their wall? At least ask for wages!",
+     "audio": "ch4.s04.l03",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch4.s04.l04",
+     "speaker": "SAIN",
+     "direction": "",
+     "ur": "ابھی نہیں۔",
+     "en": "Not yet.",
+     "audio": "ch4.s04.l04",
+     "hooks": []
+    }
+   ],
+   "depths": {
+    "clear": [
+     "Sain serves people who refused to serve him."
+    ],
+    "deep": [
+     "Khidmat (service) that waits for a return is only trade."
+    ],
+    "deepest": [
+     "In Al-Kahf, Musa says \"if you wished, you could have taken a wage for it\" (18:77). Here Burhan says the same thing."
+    ]
+   }
+  },
+  {
+   "id": "ch4.s05",
+   "key": "5",
+   "title": "The championship",
+   "where": "A national TV studio. Faraz's network is broadcasting the National Debate Championship.",
+   "who": "BURHAN REHAN (the opponent again) THE HOST, a young tech-optimist in a hoodie. In the real world he is just a man, but he wears Progress's mask. FARAZ, in the sponsor's box A live audience",
+   "play": "The wheel opens as usual. Every option Burhan picks produces silence. His subtitle reads only (…). The crowd starts to murmur.",
+   "kind": "islamabad",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch4.s05.l01",
+     "speaker": "HOST",
+     "direction": "",
+     "ur": "آج کی قرارداد: یہ ایوان سمجھتا ہے کہ ترقی نے ہمیں بہتر انسان بنایا ہے۔",
+     "en": "Tonight's motion: This house believes progress has made us better people.",
+     "audio": "ch4.s05.l01",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch4.s05.l02",
+     "speaker": "REHAN",
+     "direction": "",
+     "ur": "ہم پہلے سے زیادہ جیتے ہیں، زیادہ جانتے ہیں، زیادہ آزاد ہیں۔ ترقی نے ہمیں بہتر بنایا ہے۔",
+     "en": "We live longer, know more and are freer than ever. Progress has made us better.",
+     "audio": "ch4.s05.l02",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "The wheel opens and Burhan chooses. Nothing comes out. He tries again, and again there's nothing."
+    },
+    {
+     "type": "line",
+     "id": "ch4.s05.l03",
+     "speaker": "HOST",
+     "direction": "laughing",
+     "ur": "ایک منٹ دیتے ہیں انہیں، فوکس۔ بیسٹ کو بھی کبھی کبھی اپ ڈیٹ چاہیے ہوتی ہے۔",
+     "en": "Let's give him a minute, folks. Even the best need an update sometimes.",
+     "audio": "ch4.s05.l03",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch4.s05.l04",
+     "speaker": "FARAZ",
+     "direction": "from the box, under his breath",
+     "ur": "چلو، چھوٹے...",
+     "en": "Come on, little brother...",
+     "audio": "ch4.s05.l04",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "Burhan puts down the microphone and walks off the stage in silence."
+    }
+   ],
+   "depths": {
+    "clear": [
+     "The champion debater loses his voice on the biggest night of his life."
+    ],
+    "deep": [
+     "The lie \"proof is enough\" breaks in public. The motion itself is the Slow Descent's mask: longer, faster, more, and calling it better."
+    ],
+    "deepest": [
+     "Imam Ghazali's tongue locked in front of his students in 1095. Burhan is about to meet him."
+    ]
+   }
+  },
+  {
+   "id": "ch4.s06",
+   "key": "6",
+   "title": "The escalators (the Gilding)",
+   "where": "An endless golden mall of escalators that all go up, and up.",
+   "who": "BURHAN (still voiceless), PROGRESS (a sleek figure in a hoodie whose screen face shows a loading bar stuck at 99%).",
+   "play": "The reveal of the upgrade tree. The upgrades the player has been unlocking since chapter 1 (speed, influence, followers) light up one by one as escalator steps. Then a new gauge appears on the screen: TRUE ELEVATION: −1,240 m. They have been going down the whole time. Burhan tries to climb back, but the escalator outruns him and he falls.",
+   "kind": "gilding",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch4.s06.l01",
+     "speaker": "PROGRESS",
+     "direction": "",
+     "ur": "اپ گریڈ کرو۔ تمہیں بہتر ہونے کا حق ہے۔",
+     "en": "Upgrade. You deserve to be better.",
+     "audio": "ch4.s06.l01",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch4.s06.l02",
+     "speaker": "PROGRESS",
+     "direction": "",
+     "ur": "ہر سال نیا ورژن۔ ہر سال تھوڑا اور اوپر۔",
+     "en": "A new version every year. A little higher every year.",
+     "audio": "ch4.s06.l02",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch4.s06.l03",
+     "speaker": "PROGRESS",
+     "direction": "as the gauge appears",
+     "ur": "اوپر جانے کا احساس ہی تو اصل اوپر جانا ہے۔",
+     "en": "The feeling of going up is what going up really is.",
+     "audio": "ch4.s06.l03",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "Burhan, exhausted and voiceless, sinks down on a step. Breath: Allah, Hu. The chain opens."
+    }
+   ],
+   "depths": {
+    "clear": [
+     "Every upgrade felt like rising. They were sinking."
+    ],
+    "deep": [
+     "\"Progress\" is not moral improvement, and convenience has a cost.",
+     "The game turns this critique on its own reward loop: the player's own upgrades were the staircase down."
+    ],
+    "deepest": [
+     "\"We will lead them on step by step, from where they do not know\" (7:182). This is istidraj."
+    ]
+   }
+  },
+  {
+   "id": "ch4.s07",
+   "key": "7",
+   "title": "Baghdad, 1095 (vision)",
+   "where": "The Nizamiyya college in Baghdad. A hall of three hundred students, then a bare room at night.",
+   "who": "IMAM GHAZALI (featureless, in a scholar's turban, known by his silhouette and voice), STUDENTS, PHYSICIANS, BURHAN (voiceless).",
+   "play": "Burhan watches the most famous teacher of his age fall silent, the way he just did. Burhan cannot speak. Ghazali speaks to him anyway.",
+   "kind": "vision",
+   "optional": false,
+   "items": [
+    {
+     "type": "direction",
+     "text": "In the hall, Ghazali opens his mouth to teach and nothing comes. The students whisper. Later, in a side room:"
+    },
+    {
+     "type": "line",
+     "id": "ch4.s07.l01",
+     "speaker": "A PHYSICIAN",
+     "direction": "",
+     "ur": "بیماری جسم میں نہیں، دل میں ہے۔ دل کو فکر سے آرام ملے گا تو زبان کھلے گی۔",
+     "en": "The illness isn't in the body; it's in the heart. When the heart finds rest from its worry, the tongue will open.",
+     "audio": "ch4.s07.l01",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "Night. Ghazali is folding a plain wool cloak. He sees Burhan at the door."
+    },
+    {
+     "type": "line",
+     "id": "ch4.s07.l02",
+     "speaker": "GHAZALI",
+     "direction": "",
+     "ur": "بولنے کی ضرورت نہیں۔ میں بھی چپ ہو گیا تھا۔",
+     "en": "No need to speak. I fell silent too.",
+     "audio": "ch4.s07.l02",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch4.s07.l03",
+     "speaker": "GHAZALI",
+     "direction": "",
+     "ur": "میں اس زمانے کا سب سے بڑا مدرس تھا۔ مگر جب اپنے دل میں جھانکا تو دیکھا: نیت اللہ کی نہیں، شہرت کی تھی۔",
+     "en": "I was the greatest teacher of my age. But when I looked into my heart, I saw it: my intention was not for Allah, but for fame.",
+     "audio": "ch4.s07.l03",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch4.s07.l04",
+     "speaker": "GHAZALI",
+     "direction": "",
+     "ur": "علم نے مجھے دروازے تک پہنچایا۔ اندر جانے کے لیے مجھے سب کچھ چھوڑنا پڑا۔",
+     "en": "Knowledge brought me to the door. To go in, I had to leave everything.",
+     "audio": "ch4.s07.l04",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "He walks out through the city gate in the dark, carrying nothing."
+    }
+   ],
+   "depths": {
+    "clear": [
+     "The greatest scholar of his age lost his voice, saw why, and walked away from fame."
+    ],
+    "deep": [
+     "Knowing about God isn't knowing God, and learning done for prestige rots from inside."
+    ],
+    "deepest": [
+     "Ghazali describes his locked tongue, the physicians' verdict and his departure in his own account, Deliverance from Error. His lines here are written for the game."
+    ]
+   }
+  },
+  {
+   "id": "ch4.s08",
+   "key": "8",
+   "title": "Cordoba (vision)",
+   "where": "Cordoba in the 1190s: the courtyard of orange trees beside the great mosque, and a library with its doors open to the sun.",
+   "who": "IBN RUSHD (a judge and philosopher, featureless, surrounded by books), BURHAN.",
+   "play": "Burhan's voice comes back.",
+   "kind": "vision",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch4.s08.l01",
+     "speaker": "IBN RUSHD",
+     "direction": "",
+     "ur": "یہاں دلیل کی زبان کھلتی ہے۔ بولو۔",
+     "en": "Here the tongue of reason opens. Speak.",
+     "audio": "ch4.s08.l01",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch4.s08.l02",
+     "speaker": "BURHAN",
+     "direction": "his first words since the studio",
+     "ur": "میرا نام... برہان ہے۔",
+     "en": "My name... is Burhan.",
+     "audio": "ch4.s08.l02",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch4.s08.l03",
+     "speaker": "IBN RUSHD",
+     "direction": "amused",
+     "ur": "دلیل۔ اچھا نام ہے۔",
+     "en": "Proof. A good name.",
+     "audio": "ch4.s08.l03",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch4.s08.l04",
+     "speaker": "IBN RUSHD",
+     "direction": "",
+     "ur": "حق، حق کا مخالف نہیں ہوتا؛ بلکہ اس کی موافقت کرتا اور اس کی گواہی دیتا ہے۔",
+     "en": "Truth does not oppose truth; it agrees with it and bears witness to it.",
+     "audio": "ch4.s08.l04",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch4.s08.l05",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "پھر مغرب نے دلیل کو دین سے الگ کیوں کر دیا؟",
+     "en": "Then why did the West split reason from religion?",
+     "audio": "ch4.s08.l05",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch4.s08.l06",
+     "speaker": "IBN RUSHD",
+     "direction": "",
+     "ur": "میں نے کہا تھا: حق، حق کا مخالف نہیں ہوتا۔ انہوں نے سنا: دو حق ہیں۔",
+     "en": "I said: truth does not oppose truth. They heard: there are two truths.",
+     "audio": "ch4.s08.l06",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "He takes Burhan's hand and leads him through the library door into another century."
+    }
+   ],
+   "depths": {
+    "clear": [
+     "A Muslim judge taught that reason and revelation agree."
+    ],
+    "deep": [
+     "Reason was never the enemy of faith. Reason cut off from revelation is."
+    ],
+    "deepest": [
+     "\"Truth does not oppose truth\" is Ibn Rushd's own principle, from Fasl al-Maqal (\"The Decisive Treatise\"). The word he used for demonstrative proof is burhan."
+    ]
+   }
+  },
+  {
+   "id": "ch4.s09",
+   "key": "9",
+   "title": "Paris, 1270s (vision)",
+   "where": "A stone lecture hall in Paris, then a scribe's desk.",
+   "who": "A MASTER lecturing in Latin. STUDENTS. A HERALD reading the bishop's condemnation of 1277. A SCRIBE. BURHAN and IBN RUSHD, unseen by the others.",
+   "play": "Walking and watching. The people here are scholars at work, shown as they were. The scene is about what happened to an idea, not about the people.",
+   "kind": "vision",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch4.s09.l01",
+     "speaker": "MASTER",
+     "direction": "Latin",
+     "ur": "Hoc verum est secundum philosophiam, sed non secundum fidem.",
+     "en": "This is true according to philosophy, but not according to faith.",
+     "audio": "ch4.s09.l01",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch4.s09.l02",
+     "speaker": "HERALD",
+     "direction": "Latin, reading from the condemnation",
+     "ur": "...quasi sint duae contrariae veritates.",
+     "en": "...as if there were two contrary truths.",
+     "audio": "ch4.s09.l02",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "At the scribe's desk, a copy is being made. The name Ibn Rushd fades from the page and becomes Averroes. Another manuscript falls open at its first line: Dixit Algorizmi, \"thus spoke al-Khwarizmi.\" The word algorithm lifts off the page and rises like gold leaf into a gold sky."
+    },
+    {
+     "type": "line",
+     "id": "ch4.s09.l03",
+     "speaker": "IBN RUSHD",
+     "direction": "quietly",
+     "ur": "انہوں نے ہمارے نام لیے، اور ان سے وحی نکال دی۔",
+     "en": "They took our names, and took the revelation out of them.",
+     "audio": "ch4.s09.l03",
+     "hooks": []
+    }
+   ],
+   "depths": {
+    "clear": [
+     "Ideas born among Muslims went West and lost their roots on the way."
+    ],
+    "deep": [
+     "Europe's \"Averroists\" were accused of teaching two truths, one for reason and one for faith. That was an early seed of the split that became secularism."
+    ],
+    "deepest": [
+     "Burhan's name was stolen. The Gilding's code is written in a Muslim mathematician's Latinized name, algorithm, from Algorizmi."
+    ]
+   }
+  },
+  {
+   "id": "ch4.s10",
+   "key": "10",
+   "title": "Giving back (the Gilding)",
+   "where": "The escalators again.",
+   "who": "",
+   "play": "The faqr mechanic. Prompt: Give back. Burhan returns his upgrades one by one: speed, influence, followers. Each one he gives up lifts the whole escalator. The true-elevation gauge climbs toward zero, then above it for the first time.",
+   "kind": "gilding",
+   "optional": false,
+   "items": [
+    {
+     "type": "direction",
+     "text": "A recitation rises softly:"
+    },
+    {
+     "type": "recitation",
+     "id": "ch4.s10.r01",
+     "ur": "يَا أَيُّهَا النَّاسُ أَنتُمُ الْفُقَرَاءُ إِلَى اللَّهِ",
+     "en": "O mankind, you are the ones in need of Allah",
+     "ref": "35:15",
+     "audio": "ch4.s10.r01",
+     "hooks": [
+      "recitation"
+     ]
+    },
+    {
+     "type": "line",
+     "id": "ch4.s10.l01",
+     "speaker": "PROGRESS",
+     "direction": "",
+     "ur": "رکو! تم پیچھے جا رہے ہو!",
+     "en": "Stop! You're going backwards!",
+     "audio": "ch4.s10.l01",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch4.s10.l02",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "نہیں۔ پہلی بار اوپر جا رہا ہوں۔",
+     "en": "No. For the first time, I'm going up.",
+     "audio": "ch4.s10.l02",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "Kashf. The loading bar cracks at 99%. Under the English mask PROGRESS, one Urdu word shows through: اترائی. Subtitle: THE SLOW DESCENT."
+    },
+    {
+     "type": "line",
+     "id": "ch4.s10.l03",
+     "speaker": "THE SLOW DESCENT",
+     "direction": "its true voice",
+     "ur": "میں نے تمہیں کبھی گرایا نہیں۔ بس ہر سیڑھی کو اوپر کا نام دیا۔",
+     "en": "I never made you fall. I only called every step \"up.",
+     "audio": "ch4.s10.l03",
+     "hooks": []
+    }
+   ],
+   "depths": {
+    "clear": [
+     "Giving up the upgrades was the way up."
+    ],
+    "deep": [
+     "Modern man feels self-sufficient, and the first revelation warned that man transgresses when he thinks himself self-sufficient (96:6–7)."
+    ],
+    "deepest": [
+     "Faqr is the station of knowing your need of Allah. It is the poverty that makes a person rich."
+    ]
+   }
+  },
+  {
+   "id": "ch4.s11",
+   "key": "11",
+   "title": "The bulldozers",
+   "where": "Saidpur at dawn. Bulldozers stand at the edge of the old houses, under a banner: SAIDPUR HERITAGE RESORT — by Zar Developers.",
+   "who": "BURHAN, SAIN, the VILLAGERS (the same ones who refused them water), the DEVELOPERS' MEN with sticks.",
+   "play": "A fight. The villagers stand in front of their homes, and Burhan fights beside them, in control. The wall Sain built stands.",
+   "kind": "islamabad",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch4.s11.l01",
+     "speaker": "DEVELOPER'S MAN",
+     "direction": "",
+     "ur": "ہٹ جاؤ! یہ ترقی ہے! یہاں ریزورٹ بنے گا!",
+     "en": "Move! This is progress! A resort's going up here!",
+     "audio": "ch4.s11.l01",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "The fight. The bulldozers pull back."
+    },
+    {
+     "type": "line",
+     "id": "ch4.s11.l02",
+     "speaker": "VILLAGER",
+     "direction": "the same man from scene 4",
+     "ur": "تم لوگ... ہمارے لیے لڑے؟ ہم نے تو تمہیں پانی تک نہیں دیا تھا۔",
+     "en": "You people... fought for us? We didn't even give you water.",
+     "audio": "ch4.s11.l02",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "He goes inside and comes back with bread, water and a pot of saag."
+    }
+   ],
+   "depths": {
+    "clear": [
+     "Burhan defends people who had refused him."
+    ],
+    "deep": [
+     "\"Progress\" comes for the old village too, as a resort, as heritage turned into a product."
+    ],
+    "deepest": [
+     "Service with no wage turns a hard heart. The villagers' food is the wage Burhan wanted in scene 4, and it came without asking."
+    ]
+   }
+  },
+  {
+   "id": "ch4.s12",
+   "key": "12",
+   "title": "Under the wall",
+   "where": "Beside the rebuilt wall. Evening.",
+   "who": "BURHAN, SAIN. BILAL is sitting on top of the wall.",
+   "play": "The explanations, in the order of Al-Kahf.",
+   "kind": "islamabad",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch4.s12.l01",
+     "speaker": "SAIN",
+     "direction": "",
+     "ur": "اب پوچھو۔",
+     "en": "Now ask.",
+     "audio": "ch4.s12.l01",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch4.s12.l02",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "میرا فون؟",
+     "en": "My phone?",
+     "audio": "ch4.s12.l02",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch4.s12.l03",
+     "speaker": "SAIN",
+     "direction": "",
+     "ur": "اس فون سے سُورت تمہیں دیکھ رہی تھی۔ تم جہاں جاتے، فراز کو پتا ہوتا۔",
+     "en": "SURAT was watching you through that phone. Wherever you went, Faraz knew.",
+     "audio": "ch4.s12.l03",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch4.s12.l04",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "وہ بوڑھا؟",
+     "en": "The old man?",
+     "audio": "ch4.s12.l04",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch4.s12.l05",
+     "speaker": "SAIN",
+     "direction": "",
+     "ur": "وہ کل فجر میں مسجد آنے والا تھا۔ اگر تم جیت جاتے، تو وہ ہار کر کبھی نہ آتا۔",
+     "en": "He was going to come to Fajr tomorrow. If you had won, he'd have lost — and never come.",
+     "audio": "ch4.s12.l05",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch4.s12.l06",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "اور یہ دیوار؟",
+     "en": "And this wall?",
+     "audio": "ch4.s12.l06",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch4.s12.l07",
+     "speaker": "SAIN",
+     "direction": "",
+     "ur": "یہ ایک یتیم کی ہے۔ اس کے باپ نے اس کے نیچے کچھ رکھا تھا۔ وقت آنے پر وہ خود نکالے گا۔",
+     "en": "It belongs to an orphan. His father left something under it. When the time comes, he'll take it out himself.",
+     "audio": "ch4.s12.l07",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "Above them, Bilal swings his legs on the wall."
+    },
+    {
+     "type": "line",
+     "id": "ch4.s12.l08",
+     "speaker": "BILAL",
+     "direction": "",
+     "ur": "اوئے ہیرو! تم یہاں کیا کر رہے ہو؟",
+     "en": "Oye, hero! What are you doing here?",
+     "audio": "ch4.s12.l08",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch4.s12.l09",
+     "speaker": "BURHAN",
+     "direction": "looking from Bilal to Sain",
+     "ur": "تمہاری دیوار بنا رہے تھے۔",
+     "en": "Building your wall.",
+     "audio": "ch4.s12.l09",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch4.s12.l10",
+     "speaker": "BILAL",
+     "direction": "",
+     "ur": "میری دیوار؟",
+     "en": "My wall?",
+     "audio": "ch4.s12.l10",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "Sain only smiles."
+    }
+   ],
+   "depths": {
+    "clear": [
+     "Each strange act had a reason Burhan couldn't see."
+    ],
+    "deep": [
+     "We judge by what we can see, and the hidden is always larger."
+    ],
+    "deepest": [
+     "The three explanations follow 18:79–82: the boat, the boy and the wall. The second is softened: here, what's saved is a man's return to prayer. \"Their father was righteous\" (18:82). The wall belongs to Bilal."
+    ]
+   }
+  },
+  {
+   "id": "ch4.s13",
+   "key": "13",
+   "title": "The professor",
+   "where": "The village lane outside the wall. Night.",
+   "who": "BURHAN, SAIN, BABA REHMAT (an old villager).",
+   "play": "",
+   "kind": "islamabad",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch4.s13.l01",
+     "speaker": "BABA REHMAT",
+     "direction": "peering at Sain",
+     "ur": "پروفیسر صاحب؟ آپ؟ تیس سال بعد؟",
+     "en": "Professor sahib? You? After thirty years?",
+     "audio": "ch4.s13.l01",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch4.s13.l02",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "آپ... پروفیسر ہادی ہیں؟",
+     "en": "You... are Professor Hadi?",
+     "audio": "ch4.s13.l02",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch4.s13.l03",
+     "speaker": "SAIN",
+     "direction": "",
+     "ur": "تھا۔",
+     "en": "I was.",
+     "audio": "ch4.s13.l03",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch4.s13.l04",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "آپ نے سب کیوں چھوڑا؟",
+     "en": "Why did you leave it all?",
+     "audio": "ch4.s13.l04",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch4.s13.l05",
+     "speaker": "SAIN",
+     "direction": "",
+     "ur": "آج بغداد میں تم نے کیا دیکھا؟",
+     "en": "What did you see in Baghdad today?",
+     "audio": "ch4.s13.l05",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "Burhan has no answer, and he doesn't need one."
+    },
+    {
+     "type": "title",
+     "text": "اترائی — THE SLOW DESCENT. فقر — FAQR.",
+     "note": "A third light glows above the first, on the left of Burhan's chest. This is the third latifa, sirr."
+    }
+   ],
+   "depths": {
+    "clear": [
+     "The old sweeper was the legendary debater all along."
+    ],
+    "deep": [
+     "He left the stage the way Ghazali left Baghdad. He is a malamati, hiding his worth under a broom."
+    ],
+    "deepest": [
+     "The trophy in chapter 1 carried his name. Second-time players saw it coming. \"Hadi\" means guide."
+    ]
+   }
+  }
+ ],
+ "notes": [
+  "Al-Kahf. The three strange acts and their explanations follow the story of Musa and the hidden teacher (18:65–82), reframed with ordinary people. The second act is changed so that nothing is harmed. No prophet appears.",
+  "Sources for the visions:",
+  "Ghazali's silence, the physicians' verdict and his departure are from his own al-Munqidh min al-Dalal.",
+  "\"Truth does not oppose truth\" is from Ibn Rushd's Fasl al-Maqal.",
+  "\"As if there were two contrary truths\" is from the Paris condemnation of 1277.",
+  "Dixit Algorizmi opens the Latin translation of al-Khwarizmi's arithmetic.",
+  "All other lines are written for the game.",
+  "The upgrade tree. It must exist from chapter 1, offering real, useful upgrades, or the twist has no weight.",
+  "To confirm with ulama: Ghazali and Ibn Rushd shown as featureless figures."
+ ]
+}

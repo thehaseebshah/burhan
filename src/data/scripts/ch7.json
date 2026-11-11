@@ -1,0 +1,744 @@
+{
+ "id": "ch7",
+ "number": 7,
+ "title": "I",
+ "summary": "",
+ "minutes": 35,
+ "meta": {
+  "veil": "calls itself The Hero. Its true name, spoken in Urdu, is میں (subtitle: I). It is the last veil, a veil of light.",
+  "station": "Rida (contentment), then fana and baqa.",
+  "guides": "Shams Tabrizi, then Uwais al-Qarani.",
+  "last vision": "Madinah at dawn.",
+  "pillars": "all four at once."
+ },
+ "scenes": [
+  {
+   "id": "ch7.s01",
+   "key": "1",
+   "title": "The books in the water (vision)",
+   "where": "The cave, on Thursday night, with Sain gone. Then a vision: Konya, 1244, a pool in a courtyard where a great scholar sits with his books.",
+   "who": "BURHAN MAULANA RUMI, younger here, a famous scholar SHAMS TABRIZI, a wandering stranger in black felt, featureless RUMI'S STUDENTS",
+   "play": "Khalwat, then the vision.",
+   "kind": "vision",
+   "optional": false,
+   "items": [
+    {
+     "type": "direction",
+     "text": "Shams walks up to the pool and points at the books."
+    },
+    {
+     "type": "line",
+     "id": "ch7.s01.l01",
+     "speaker": "SHAMS",
+     "direction": "",
+     "ur": "یہ کیا ہیں؟",
+     "en": "What are these?",
+     "audio": "ch7.s01.l01",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch7.s01.l02",
+     "speaker": "RUMI",
+     "direction": "",
+     "ur": "یہ وہ ہے جو تم نہیں سمجھتے۔",
+     "en": "This is something you don't understand.",
+     "audio": "ch7.s01.l02",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "Shams sweeps the books into the pool. Rumi jumps to his feet. Shams draws them out one by one, and they are dry."
+    },
+    {
+     "type": "line",
+     "id": "ch7.s01.l03",
+     "speaker": "RUMI",
+     "direction": "",
+     "ur": "یہ کیا ہے؟",
+     "en": "What is this?",
+     "audio": "ch7.s01.l03",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch7.s01.l04",
+     "speaker": "SHAMS",
+     "direction": "",
+     "ur": "یہ وہ ہے جو تم نہیں سمجھتے۔",
+     "en": "This is something you don't understand.",
+     "audio": "ch7.s01.l04",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "Shams turns to Burhan. In Burhan's bag are the brass Professor Hadi Trophy and a sheaf of debate notes. Shams takes them and throws them into the pool. They don't come out."
+    },
+    {
+     "type": "line",
+     "id": "ch7.s01.l05",
+     "speaker": "SHAMS",
+     "direction": "",
+     "ur": "تم نے سب کچھ ثابت کیا، سوائے اپنے نہ ہونے کے۔",
+     "en": "You proved everything — except that you are nothing.",
+     "audio": "ch7.s01.l05",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch7.s01.l06",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "میں...؟",
+     "en": "I...?",
+     "audio": "ch7.s01.l06",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch7.s01.l07",
+     "speaker": "SHAMS",
+     "direction": "",
+     "ur": "ہاں۔ یہی تو مسئلہ ہے: \"میں\"۔",
+     "en": "Yes. That's exactly the problem: \"I.",
+     "audio": "ch7.s01.l07",
+     "hooks": []
+    }
+   ],
+   "depths": {
+    "clear": [
+     "Burhan's trophies and proofs are thrown away."
+    ],
+    "deep": [
+     "Knowledge that feeds the self becomes a wall between you and Allah. Shams broke Rumi's scholarly pride, and Rumi became Rumi."
+    ],
+    "deepest": [
+     "The books in the water is a legend, not a record. The trophy that sank carries Sain's name: the teacher's own glory, drowned on purpose."
+    ]
+   }
+  },
+  {
+   "id": "ch7.s02",
+   "key": "2",
+   "title": "The last veil",
+   "where": "The cave's dark, after the vision fades.",
+   "who": "BURHAN, THE HERO: Burhan's own reflection standing in the dark, its face a screen that reads HERO.",
+   "play": "The reflection speaks in Burhan's own voice. Burhan can do zikr. The reflection doesn't fade. This veil can't be fought. It can only be unveiled, and then refused.",
+   "kind": "vision",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch7.s02.l01",
+     "speaker": "THE HERO",
+     "direction": "",
+     "ur": "یہ تمہارا لمحہ ہے۔ سب کو پتا چلنا چاہیے کہ یہ سب کس نے کیا۔",
+     "en": "This is your moment. Everyone should know who did all this.",
+     "audio": "ch7.s02.l01",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch7.s02.l02",
+     "speaker": "THE HERO",
+     "direction": "",
+     "ur": "بلال کو تم نے بنایا۔ فراز کو تم نے پہچانا۔ اسٹیج تمہارا حق ہے۔",
+     "en": "You made Bilal. You saw through Faraz. The stage is yours by right.",
+     "audio": "ch7.s02.l02",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "Kashf. The screen cracks. Under the English mask HERO, one Urdu word shows through: میں. Subtitle: I."
+    },
+    {
+     "type": "line",
+     "id": "ch7.s02.l03",
+     "speaker": "I",
+     "direction": "Burhan's voice, smaller and smaller",
+     "ur": "میں... میں... میں...",
+     "en": "I... I... I...",
+     "audio": "ch7.s02.l03",
+     "hooks": [
+      "register:burhan"
+     ]
+    }
+   ],
+   "depths": {
+    "clear": [
+     "The last enemy is Burhan's wish to be the hero."
+    ],
+    "deep": [
+     "Pride can live inside religion: fame in da'wah, showing off (riya), self-admiration (ujb). This veil is made of light, because it grew from good deeds."
+    ],
+    "deepest": [
+     "The first \"I\" in history was Iblis's: \"I am better than him\" (7:12). Bulleh Shah's question, main kaun? (\"who am I?\"), has only one answer that frees."
+    ]
+   }
+  },
+  {
+   "id": "ch7.s03",
+   "key": "3",
+   "title": "The Day of Adornment",
+   "where": "The Parade Ground, Islamabad. Friday morning, before Jumu'ah. A giant stage with screens a storey high. A crowd of tens of thousands, half of them already wearing SURAT faces.",
+   "who": "FARAZ (as the Artist, on stage), BILAL, the CROWD.",
+   "play": "A cinematic, shown while Burhan is in the cave.",
+   "kind": "islamabad",
+   "optional": false,
+   "items": [
+    {
+     "type": "direction",
+     "text": "A soft recitation over the crowd shot:"
+    },
+    {
+     "type": "recitation",
+     "id": "ch7.s03.r01",
+     "ur": "مَوْعِدُكُمْ يَوْمُ الزِّينَةِ وَأَن يُحْشَرَ النَّاسُ ضُحًى",
+     "en": "Your appointment is the Day of Adornment, and let the people be gathered at forenoon.",
+     "ref": "20:59",
+     "audio": "ch7.s03.r01",
+     "hooks": [
+      "recitation"
+     ]
+    },
+    {
+     "type": "line",
+     "id": "ch7.s03.l01",
+     "speaker": "FARAZ",
+     "direction": "",
+     "ur": "آج ہر کسی کو وہ چہرہ ملے گا جس کا وہ حقدار ہے!",
+     "en": "Today, everyone gets the face they deserve!",
+     "audio": "ch7.s03.l01",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "The crowd roars."
+    },
+    {
+     "type": "line",
+     "id": "ch7.s03.l02",
+     "speaker": "FARAZ",
+     "direction": "",
+     "ur": "اور اب... ایف نائن پارک کا وہ لڑکا!",
+     "en": "And now... the boy from F-9 Park!",
+     "audio": "ch7.s03.l02",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "Bilal climbs the steps in a plain kameez, with his father's tasbih in his hand."
+    }
+   ],
+   "depths": {
+    "clear": [
+     "The whole city has gathered to watch a boy receive a face."
+    ],
+    "deep": [
+     "The Gilding's festival has been timed to come before the believers' gathering on Friday."
+    ],
+    "deepest": [
+     "Pharaoh set his contest with Musa on a festival day, the Day of Adornment, with the people gathered at forenoon (20:59). Faraz has done the same."
+    ]
+   }
+  },
+  {
+   "id": "ch7.s04",
+   "key": "4",
+   "title": "The choice",
+   "where": "The mouth of the cave, Friday morning.",
+   "who": "BURHAN, and THE HERO's whisper.",
+   "play": "There are no prompts, no UI and no text. Down the hill, a path glows gold toward the city and its noise. Behind him is the cave, dark and still. The player decides by walking: down the path, or back into the cave to kneel.",
+   "kind": "islamabad",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch7.s04.l01",
+     "speaker": "THE HERO",
+     "direction": "a whisper",
+     "ur": "جاؤ۔",
+     "en": "Go.",
+     "audio": "ch7.s04.l01",
+     "hooks": []
+    }
+   ],
+   "depths": {
+    "clear": [
+     "Burhan can go and be the hero, or stay and pray."
+    ],
+    "deep": [
+     "The game has trained the player all along to be the hero. The final test is to refuse that instinct."
+    ],
+    "deepest": [
+     "This is the procedural rhetoric of the whole game: the last veil is the player's own wish to win."
+    ]
+   }
+  },
+  {
+   "id": "ch7.s04a",
+   "key": "4a",
+   "title": "The hero's ending",
+   "where": "The Parade Ground.",
+   "who": "",
+   "play": "A cinematic. Burhan pushes through the crowd, and the cameras swing to him. The crowd recognises the viral mentor and starts chanting.",
+   "kind": "islamabad",
+   "optional": false,
+   "items": [
+    {
+     "type": "direction",
+     "text": "(Only if the player walks down the golden path.)"
+    },
+    {
+     "type": "line",
+     "id": "ch7.s04a.l01",
+     "speaker": "CROWD",
+     "direction": "",
+     "ur": "برہان! برہان! برہان!",
+     "en": "Burhan! Burhan! Burhan!",
+     "audio": "ch7.s04a.l01",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "Faraz turns away from Bilal."
+    },
+    {
+     "type": "line",
+     "id": "ch7.s04a.l02",
+     "speaker": "FARAZ",
+     "direction": "",
+     "ur": "اور یہ رہا اصل ہیرو!",
+     "en": "And here's the real hero!",
+     "audio": "ch7.s04a.l02",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "Faraz lifts a glowing face toward him. It settles over Burhan's mirror, and his face becomes a screen that reads HERO. The crowd roars. Bilal stands forgotten at the edge of the stage, and the Gilding re-forms over Islamabad, brighter than before."
+    },
+    {
+     "type": "direction",
+     "text": "Card:"
+    },
+    {
+     "type": "card",
+     "id": "ch7.s04a.c01",
+     "ur": "توبہ کا دروازہ کھلا ہے۔",
+     "en": "The door of tawbah is open.",
+     "audio": "ch7.s04a.c01",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "The game returns the player to the cave mouth, to scene 4."
+    }
+   ],
+   "depths": {
+    "clear": [
+     "By trying to be the hero, Burhan ruins everything."
+    ],
+    "deep": [
+     "His presence stops the miracle. Faraz never falls, because there's a hero on stage to look at instead of the truth."
+    ],
+    "deepest": [
+     "The door of repentance stays open until the sun rises from the west, and the game keeps it open too."
+    ]
+   }
+  },
+  {
+   "id": "ch7.s05",
+   "key": "5",
+   "title": "Bilal refuses",
+   "where": "The cave, intercut with the stage.",
+   "who": "BURHAN (in sujood), BILAL, FARAZ, the CROWD.",
+   "play": "A cinematic. Burhan kneels in the cave. Each cut back to him finds him still in sujood.",
+   "kind": "islamabad",
+   "optional": false,
+   "items": [
+    {
+     "type": "direction",
+     "text": "(The servant's path. The player walked back into the cave.)"
+    },
+    {
+     "type": "line",
+     "id": "ch7.s05.l01",
+     "speaker": "BURHAN",
+     "direction": "in sujood, a whisper",
+     "ur": "یا اللہ، اسے سنبھال لے۔ مجھے کچھ نہیں چاہیے۔",
+     "en": "O Allah, hold him steady. I want nothing.",
+     "audio": "ch7.s05.l01",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "On stage, Faraz holds out the glowing face."
+    },
+    {
+     "type": "line",
+     "id": "ch7.s05.l02",
+     "speaker": "FARAZ",
+     "direction": "",
+     "ur": "آؤ، بیٹا۔ تمہارا چہرہ تیار ہے۔",
+     "en": "Come, son. Your face is ready.",
+     "audio": "ch7.s05.l02",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch7.s05.l03",
+     "speaker": "BILAL",
+     "direction": "",
+     "ur": "مجھے چہرہ نہیں چاہیے۔ حَسْبُنَا اللّٰهُ وَنِعْمَ الْوَكِيلُ۔",
+     "en": "I don't want a face. Allah is enough for us, and He is the best to rely on.",
+     "audio": "ch7.s05.l03",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "The crowd turns on him. Boos rise, the screens howl, and things are thrown. Bilal stands still with the tasbih in his hand."
+    }
+   ],
+   "depths": {
+    "clear": [
+     "A boy stands alone before a whole city and says no."
+    ],
+    "deep": [
+     "This is tawakkul: Bilal does his part, and Burhan does his, from the cave."
+    ],
+    "deepest": [
+     "\"The people have gathered against you\" (3:173). Every boy in this story who stood alone, from Noora in the prologue to Bilal here, stands in the line of the first Bilal, who said \"One, One\" under the stone."
+    ]
+   }
+  },
+  {
+   "id": "ch7.s06",
+   "key": "6",
+   "title": "The Facemaker falls",
+   "where": "The stage, then all of Islamabad.",
+   "who": "",
+   "play": "A cinematic.",
+   "kind": "islamabad",
+   "optional": false,
+   "items": [
+    {
+     "type": "direction",
+     "text": "Faraz looks into Bilal's smooth face, a face that wants nothing from the crowd. In it he sees his own reflection, the first true image of his life. He lowers the glowing face."
+    },
+    {
+     "type": "line",
+     "id": "ch7.s06.l01",
+     "speaker": "FARAZ",
+     "direction": "",
+     "ur": "یہ چہرہ... میں نہیں بنا سکتا۔",
+     "en": "This face... I cannot make.",
+     "audio": "ch7.s06.l01",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "He kneels, then falls into sujood on the stage. The crowd goes silent."
+    },
+    {
+     "type": "recitation",
+     "id": "ch7.s06.r01",
+     "ur": "فَأُلْقِيَ السَّحَرَةُ سُجَّدًا قَالُوا آمَنَّا بِرَبِّ هَارُونَ وَمُوسَىٰ",
+     "en": "So the magicians were thrown down in prostration. They said, \"We believe in the Lord of Harun and Musa.\"",
+     "ref": "20:70",
+     "audio": "ch7.s06.r01",
+     "hooks": [
+      "recitation"
+     ]
+    },
+    {
+     "type": "direction",
+     "text": "Then, from the Faisal Mosque across the city, the azan for Jumu'ah. The Gilding cracks across Islamabad:"
+    },
+    {
+     "type": "direction",
+     "text": "Gold falls from the towers like autumn leaves."
+    },
+    {
+     "type": "direction",
+     "text": "Underneath are clay, stone and green."
+    },
+    {
+     "type": "direction",
+     "text": "All through the crowd, screen-faces flicker off. Beneath them are smooth faces, blinking at each other. Some people kneel."
+    }
+   ],
+   "depths": {
+    "clear": [
+     "The master of fake faces meets a real one and bows to Allah."
+    ],
+    "deep": [
+     "No argument defeated the Gilding. A boy who wanted nothing did."
+    ],
+    "deepest": [
+     "Pharaoh's magicians knew illusion better than anyone, so they were the first to recognise what wasn't one. The Facemaker's sujood is theirs."
+    ]
+   }
+  },
+  {
+   "id": "ch7.s07",
+   "key": "7",
+   "title": "Uwais, then Madinah (the last vision)",
+   "where": "The cave, still in sujood. Then a vision: the deserts of Yemen, and Madinah at dawn.",
+   "who": "BURHAN, UWAIS AL-QARANI (a camel herder in rough wool, featureless).",
+   "play": "Walking. Uwais's mother is in a tent nearby. She is never seen. At the edge of Madinah, Burhan takes off his shoes and goes no further. No figure appears. There is only light.",
+   "kind": "vision",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch7.s07.l01",
+     "speaker": "UWAIS",
+     "direction": "",
+     "ur": "میں نے انہیں کبھی نہیں دیکھا۔ مگر کوئی دن ایسا نہیں گزرا جب میں نے انہیں یاد نہ کیا ہو۔",
+     "en": "I never saw him. But not a day passed that I did not remember him.",
+     "audio": "ch7.s07.l01",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch7.s07.l02",
+     "speaker": "UWAIS",
+     "direction": "",
+     "ur": "میری ماں کو میری ضرورت تھی۔ اسی لیے مدینہ نہ جا سکا۔",
+     "en": "My mother needed me. That's why I could not go to Madinah.",
+     "audio": "ch7.s07.l02",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch7.s07.l03",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "پھر بھی وہ آپ کو جانتے تھے؟",
+     "en": "And still he knew you?",
+     "audio": "ch7.s07.l03",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch7.s07.l04",
+     "speaker": "UWAIS",
+     "direction": "",
+     "ur": "محبت کو آنکھوں کی ضرورت نہیں۔",
+     "en": "Love doesn't need eyes.",
+     "audio": "ch7.s07.l04",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch7.s07.l05",
+     "speaker": "UWAIS",
+     "direction": "",
+     "ur": "چلو۔ ان کا شہر جاگ رہا ہے۔",
+     "en": "Come. His city is waking.",
+     "audio": "ch7.s07.l05",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "Madinah at dawn: date palms, doves, footsteps, distant water, and the first light on the city. Burhan stops at the edge, barefoot. An azan comes from far off (pending ulama; switchable)."
+    },
+    {
+     "type": "line",
+     "id": "ch7.s07.l06",
+     "speaker": "BURHAN",
+     "direction": "a whisper, weeping",
+     "ur": "صلی اللہ علیہ وسلم۔",
+     "en": "Peace and blessings be upon him.",
+     "audio": "ch7.s07.l06",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "A recitation fills the light:"
+    },
+    {
+     "type": "recitation",
+     "id": "ch7.s07.r01",
+     "ur": "يَا أَيُّهَا النَّاسُ قَدْ جَاءَكُم بُرْهَانٌ مِّن رَّبِّكُمْ وَأَنزَلْنَا إِلَيْكُمْ نُورًا مُّبِينًا",
+     "en": "O mankind, a proof has come to you from your Lord, and We have sent down to you a clear light.",
+     "ref": "4:174",
+     "audio": "ch7.s07.r01",
+     "hooks": [
+      "recitation"
+     ]
+    }
+   ],
+   "depths": {
+    "clear": [
+     "A man who never met the Prophet ﷺ loved him all his life, just like us."
+    ],
+    "deep": [
+     "Burhan finally learns what his name means. He was never the proof. The proof was sent to mankind, and a person becomes a proof only by following him."
+    ],
+    "deepest": [
+     "Many mufassirin say the burhan in 4:174 is the Prophet ﷺ himself.",
+     "The Prophet ﷺ told Umar of Uwais, \"he has a mother to whom he is dutiful,\" and to ask him to pray for him (Muslim).",
+     "The whole journey through time has been an Uwaysi bond: love across centuries without meeting."
+    ]
+   }
+  },
+  {
+   "id": "ch7.s08",
+   "key": "8",
+   "title": "The servant's ending",
+   "where": "The small mosque near the caves, weeks later. Morning.",
+   "who": "BURHAN ABBA In the back row: FARAZ, the OLD MAN from the chai stall (chapter 4), AZAD and SAAD BILAL A YOUNGER BOY",
+   "play": "A cinematic, with no prompts.",
+   "kind": "islamabad",
+   "optional": false,
+   "items": [
+    {
+     "type": "direction",
+     "text": "Burhan sweeps the courtyard with Sain's broom. Abba comes up the hill, slowly, out of breath. He sits on the step. He says nothing. Burhan sits beside him. After a while, Abba puts a hand on his son's shoulder."
+    },
+    {
+     "type": "direction",
+     "text": "Inside, people gather in the back row."
+    },
+    {
+     "type": "direction",
+     "text": "Faraz, in plain clothes."
+    },
+    {
+     "type": "direction",
+     "text": "The old man from the chai stall."
+    },
+    {
+     "type": "direction",
+     "text": "Azad, who now wakes others for Fajr."
+    },
+    {
+     "type": "direction",
+     "text": "Saad."
+    },
+    {
+     "type": "direction",
+     "text": "Then, for the first time in the game, the camera leaves Burhan. It drifts across the courtyard and finds Bilal sitting with a younger boy."
+    },
+    {
+     "type": "line",
+     "id": "ch7.s08.l01",
+     "speaker": "BILAL",
+     "direction": "to the younger boy",
+     "ur": "سانس اندر جائے تو اللہ۔ سانس باہر آئے تو ہُو۔",
+     "en": "When the breath goes in: Allah. When it comes out: Hu.",
+     "audio": "ch7.s08.l01",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "Bilal climbs the steps of the small minaret and gives the azan in a young, cracked voice, the way Sain did."
+    },
+    {
+     "type": "direction",
+     "text": "At the centre of Burhan's chest the fifth light glows, the fifth latifa, akhfa. All five shine together. His face is clear, and the crack is gone."
+    },
+    {
+     "type": "direction",
+     "text": "The last words, recited:"
+    },
+    {
+     "type": "recitation",
+     "id": "ch7.s08.r01",
+     "ur": "يَا أَيَّتُهَا النَّفْسُ الْمُطْمَئِنَّةُ ۝ ارْجِعِي إِلَىٰ رَبِّكِ رَاضِيَةً مَّرْضِيَّةً ۝ فَادْخُلِي فِي عِبَادِي ۝ وَادْخُلِي جَنَّتِي",
+     "en": "O soul at peace, return to your Lord, well-pleased and pleasing. Enter among My servants, and enter My Garden.",
+     "ref": "89:27–30",
+     "audio": "ch7.s08.r01",
+     "hooks": [
+      "recitation"
+     ]
+    },
+    {
+     "type": "title",
+     "text": "میں — I. رضا — RIDA.",
+     "note": "Then: بُرہان — BURHAN. Credits."
+    }
+   ],
+   "depths": {
+    "clear": [
+     "The hero is now a sweeper, and he is at peace."
+    ],
+    "deep": [
+     "All four pillars are on screen at once: service (the broom), purification (the clear face), teaching (Bilal and the boy) and the call (the azan). Everyone Burhan stayed with is in the back row."
+    ],
+    "deepest": [
+     "\"Enter among My servants\": the hero dissolves into the servants. That is fana, and what remains is the servant. That is baqa.",
+     "Sain's words now come from Bilal's mouth, and the chain goes on."
+    ]
+   }
+  },
+  {
+   "id": "ch7.s09",
+   "key": "9",
+   "title": "The hidden ending",
+   "where": "",
+   "who": "",
+   "play": "The credits name every character in the game except one. The last line of the credits:",
+   "kind": "islamabad",
+   "optional": false,
+   "items": [
+    {
+     "type": "direction",
+     "text": "(Only for players who gave back every upgrade in chapter 4 and never chased followers.)"
+    },
+    {
+     "type": "card",
+     "id": "ch7.s09.c01",
+     "ur": "…اور ایک خادم۔",
+     "en": "…and a servant.",
+     "audio": "ch7.s09.c01",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "After the credits there is one more scene. It is in another city, at another small mosque, at dawn."
+    },
+    {
+     "type": "direction",
+     "text": "An old man sweeps the courtyard."
+    },
+    {
+     "type": "direction",
+     "text": "At the gate, a young man stands watching him, with a brass trophy in his bag."
+    },
+    {
+     "type": "direction",
+     "text": "Fade out."
+    }
+   ],
+   "depths": {
+    "clear": [
+     "Burhan's name disappears from his own story."
+    ],
+    "deep": [
+     "This is the malamati's reward: no one knows. Sain has gone to find the next one."
+    ],
+    "deepest": [
+     "The chain has no end. Every servant was once someone's \"hero\" who let go."
+    ]
+   }
+  }
+ ],
+ "notes": [
+  "The choice. It has no UI at all. The player chooses by walking. The hero's ending always returns to the choice, because the door of tawbah stays open.",
+  "Sacred material:",
+  "No Prophet and no Sahabi appears.",
+  "Madinah is light only.",
+  "The azan heard there is pending the ulama and must be switchable.",
+  "Bilal ibn Rabah is referred to only in the Depths, never shown or voiced.",
+  "Women: Uwais's mother is never seen. Her presence is a tent and a line.",
+  "Sources:",
+  "Shams throwing Rumi's books into the water is legend.",
+  "The hadith of Uwais is in Sahih Muslim.",
+  "The verses used are 7:12, 20:59, 20:70, 3:173, 4:174 and 89:27–30. Recitation must come from licensed or permissioned recordings.",
+  "To confirm with ulama:",
+  "Shams, Rumi and Uwais al-Qarani shown as featureless figures.",
+  "The Madinah vision and its azan."
+ ]
+}

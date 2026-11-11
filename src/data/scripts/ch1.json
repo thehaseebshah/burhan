@@ -1,0 +1,1192 @@
+{
+ "id": "ch1",
+ "number": 1,
+ "title": "The Forgetting",
+ "summary": "",
+ "minutes": 40,
+ "meta": {
+  "veil": "calls itself Neutral; its true name, spoken in Urdu, is بھول (subtitle: The Forgetting). Secularism.",
+  "station": "Tawbah (return).",
+  "guides": "Allama Iqbal, then the Mujaddid Alf Thani.",
+  "shape": "Islamabad (scenes 1–5) → the Gilding (scene 6) → home and the cave (scenes 7–8) → the vision (scenes 9–11) → dawn (scene 12)."
+ },
+ "scenes": [
+  {
+   "id": "ch1.s01",
+   "key": "1",
+   "title": "The final",
+   "where": "A university auditorium in Islamabad. Night. A televised national debate final, sponsored by SURAT, Faraz's company. Banners: SURAT presents: The National Debate Final.",
+   "who": "BURHAN REHAN, the opposition THE MODERATOR, in a grey suit. He is the mask of Neutral, but in the real world he is just a man. FARAZ, Burhan's cousin, the sponsor, known as \"the Artist\" A packed hall",
+   "play": "The first conversation system. Burhan has three registers: Burhan (proof) Jadal (debate) Khitaba (moving speech)",
+   "kind": "islamabad",
+   "optional": false,
+   "items": [
+    {
+     "type": "direction",
+     "text": "A fourth, Sohbat, sits locked on the wheel. Any register can win. The crowd meter shows which one moved them."
+    },
+    {
+     "type": "line",
+     "id": "ch1.s01.l01",
+     "speaker": "MODERATOR",
+     "direction": "",
+     "ur": "لیڈیز اینڈ جینٹلمین، خوش آمدید۔ آج رات ہم نیوٹرل رہیں گے۔ نہ کوئی سائیڈ، نہ کوئی خطبہ۔ صرف دلیل۔",
+     "en": "Ladies and gentlemen, welcome. Tonight we stay neutral. No sides, no sermons. Only arguments.",
+     "audio": "ch1.s01.l01",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch1.s01.l02",
+     "speaker": "MODERATOR",
+     "direction": "",
+     "ur": "آج کی قرارداد: یہ ایوان سمجھتا ہے کہ خدا کا ہونا ضروری ہے۔",
+     "en": "Tonight's motion: This house believes God is necessary.",
+     "audio": "ch1.s01.l02",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch1.s01.l03",
+     "speaker": "REHAN",
+     "direction": "",
+     "ur": "سائنس ہر سوال کا جواب دے رہی ہے۔ جہاں جواب نہیں ملتا، وہاں آپ خدا رکھ دیتے ہیں۔ اور اخلاق؟ وہ ہم انسان خود بنا لیتے ہیں۔ مذہب ذاتی معاملہ ہے، اسے گھر پر رکھیے۔",
+     "en": "Science is answering every question. Wherever an answer is missing, you put God there. And morality? We humans make that ourselves. Religion is a private matter — keep it at home.",
+     "audio": "ch1.s01.l03",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "The wheel opens."
+    },
+    {
+     "type": "line",
+     "id": "ch1.s01.l04",
+     "speaker": "BURHAN",
+     "direction": "Burhan, proof",
+     "ur": "جو چیز اپنے ہونے کے لیے کسی اور کی محتاج ہو، وہ ہو بھی سکتی ہے اور نہیں بھی۔ یہ کائنات محتاجوں کی ایک لمبی زنجیر ہے۔ زنجیر کتنی ہی لمبی کیوں نہ ہو، لٹکنے کے لیے اسے ایک کھونٹی چاہیے جو خود کسی کی محتاج نہ ہو۔",
+     "en": "Anything that needs something else in order to exist might have existed, or not. This universe is a long chain of needy things. However long a chain is, to hang at all it needs a hook that needs nothing.",
+     "audio": "ch1.s01.l04",
+     "hooks": [
+      "register:burhan"
+     ]
+    },
+    {
+     "type": "line",
+     "id": "ch1.s01.l05",
+     "speaker": "BURHAN",
+     "direction": "Jadal, debate",
+     "ur": "آپ کہتے ہیں اخلاق ہم خود بناتے ہیں۔ تو پھر آپ کا \"چاہیے\" صرف آپ کی پسند ہے۔ آپ ہمیں نیک بننے کو اس لیے کہہ رہے ہیں کہ آپ کو اچھا لگتا ہے؟",
+     "en": "You say we make morality ourselves. Then your \"ought\" is just your preference. You're asking us to be good because you happen to like it?",
+     "audio": "ch1.s01.l05",
+     "hooks": [
+      "register:jadal"
+     ]
+    },
+    {
+     "type": "line",
+     "id": "ch1.s01.l06",
+     "speaker": "BURHAN",
+     "direction": "Khitaba, moving speech",
+     "ur": "میری ماں ہر رات میرے لیے دعا کرتی ہے۔ اگر خدا نہیں، تو وہ انیس سال سے کس سے باتیں کر رہی ہے؟",
+     "en": "Every night my mother prays for me. If there is no God, who has she been talking to for nineteen years?",
+     "audio": "ch1.s01.l06",
+     "hooks": [
+      "register:khitaba"
+     ]
+    },
+    {
+     "type": "line",
+     "id": "ch1.s01.l07",
+     "speaker": "SOHBAT",
+     "direction": "locked; tooltip",
+     "ur": "",
+     "en": "This can't be chosen. It grows only from time spent together.",
+     "audio": "ch1.s01.l07",
+     "hooks": [
+      "register:sohbat",
+      "locked",
+      "tooltip",
+      "english-only"
+     ]
+    },
+    {
+     "type": "direction",
+     "text": "The crowd roars at whichever line the player picks."
+    },
+    {
+     "type": "line",
+     "id": "ch1.s01.l08",
+     "speaker": "MODERATOR",
+     "direction": "",
+     "ur": "اور جیتتے ہیں... بُرہان!",
+     "en": "And the winner is... Burhan!",
+     "audio": "ch1.s01.l08",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch1.s01.l09",
+     "speaker": "FARAZ",
+     "direction": "on stage, handing over the trophy, warm",
+     "ur": "پروفیسر ہادی ٹرافی۔ مبارک ہو، چھوٹے۔ ہر جیتنے والے کا ایک ایسا چہرہ ہونا چاہیے جو دنیا یاد رکھے۔",
+     "en": "The Professor Hadi Trophy. Congratulations, little brother. Every winner deserves a face the world remembers.",
+     "audio": "ch1.s01.l09",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "Cameras flash. Close on Burhan. His featureless face is dull, like unpolished steel. It reflects nothing but the stage lights."
+    }
+   ],
+   "depths": {
+    "clear": [
+     "Burhan wins the biggest debate of his life and feels nothing."
+    ],
+    "deep": [
+     "The \"neutral\" rules have already put God on trial, as a motion to be voted on.",
+     "If the player chose Khitaba, Burhan used his mother's prayers as a debating trick, and he doesn't pray himself."
+    ],
+    "deepest": [
+     "The trophy carries the name of the man Burhan meets tonight. Hadi means \"guide.\"",
+     "Rumi: the legs of those who rely on reasoning are wooden."
+    ]
+   }
+  },
+  {
+   "id": "ch1.s02",
+   "key": "2",
+   "title": "Backstage",
+   "where": "Backstage corridor, after the final.",
+   "who": "BURHAN, ABBA (video call), AZAD (his hostel roommate).",
+   "play": "",
+   "kind": "islamabad",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch1.s02.l01",
+     "speaker": "ABBA",
+     "direction": "video call",
+     "ur": "شاباش میرا شیر! فراز بتا رہا تھا، باہر کی اسکالرشپ پکی سمجھو۔ بس اب فراز کی طرح کچھ بن کے دکھاؤ۔",
+     "en": "Well done, my lion! Faraz says the scholarship abroad is as good as yours. Now go and become something, like Faraz.",
+     "audio": "ch1.s02.l01",
+     "hooks": [
+      "via:video-call"
+     ]
+    },
+    {
+     "type": "line",
+     "id": "ch1.s02.l02",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "جی ابو۔",
+     "en": "Yes, Abbu.",
+     "audio": "ch1.s02.l02",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "AZAD bursts in and grabs him in a hug."
+    },
+    {
+     "type": "line",
+     "id": "ch1.s02.l03",
+     "speaker": "AZAD",
+     "direction": "",
+     "ur": "بھائی! تم نے خدا ثابت کر دیا! اب ذرا میس فنڈ بھی ثابت کر دو، تین مہینے سے غائب ہے۔",
+     "en": "Bro! You proved God exists! Now prove the mess fund exists — it's been missing for three months.",
+     "audio": "ch1.s02.l03",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "Burhan laughs. It's the only laugh he gets tonight."
+    },
+    {
+     "type": "line",
+     "id": "ch1.s02.l04",
+     "speaker": "AZAD",
+     "direction": "",
+     "ur": "اور سن، میں ہاسٹل چھوڑ رہا ہوں۔ بلیو ایریا میں فلیٹ لے لیا ہے۔ نہ وارڈن، نہ ٹائمنگ، نہ کوئی پوچھنے والا۔ آزادی، بھائی، آزادی!",
+     "en": "And listen, I'm leaving the hostel. Got a flat in Blue Area. No warden, no curfew, nobody asking questions. Freedom, bro — freedom!",
+     "audio": "ch1.s02.l04",
+     "hooks": []
+    }
+   ],
+   "depths": {
+    "clear": [
+     "Everyone around Burhan loves the win: his father, his cousin, his friend."
+    ],
+    "deep": [
+     "Abba's love has been gilded, and success means \"abroad, like Faraz.\" Azad's \"freedom\" sets up chapter 2."
+    ],
+    "deepest": [
+     "Azad's name means \"free.\""
+    ]
+   }
+  },
+  {
+   "id": "ch1.s03",
+   "key": "3",
+   "title": "The trail",
+   "where": "Margalla Road at the foot of Trail 3, beside Saidpur village. Night.",
+   "who": "BURHAN, BILAL (14, a park kid from Saidpur), TWO DEALERS (older boys selling \"ice\" on the trail).",
+   "play": "A chase up the dark trail by phone-torch. It ends in the first fight, which Burhan is meant to lose. He is slow and untrained. If the player mashes attacks in anger, the screen's edges darken and Burhan's face dims further. Afterwards a soft line appears: Anger dimmed the mirror.",
+   "kind": "islamabad",
+   "optional": false,
+   "items": [
+    {
+     "type": "direction",
+     "text": "Burhan sits on the low wall at the trailhead with the trophy beside him. BILAL wanders past, bouncing a tennis ball."
+    },
+    {
+     "type": "line",
+     "id": "ch1.s03.l01",
+     "speaker": "BILAL",
+     "direction": "",
+     "ur": "اوئے ہیرو! کیا جیتا ہے؟ سونا ہے؟",
+     "en": "Oye, hero! What'd you win? Is it gold?",
+     "audio": "ch1.s03.l01",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch1.s03.l02",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "پیتل ہے۔",
+     "en": "It's brass.",
+     "audio": "ch1.s03.l02",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch1.s03.l03",
+     "speaker": "BILAL",
+     "direction": "grinning",
+     "ur": "پھر تو تمہیں بھاری لگے گا۔",
+     "en": "Then it must be heavy for you.",
+     "audio": "ch1.s03.l03",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "He snatches the trophy and runs up the trail. Chase."
+    },
+    {
+     "type": "direction",
+     "text": "Higher up, Bilal reaches two older boys under a pine. A lighter flickers. A small pouch changes hands."
+    },
+    {
+     "type": "line",
+     "id": "ch1.s03.l04",
+     "speaker": "DEALER 1",
+     "direction": "",
+     "ur": "کیا لایا ہے، چھوٹے؟",
+     "en": "What've you brought, kid?",
+     "audio": "ch1.s03.l04",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch1.s03.l05",
+     "speaker": "BILAL",
+     "direction": "",
+     "ur": "کچھ نہیں، بس پیتل۔",
+     "en": "Nothing — just brass.",
+     "audio": "ch1.s03.l05",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch1.s03.l06",
+     "speaker": "BURHAN",
+     "direction": "catching up, breathless",
+     "ur": "وہ میری ہے۔ واپس کرو۔",
+     "en": "That's mine. Give it back.",
+     "audio": "ch1.s03.l06",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch1.s03.l07",
+     "speaker": "DEALER 2",
+     "direction": "laughing",
+     "ur": "دلیل سے لے لو، ہیرو۔ ٹی وی پر تو بڑی دلیلیں دے رہے تھے۔",
+     "en": "Take it with an argument, hero. You had plenty of those on TV.",
+     "audio": "ch1.s03.l07",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "Fight. Burhan goes down."
+    },
+    {
+     "type": "line",
+     "id": "ch1.s03.l08",
+     "speaker": "BILAL",
+     "direction": "suddenly",
+     "ur": "بس! چھوڑو اسے!",
+     "en": "Enough! Leave him!",
+     "audio": "ch1.s03.l08",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "The dealers shrug and walk off into the dark with the trophy. Bilal looks at Burhan on the ground for a moment, then runs after them."
+    }
+   ],
+   "depths": {
+    "clear": [
+     "The champion of arguments can't defend himself."
+    ],
+    "deep": [
+     "In Act I Burhan has only a tongue and a mind. He has no heart and no hands yet (the four pillars)."
+    ],
+    "deepest": [
+     "\"The strong believer is better and more beloved to Allah than the weak believer\" (Muslim).",
+     "\"The strong one is the one who controls himself when angry\" (Bukhari).",
+     "Bilal shouting \"Enough!\" is the first sign of who he is."
+    ]
+   }
+  },
+  {
+   "id": "ch1.s04",
+   "key": "4",
+   "title": "The sweeper",
+   "where": "A small stone mosque in the Margalla foothills, near the Shah Allah Ditta caves. Late night, at tahajjud time.",
+   "who": "BURHAN, SAIN (an old sweeper).",
+   "play": "Burhan has wandered west along the ridge for hours. He follows a lamp to the mosque. In the courtyard an old man is sweeping. The trophy sits on the mosque step, and small footprints lead away in the dust.",
+   "kind": "islamabad",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch1.s04.l01",
+     "speaker": "SAIN",
+     "direction": "not looking up",
+     "ur": "ایک بچہ چھوڑ گیا ہے۔ کہتا تھا، کسی ہیرو کی ہے۔",
+     "en": "A boy left it. Said it belongs to some hero.",
+     "audio": "ch1.s04.l01",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "Sain picks up the trophy and reads the plate: Professor Hadi Trophy. He laughs softly, to himself."
+    },
+    {
+     "type": "line",
+     "id": "ch1.s04.l02",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "وہ میری ہے۔",
+     "en": "It's mine.",
+     "audio": "ch1.s04.l02",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch1.s04.l03",
+     "speaker": "SAIN",
+     "direction": "",
+     "ur": "لے جاؤ۔ پیتل بوڑھے کے لیے بہت بھاری ہوتا ہے۔",
+     "en": "Take it. Brass is too heavy for an old man.",
+     "audio": "ch1.s04.l03",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "He hands it over and pours tea from a dented kettle into two cups."
+    },
+    {
+     "type": "line",
+     "id": "ch1.s04.l04",
+     "speaker": "SAIN",
+     "direction": "",
+     "ur": "بیٹھو۔ چائے پی لو، پھر راستہ بتا دیتا ہوں۔",
+     "en": "Sit. Drink some tea, then I'll show you the way.",
+     "audio": "ch1.s04.l04",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch1.s04.l05",
+     "speaker": "SAIN",
+     "direction": "",
+     "ur": "کس بات پر جیتے ہو؟",
+     "en": "What did you win it for?",
+     "audio": "ch1.s04.l05",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch1.s04.l06",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "میں نے ثابت کیا کہ اللہ ہے۔",
+     "en": "I proved that Allah exists.",
+     "audio": "ch1.s04.l06",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch1.s04.l07",
+     "speaker": "SAIN",
+     "direction": "",
+     "ur": "کتنے لوگوں کے سامنے؟",
+     "en": "In front of how many people?",
+     "audio": "ch1.s04.l07",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch1.s04.l08",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "ہزار سے زیادہ۔ ٹی وی پر اور بھی۔",
+     "en": "More than a thousand. More on TV.",
+     "audio": "ch1.s04.l08",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch1.s04.l09",
+     "speaker": "SAIN",
+     "direction": "a long sip",
+     "ur": "اچھا۔ ہزار لوگوں کو بتایا کہ وہ ہے۔ خود آخری بار اُس سے بات کب کی تھی؟",
+     "en": "I see. You told a thousand people that He is there. When did you last talk to Him yourself?",
+     "audio": "ch1.s04.l09",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "The conversation wheel opens. Burhan, Jadal and Khitaba are all greyed out, with the line: No proof answers this. Sohbat is still locked. The player can only wait. The kettle hisses. A long silence."
+    },
+    {
+     "type": "line",
+     "id": "ch1.s04.l10",
+     "speaker": "SAIN",
+     "direction": "getting up, gently",
+     "ur": "جب یاد کرنا ہو، آ جانا۔ غار یہیں پاس ہے۔",
+     "en": "When you want to remember, come. The cave is close by.",
+     "audio": "ch1.s04.l10",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "Sain climbs the few steps of the small minaret and gives the Fajr azan in an old, cracked voice. Burhan stands at the mosque door, then turns and walks down the hill."
+    }
+   ],
+   "depths": {
+    "clear": [
+     "You can talk about Allah all day and never talk to Him."
+    ],
+    "deep": [
+     "Knowing about God ('ilm) is not knowing God (ma'rifat). The system that won the debate has no move for the heart."
+    ],
+    "deepest": [
+     "Sain is holding a trophy with his own name on it. Second-time players will know why he laughs."
+    ]
+   }
+  },
+  {
+   "id": "ch1.s05",
+   "key": "5",
+   "title": "The first flicker",
+   "where": "The trail down, at dawn. Islamabad below in the haze.",
+   "who": "",
+   "play": "Walking. No dialogue.",
+   "kind": "islamabad",
+   "optional": false,
+   "items": [
+    {
+     "type": "direction",
+     "text": "For one second the whole city flickers gold. Blue Area's towers are plated, the roads shine, the sectors look like jewellery. Only the Faisal Mosque stays white. Then it's gone. Distant azans fade, and a koel calls."
+    }
+   ],
+   "depths": {
+    "clear": [
+     "Something is wrong with the city."
+    ],
+    "deep": [
+     "The Gilding coats everything modern: careers, towers, shops."
+    ],
+    "deepest": [
+     "The one thing the gold cannot coat is a house of Allah. The people inside the gold forget it anyway (scene 6)."
+    ]
+   }
+  },
+  {
+   "id": "ch1.s06",
+   "key": "6",
+   "title": "The Neutral Square (the Gilding)",
+   "where": "The university quad, next noon. The Gilding takes over, and the quad turns gold. Students have screens for faces and scroll through their own faces. A podium. Banners in English: NEUTRAL GROUND and ALL VIEWS WELCOME (KEEP FAITH PRIVATE). At the quad's edge stands an old mosque, not gilded, its doors open and empty.",
+   "who": "BURHAN, NEUTRAL (the Moderator, now with a calm grey screen for a face), STUDENTS, AZAD (screen-faced).",
+   "play": "Walk the quad. The ID cards on everyone's lanyards lose their letters as you watch. Then comes the first zikr: hold the button to remember. Then the first kashf (unveiling) of a true name.",
+   "kind": "gilding",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch1.s06.l01",
+     "speaker": "NEUTRAL",
+     "direction": "over the speakers, smooth",
+     "ur": "اس جگہ ہم سب برابر ہیں۔ اپنا خدا گھر پر رکھیے۔ یہاں صرف فیکٹس۔",
+     "en": "In this place, we're all equal. Keep your god at home. Here, only facts.",
+     "audio": "ch1.s06.l01",
+     "hooks": [
+      "via:speakers"
+     ]
+    },
+    {
+     "type": "line",
+     "id": "ch1.s06.l02",
+     "speaker": "STUDENT A",
+     "direction": "pointing at the mosque",
+     "ur": "یہ بلڈنگ کس چیز کی ہے؟",
+     "en": "What's this building for?",
+     "audio": "ch1.s06.l02",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch1.s06.l03",
+     "speaker": "STUDENT B",
+     "direction": "",
+     "ur": "پتا نہیں۔ ہیریٹیج ہوگی شاید۔",
+     "en": "No idea. Heritage, maybe.",
+     "audio": "ch1.s06.l03",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "AZAD walks up."
+    },
+    {
+     "type": "line",
+     "id": "ch1.s06.l04",
+     "speaker": "AZAD",
+     "direction": "",
+     "ur": "ارے... تم! یار، تمہارا نام... زبان پر ہے...",
+     "en": "Hey... you! Man, your name... it's on the tip of my tongue...",
+     "audio": "ch1.s06.l04",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch1.s06.l05",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "میرا نام... میرا نام...",
+     "en": "My name... my name is...",
+     "audio": "ch1.s06.l05",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "He can't say it. The letters of his name drain off his own ID card. The camera tilts and the sound narrows."
+    },
+    {
+     "type": "line",
+     "id": "ch1.s06.l06",
+     "speaker": "NEUTRAL",
+     "direction": "",
+     "ur": "ریلیکس۔ نام تو پرائیویٹ معاملہ ہے۔",
+     "en": "Relax. A name is a private matter.",
+     "audio": "ch1.s06.l06",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "Faint, from the prologue:"
+    },
+    {
+     "type": "line",
+     "id": "ch1.s06.l07",
+     "speaker": "AMMI",
+     "direction": "echo",
+     "ur": "اللہ تمہیں اپنی یاد میں رکھے۔",
+     "en": "May Allah keep you in His remembrance.",
+     "audio": "ch1.s06.l07",
+     "hooks": [
+      "voice-only",
+      "echo"
+     ]
+    },
+    {
+     "type": "direction",
+     "text": "Prompt: Zikr — hold to remember."
+    },
+    {
+     "type": "line",
+     "id": "ch1.s06.l08",
+     "speaker": "BURHAN",
+     "direction": "a whisper, then a breath",
+     "ur": "اللہ... اللہ...",
+     "en": "Allah... Allah...",
+     "audio": "ch1.s06.l08",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "While the player holds the button:"
+    },
+    {
+     "type": "direction",
+     "text": "The gold flakes off the ground around him, and clay and grass show through."
+    },
+    {
+     "type": "direction",
+     "text": "His name comes back one letter at a time: ب ر ہ ا ن."
+    },
+    {
+     "type": "line",
+     "id": "ch1.s06.l09",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "بُرہان۔ میرا نام بُرہان ہے۔",
+     "en": "Burhan. My name is Burhan.",
+     "audio": "ch1.s06.l09",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "Kashf. Neutral's grey screen cracks. Under the English mask NEUTRAL, a single Urdu word shows through: بھول. Subtitle: THE FORGETTING."
+    },
+    {
+     "type": "line",
+     "id": "ch1.s06.l10",
+     "speaker": "THE FORGETTING",
+     "direction": "a tired, ordinary voice, no longer smooth",
+     "ur": "میں نے کبھی انکار نہیں کیا۔ کبھی کسی سے نہیں کہا کہ وہ نہیں ہے۔ میں تو بس... بھلا دیتا ہوں۔",
+     "en": "I never denied Him. I never told anyone He isn't there. I only... make you forget.",
+     "audio": "ch1.s06.l10",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "He breaks into grey dust that blows across the quad. The banners fall. The mosque door stands open."
+    },
+    {
+     "type": "direction",
+     "text": "Burhan walks to the mosque and makes wudu at an old tap. The sound of water is the loudest thing in the game so far. He prays Zuhr alone. The camera stays respectful and distant, with no prompts. After the salam he raises his hands. There is no wheel, only his voice."
+    },
+    {
+     "type": "line",
+     "id": "ch1.s06.l11",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "یا اللہ... میں نے ہزار لوگوں کے سامنے تجھے ثابت کیا، اور تجھ سے کبھی بات نہیں کی۔ میں بھول گیا تھا۔ مجھے واپس لے لے۔",
+     "en": "O Allah... I proved You in front of a thousand people, and never once spoke to You. I had forgotten. Take me back.",
+     "audio": "ch1.s06.l11",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "The station appears quietly: توبہ — TAWBAH (return)."
+    }
+   ],
+   "depths": {
+    "clear": [
+     "Leave God out of daily life and you slowly forget who you are."
+    ],
+    "deep": [
+     "\"Neutral\" isn't neutral. It ranks God as a private hobby, and the market and the self as public truth.",
+     "The mask speaks English; the truth speaks Urdu."
+    ],
+    "deepest": [
+     "\"They forgot Allah, so He made them forget themselves\" (59:19). An old etymology ties insan (human) to nisyan (forgetting).",
+     "Ammi's dua is 2:152.",
+     "Tawbah means return.",
+     "Hidden book on the quad library's shelf: the Pakistan Penal Code of 1860, drafted by Macaulay's law commission and still the base of the country's criminal law."
+    ]
+   }
+  },
+  {
+   "id": "ch1.s07",
+   "key": "7",
+   "title": "The stairs",
+   "where": "The hostel stairwell. Night.",
+   "who": "BURHAN, AMMI (phone, voice only).",
+   "play": "",
+   "kind": "islamabad",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch1.s07.l01",
+     "speaker": "AMMI",
+     "direction": "",
+     "ur": "نماز پڑھی، بیٹا؟",
+     "en": "Did you pray, beta?",
+     "audio": "ch1.s07.l01",
+     "hooks": [
+      "voice-only"
+     ]
+    },
+    {
+     "type": "line",
+     "id": "ch1.s07.l02",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "جی امی۔",
+     "en": "Yes, Ammi.",
+     "audio": "ch1.s07.l02",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "A pause. This time it's true, and he doesn't know how to say the rest."
+    },
+    {
+     "type": "line",
+     "id": "ch1.s07.l03",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "امی... میرے لیے دعا کیجیے گا۔",
+     "en": "Ammi... please pray for me.",
+     "audio": "ch1.s07.l03",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch1.s07.l04",
+     "speaker": "AMMI",
+     "direction": "",
+     "ur": "میں تو روز کرتی ہوں، پاگل۔",
+     "en": "I do, every day, silly.",
+     "audio": "ch1.s07.l04",
+     "hooks": [
+      "voice-only"
+     ]
+    },
+    {
+     "type": "direction",
+     "text": "He sits on the stairs and his shoulders shake. For the first time his smooth face catches the stairwell light, faintly."
+    }
+   ],
+   "depths": {
+    "clear": [
+     "The same question from the prologue, answered truthfully this time."
+    ],
+    "deep": [
+     "Tawbah mends what the Forgetting broke: first with Allah, then with family."
+    ],
+    "deepest": [
+     "The prologue's dua has been answered."
+    ]
+   }
+  },
+  {
+   "id": "ch1.s08",
+   "key": "8",
+   "title": "The cave",
+   "where": "The small mosque, then the Shah Allah Ditta caves. Night. Old roots grip the rock. Inside it is dark, cool, and smells of stone.",
+   "who": "BURHAN, SAIN.",
+   "play": "The second inner mechanic, hosh dar dam (awareness in every breath). It is a slow breathing rhythm: breathe in on Allah, breathe out on Hu.",
+   "kind": "islamabad",
+   "optional": false,
+   "items": [
+    {
+     "type": "direction",
+     "text": "Sain is sweeping, as if he expected him."
+    },
+    {
+     "type": "line",
+     "id": "ch1.s08.l01",
+     "speaker": "SAIN",
+     "direction": "",
+     "ur": "آ گئے؟ چلو۔",
+     "en": "You came? Come on.",
+     "audio": "ch1.s08.l01",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "They walk to the caves."
+    },
+    {
+     "type": "line",
+     "id": "ch1.s08.l02",
+     "speaker": "SAIN",
+     "direction": "",
+     "ur": "صدیوں سے لوگ اس غار میں ڈھونڈنے آئے۔ کسی کو اپنا آپ ملا، کسی کو کچھ نہیں۔ ایک درویش کو وہ ملا۔",
+     "en": "For centuries people came to this cave to search. Some found themselves; some found nothing. A dervish found Him.",
+     "audio": "ch1.s08.l02",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch1.s08.l03",
+     "speaker": "SAIN",
+     "direction": "",
+     "ur": "سانس اندر جائے تو اللہ۔ سانس باہر آئے تو ہُو۔ بس اتنا ہی۔ باقی وہ خود سکھا دے گا۔",
+     "en": "When the breath goes in: Allah. When it comes out: Hu. That's all. He will teach you the rest.",
+     "audio": "ch1.s08.l03",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch1.s08.l04",
+     "speaker": "SAIN",
+     "direction": "leaving",
+     "ur": "میں باہر ہوں۔",
+     "en": "I'm outside.",
+     "audio": "ch1.s08.l04",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "Khalwat (seclusion). The dark deepens. The breath goes in and out. The cave wall begins to glow. The Silsila opens."
+    }
+   ],
+   "depths": {
+    "clear": [
+     "Burhan learns to remember with every breath."
+    ],
+    "deep": [
+     "Seclusion is the opposite of the Gilding's endless noise. Hosh dar dam is the first of the Naqshbandi principles."
+    ],
+    "deepest": [
+     "The cave echoes the youths of Al-Kahf, whose sleep crossed centuries. From here, time opens."
+    ]
+   }
+  },
+  {
+   "id": "ch1.s09",
+   "key": "9",
+   "title": "Sirhind, 1934 (vision)",
+   "where": "The tomb of the Mujaddid Alf Thani at Sirhind. Night, oil lamps.",
+   "who": "IQBAL (old, with a cane and a fur cap, featureless, known by his silhouette), BURHAN.",
+   "play": "Walking and listening. The light here is amber and warm. It is never the Gilding's gold.",
+   "kind": "vision",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch1.s09.l01",
+     "speaker": "IQBAL",
+     "direction": "at the grave",
+     "ur": "حاضر ہوا میں شیخِ مجدد کی لحد پر\nوہ خاک کہ ہے زیرِ فلک مطلعِ انوار",
+     "en": "I came to the grave of the Shaikh, the Renewer —\nthat dust beneath the sky from which the lights rise.",
+     "audio": "ch1.s09.l01",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "He turns, sensing someone."
+    },
+    {
+     "type": "line",
+     "id": "ch1.s09.l02",
+     "speaker": "IQBAL",
+     "direction": "",
+     "ur": "تم اس زمانے کے نہیں لگتے۔",
+     "en": "You don't look like you belong to this age.",
+     "audio": "ch1.s09.l02",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch1.s09.l03",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "میں... آپ کے بعد کے زمانے سے ہوں۔ آپ کا پاکستان... بن گیا۔",
+     "en": "I'm... from after your time. Your Pakistan... it happened.",
+     "audio": "ch1.s09.l03",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch1.s09.l04",
+     "speaker": "IQBAL",
+     "direction": "quietly",
+     "ur": "الحمدللہ۔ تو بتاؤ — فرنگ کی چمک اب بھی آنکھیں چندھیا رہی ہے؟",
+     "en": "Alhamdulillah. Then tell me — is the West's glitter still blinding eyes?",
+     "audio": "ch1.s09.l04",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch1.s09.l05",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "اب تو وہ ہمارے گھروں میں ہے۔ ہماری زبان میں۔ ہمارے فون میں۔",
+     "en": "Now it's inside our homes. In our language. In our phones.",
+     "audio": "ch1.s09.l05",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch1.s09.l06",
+     "speaker": "IQBAL",
+     "direction": "",
+     "ur": "خیرہ نہ کر سکا مجھے جلوۂ دانشِ فرنگ\nسرمہ ہے میری آنکھ کا خاکِ مدینہ و نجف",
+     "en": "The dazzle of the West's learning could not blind me;\nthe dust of Madinah and Najaf is the kohl of my eyes.",
+     "audio": "ch1.s09.l06",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch1.s09.l07",
+     "speaker": "IQBAL",
+     "direction": "",
+     "ur": "میں ان کے گھر میں رہا۔ کیمبرج، میونخ۔ ان کا علم پڑھا۔ مگر آنکھ کا سرمہ مدینے کی خاک کو رکھا۔",
+     "en": "I lived in their house. Cambridge, Munich. I read their learning. But I kept the dust of Madinah as the kohl of my eyes.",
+     "audio": "ch1.s09.l07",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch1.s09.l08",
+     "speaker": "IQBAL",
+     "direction": "",
+     "ur": "ان کے ایک لارڈ نے لکھا تھا: ایسا طبقہ بناؤ جو رنگ میں ہندوستانی ہو، مگر مزاج میں انگریز۔ انہوں نے ہمیں مارا کم، بھلایا زیادہ۔",
+     "en": "One of their lords wrote: make a class Indian in colour, but English in taste. They killed fewer of us than they made forget.",
+     "audio": "ch1.s09.l08",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch1.s09.l09",
+     "speaker": "IQBAL",
+     "direction": "looking west, past Burhan",
+     "ur": "تمہاری تہذیب اپنے خنجر سے آپ ہی خودکشی کرے گی\nجو شاخِ نازک پہ آشیانہ بنے گا، ناپائدار ہوگا",
+     "en": "Your civilization will kill itself with its own dagger;\na nest built on a fragile branch will not last.",
+     "audio": "ch1.s09.l09",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch1.s09.l10",
+     "speaker": "IQBAL",
+     "direction": "",
+     "ur": "آؤ۔ تمہیں اس سے ملاؤں جس کی گردن جہانگیر کے آگے نہیں جھکی۔",
+     "en": "Come. Let me take you to the one whose neck did not bow before Jahangir.",
+     "audio": "ch1.s09.l10",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "He touches the edge of the grave, and the lamplight deepens."
+    }
+   ],
+   "depths": {
+    "clear": [
+     "A great poet who lived in Europe saw through it and stayed loyal to Madinah."
+    ],
+    "deep": [
+     "Macaulay's plan (1835) was colonization of the mind. The West's learning is one thing; its glitter is another."
+    ],
+    "deepest": [
+     "Iqbal visited this grave and wrote these lines.",
+     "In Javid Nama, Rumi guided Iqbal. Now Iqbal guides Burhan, and the chain begins."
+    ]
+   }
+  },
+  {
+   "id": "ch1.s10",
+   "key": "10",
+   "title": "The House of Debate, about 1580 (vision)",
+   "where": "The Ibadat Khana at Fatehpur Sikri: a hall of debate, with scholars of many faiths seated in rings.",
+   "who": "THE EMPEROR on a raised seat, a HERALD, courtiers, IQBAL, BURHAN.",
+   "play": "The player can walk the hall. A hidden book holds a page on the Din-i-Ilahi, the emperor's new religion for all, and on the prostration demanded at court.",
+   "kind": "vision",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch1.s10.l01",
+     "speaker": "HERALD",
+     "direction": "in the same grey voice as the Moderator",
+     "ur": "اس دربار میں سب برابر ہیں۔ کوئی دین کسی سے بڑا نہیں۔ صلحِ کل — سب سے صلح۔",
+     "en": "In this court all are equal. No faith is greater than another. Sulh-i-kul — peace with all.",
+     "audio": "ch1.s10.l01",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "Courtiers kneel and touch their foreheads to the floor before the throne."
+    },
+    {
+     "type": "line",
+     "id": "ch1.s10.l02",
+     "speaker": "BURHAN",
+     "direction": "to Iqbal, stunned",
+     "ur": "یہ تو... میرا ڈیبیٹ ہال ہے۔ یہی آواز۔",
+     "en": "This is... my debate hall. The same voice.",
+     "audio": "ch1.s10.l02",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch1.s10.l03",
+     "speaker": "IQBAL",
+     "direction": "",
+     "ur": "بھول پرانی ہے، بیٹا۔ بس لباس بدلتی ہے۔",
+     "en": "The Forgetting is old, son. It only changes its clothes.",
+     "audio": "ch1.s10.l03",
+     "hooks": []
+    }
+   ],
+   "depths": {
+    "clear": [
+     "The idea that \"all faiths are equal, so keep yours quiet\" is not new."
+    ],
+    "deep": [
+     "Akbar's sulh-i-kul and Din-i-Ilahi were state-made neutrality, four centuries before secularism. A hall of debates ended in a new religion."
+    ],
+    "deepest": [
+     "The Moderator's voice is the Herald's voice. The Forgetting wears one costume after another."
+    ]
+   }
+  },
+  {
+   "id": "ch1.s11",
+   "key": "11",
+   "title": "Gwalior Fort, 1620 (vision)",
+   "where": "A prison yard in Gwalior Fort. Night.",
+   "who": "THE MUJADDID ALF THANI (Shaykh Ahmad Sirhindi; in white, calm, featureless), a circle of PRISONERS he is teaching, BURHAN, IQBAL.",
+   "play": "",
+   "kind": "vision",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch1.s11.l01",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "آپ نے سجدہ کیوں نہیں کیا؟ ایک بار گردن جھکا دیتے، جان چھوٹ جاتی۔",
+     "en": "Why didn't you prostrate? Bow your neck once and you'd have been free.",
+     "audio": "ch1.s11.l01",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch1.s11.l02",
+     "speaker": "MUJADDID",
+     "direction": "",
+     "ur": "جو گردن اللہ کے آگے جھکتی ہے، وہ کسی اور کے آگے نہیں جھک سکتی۔ اور جو ہر ایک کے آگے جھک جائے، وہ اللہ کو بھول جاتی ہے۔",
+     "en": "A neck that bows to Allah cannot bow to anyone else. And a neck that bows to everyone forgets Allah.",
+     "audio": "ch1.s11.l02",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch1.s11.l03",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "بادشاہ تو کہتا تھا سب برابر ہیں۔ صلحِ کل۔ کیا یہ انصاف نہیں؟",
+     "en": "The emperor said all are equal — peace with all. Isn't that justice?",
+     "audio": "ch1.s11.l03",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch1.s11.l04",
+     "speaker": "MUJADDID",
+     "direction": "",
+     "ur": "انصاف ہر ایک کے ساتھ۔ مگر حق ہر ایک کا برابر نہیں۔ جو کہے سب راستے ایک ہیں، وہ کسی راستے پر نہیں چلتا۔",
+     "en": "Justice, with everyone. But the truth is not equally everyone's. Whoever says all paths are one walks on none.",
+     "audio": "ch1.s11.l04",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch1.s11.l05",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "شریعت، طریقت، حقیقت... گہری بات کون سی ہے؟",
+     "en": "Shariat, tariqat, haqiqat... which one is the deep one?",
+     "audio": "ch1.s11.l05",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch1.s11.l06",
+     "speaker": "MUJADDID",
+     "direction": "",
+     "ur": "طریقت اور حقیقت، شریعت کی خادم ہیں۔ جو گہرائی اوپر کی بات کو جھٹلا دے، وہ گہرائی نہیں — گڑھا ہے۔",
+     "en": "Tariqat and haqiqat are the servants of shariat. A depth that contradicts the surface isn't depth — it's a pit.",
+     "audio": "ch1.s11.l06",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "A prisoner smiles, and others nod. The Mujaddid turns back to his circle."
+    },
+    {
+     "type": "line",
+     "id": "ch1.s11.l07",
+     "speaker": "IQBAL",
+     "direction": "as the vision fades",
+     "ur": "گردن نہ جھکی جس کی جہانگیر کے آگے\nجس کے نفسِ گرم سے ہے گرمیِ احرار",
+     "en": "Whose neck did not bow before Jahangir,\nwhose warm breath gives the free their fire.",
+     "audio": "ch1.s11.l07",
+     "hooks": []
+    }
+   ],
+   "depths": {
+    "clear": [
+     "He went to prison rather than bow to anyone but Allah."
+    ],
+    "deep": [
+     "Justice for everyone is not the same as \"all truths are equal.\" Secular neutrality confuses the two."
+    ],
+    "deepest": [
+     "The Mujaddid's teaching that tariqat and haqiqat serve the shariat is the game's own rule of the three depths.",
+     "\"Pit\" foreshadows Freefall in chapter 2.",
+     "Tradition says many prisoners at Gwalior found guidance through him."
+    ]
+   }
+  },
+  {
+   "id": "ch1.s12",
+   "key": "12",
+   "title": "Fajr",
+   "where": "The cave mouth, then the small mosque. Dawn.",
+   "who": "BURHAN, SAIN.",
+   "play": "Burhan wakes in the cave to the Fajr azan in Sain's cracked voice. He comes out and prays Fajr in jamaat behind Sain, two men in a small mosque. The camera stays distant, with no prompts. After the salam, Sain turns to him. For a moment, on Burhan's smooth face, Sain sees his own reflection, faintly.",
+   "kind": "islamabad",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch1.s12.l01",
+     "speaker": "SAIN",
+     "direction": "",
+     "ur": "اب کچھ نظر آیا۔",
+     "en": "Now something shows.",
+     "audio": "ch1.s12.l01",
+     "hooks": []
+    },
+    {
+     "type": "title",
+     "text": "بھول — THE FORGETTING. توبہ — TAWBAH.",
+     "note": "A small light glows at the left of Burhan's chest. It is the first of the lataif: qalb, the heart."
+    }
+   ],
+   "depths": {
+    "clear": [
+     "Burhan has come back."
+    ],
+    "deep": [
+     "The heart-mirror begins to polish, and others start to see themselves in him."
+    ],
+    "deepest": [
+     "\"The believer is the mirror of the believer\" (Abu Dawud). Qalb is the first of the subtle centres."
+    ]
+   }
+  }
+ ],
+ "notes": [
+  "Masks speak English; the truth speaks Urdu. The Gilding and its veils speak English-heavy Urdu, written in Urdu script, and their mask names are English. When a veil is unveiled, its true name is spoken in plain Urdu, and the subtitle gives the English. This chapter uses نیوٹرل → بھول.",
+  "Salah is never a game. Wudu, prayer and dua are never button prompts. The camera keeps its distance and the player only chooses to walk in.",
+  "Sources.",
+  "Iqbal's lines are his own published verse, from Bang-e-Dra and Bal-e-Jibril, which are in the public domain.",
+  "The Mujaddid's and Iqbal's spoken lines are written for the game, based on their known teachings. They are not quotations.",
+  "Iqbal's paraphrase of Macaulay (\"Indian in colour, English in taste\") follows Macaulay's 1835 Minute on education.",
+  "To confirm with ulama (see the bible): showing the Mujaddid and Iqbal as featureless characters, and the muraqaba vision itself."
+ ]
+}

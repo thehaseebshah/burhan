@@ -1,0 +1,698 @@
+{
+ "id": "ch3",
+ "number": 3,
+ "title": "The Hunger",
+ "summary": "",
+ "minutes": 35,
+ "meta": {
+  "veil": "calls itself Plenty; its true name, spoken in Urdu, is بھوک (subtitle: The Hunger). It stands for consumerism and capitalism.",
+  "station": "Zuhd (renunciation).",
+  "guides": "Baba Farid, then Nizamuddin Auliya.",
+  "pillar": "Khidmat e Khalq, serving creation.",
+  "new action": "durood.",
+  "shape": "Islamabad (scenes 1–5) → the Gilding (6) → the visions (7–8) → the grave (9)."
+ },
+ "scenes": [
+  {
+   "id": "ch3.s01",
+   "key": "1",
+   "title": "Eleven-eleven",
+   "where": "\"The Pinnacle,\" a giant mall in Blue Area, on the night of its 11.11 sale. A countdown clock fills the atrium and crowds press against the shutters.",
+   "who": "BURHAN, FARAZ (SURAT sponsors the sale), and the mall's PA voice, which speaks English.",
+   "play": "You walk the atrium with Faraz. Faraz offers Burhan a voucher, and the player can take it or refuse it. If he takes it, the Hunger's swarm in scene 6 is bigger.",
+   "kind": "islamabad",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch3.s01.l01",
+     "speaker": "PA VOICE",
+     "direction": "",
+     "ur": "",
+     "en": "Ten minutes to Eleven-Eleven! Everything must go!",
+     "audio": "ch3.s01.l01",
+     "hooks": [
+      "english-only"
+     ]
+    },
+    {
+     "type": "line",
+     "id": "ch3.s01.l02",
+     "speaker": "FARAZ",
+     "direction": "",
+     "ur": "گیارہ گیارہ۔ سال کا سب سے بڑا دن۔ آج لوگ وہ خریدیں گے جس کی انہیں ضرورت نہیں، ان پیسوں سے جو ان کے پاس نہیں۔",
+     "en": "Eleven-eleven. Biggest day of the year. Today people buy what they don't need, with money they don't have.",
+     "audio": "ch3.s01.l02",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch3.s01.l03",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "اور آپ کو یہ ٹھیک لگتا ہے؟",
+     "en": "And that seems right to you?",
+     "audio": "ch3.s01.l03",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch3.s01.l04",
+     "speaker": "FARAZ",
+     "direction": "",
+     "ur": "ٹھیک غلط کا مجھے نہیں پتا، چھوٹے۔ گروتھ کا پتا ہے۔",
+     "en": "I don't know about right and wrong, little brother. I know growth.",
+     "audio": "ch3.s01.l04",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch3.s01.l05",
+     "speaker": "FARAZ",
+     "direction": "holding out a gold card",
+     "ur": "یہ لو۔ سُورت کی طرف سے۔ کچھ اپنے لیے لے لو۔ تم بھی تو انسان ہو۔",
+     "en": "Here. From SURAT. Buy something for yourself. You're human too.",
+     "audio": "ch3.s01.l05",
+     "hooks": []
+    }
+   ],
+   "depths": {
+    "clear": [
+     "A sale built to make people buy what they don't need."
+    ],
+    "deep": [
+     "Consumer capitalism needs people to stay unsatisfied, and growth is its only measure. Faraz knows exactly what he sells and says so cheerfully."
+    ],
+    "deepest": [
+     "\"Rivalry in more distracted you\" (102:1). The man who knows the trick still serves it."
+    ]
+   }
+  },
+  {
+   "id": "ch3.s02",
+   "key": "2",
+   "title": "The offer",
+   "where": "A roadside restaurant in G-9 Markaz. Evening.",
+   "who": "BURHAN, ABBA (in Islamabad for the day), CHAUDHRY SAHIB (a property dealer and Abba's old friend), AMMI (on speakerphone, voice only).",
+   "play": "",
+   "kind": "islamabad",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch3.s02.l01",
+     "speaker": "CHAUDHRY",
+     "direction": "",
+     "ur": "بھائی صاحب، زر گارڈنز کا لانچ ہے۔ آفر سنیں: فجر سے مغرب تک جتنی زمین کے گرد چکر لگا لیں، ایک ہی قیمت میں آپ کی۔",
+     "en": "Bhai sahib, it's the launch of Zar Gardens. Hear the offer: as much land as you can walk around between Fajr and Maghrib — yours, for one price.",
+     "audio": "ch3.s02.l01",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch3.s02.l02",
+     "speaker": "ABBA",
+     "direction": "",
+     "ur": "برہان کی اسکالرشپ کے پیسے پڑے ہیں۔ دگنے ہو جائیں گے۔",
+     "en": "Burhan's scholarship money is just sitting there. It'll double.",
+     "audio": "ch3.s02.l02",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch3.s02.l03",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "ابو، وہ پیسے...",
+     "en": "Abbu, that money...",
+     "audio": "ch3.s02.l03",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch3.s02.l04",
+     "speaker": "ABBA",
+     "direction": "",
+     "ur": "تم پڑھائی کرو، کاروبار ہمیں سمجھنے دو۔",
+     "en": "You study. Let us handle business.",
+     "audio": "ch3.s02.l04",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch3.s02.l05",
+     "speaker": "CHAUDHRY",
+     "direction": "",
+     "ur": "میں خود چلوں گا آپ کی طرف سے۔ کل فجر سے۔ زمین بھاگنے والوں کی ہوتی ہے، بھائی صاحب!",
+     "en": "I'll walk it myself on your behalf, from Fajr tomorrow. Land belongs to those who run, bhai sahib!",
+     "audio": "ch3.s02.l05",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "Abba's phone rings, and he puts it on speaker."
+    },
+    {
+     "type": "line",
+     "id": "ch3.s02.l06",
+     "speaker": "AMMI",
+     "direction": "phone",
+     "ur": "برہان کو کہیں کھانا ٹھیک سے کھائے۔ اور بیٹا، پریشانی ہو تو درود پڑھا کرو۔",
+     "en": "Tell Burhan to eat properly. And beta, when you're troubled, recite durood.",
+     "audio": "ch3.s02.l06",
+     "hooks": [
+      "via:phone",
+      "voice-only"
+     ]
+    }
+   ],
+   "depths": {
+    "clear": [
+     "Abba wants the money to grow, and Chaudhry is happy to oblige."
+    ],
+    "deep": [
+     "The housing-society boom: land as gambling, savings turned into plots no one will ever live on."
+    ],
+    "deepest": [
+     "The offer is Tolstoy's parable How Much Land Does a Man Need?, retold as a Pakistani launch deal. Ammi's line plants the chapter's new action."
+    ]
+   }
+  },
+  {
+   "id": "ch3.s03",
+   "key": "3",
+   "title": "The walk",
+   "where": "The Zar Gardens site beyond the motorway: bare hills, survey pegs and a huge golden gate. It runs from Fajr to Maghrib.",
+   "who": "BURHAN, CHAUDHRY SAHIB, a GRAVEDIGGER.",
+   "play": "You follow Chaudhry across the land as he drives stakes, carrying his water and pleading with him to stop. The sun crosses the sky in a time-lapse, marked by each prayer time. You can't stop him, and you're not meant to.",
+   "kind": "islamabad",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch3.s03.l01",
+     "speaker": "CHAUDHRY",
+     "direction": "morning, cheerful",
+     "ur": "دیکھ برہان، وہ ٹیلہ بھی لے لیتے ہیں۔ وہاں سے مارگلہ نظر آتا ہے۔ ریٹ ڈبل۔",
+     "en": "Look, Burhan, let's take that hillock too. You can see the Margallas from there. Double the rate.",
+     "audio": "ch3.s03.l01",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "Zuhr."
+    },
+    {
+     "type": "line",
+     "id": "ch3.s03.l02",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "چوہدری صاحب، بس کریں! ظہر نکل رہی ہے!",
+     "en": "Chaudhry sahib, stop! Zuhr is passing!",
+     "audio": "ch3.s03.l02",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch3.s03.l03",
+     "speaker": "CHAUDHRY",
+     "direction": "",
+     "ur": "نماز بعد میں، زمین ابھی!",
+     "en": "Prayer later — land now!",
+     "audio": "ch3.s03.l03",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "Asr. He's panting, his shirt soaked through."
+    },
+    {
+     "type": "line",
+     "id": "ch3.s03.l04",
+     "speaker": "CHAUDHRY",
+     "direction": "",
+     "ur": "بس ایک کنال اور... بس ایک اور...",
+     "en": "Just one more kanal... just one more...",
+     "audio": "ch3.s03.l04",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "Maghrib. The sun touches the hills. He runs for the last stake, reaches it, and falls."
+    },
+    {
+     "type": "line",
+     "id": "ch3.s03.l05",
+     "speaker": "CHAUDHRY",
+     "direction": "",
+     "ur": "پہنچ... گیا...",
+     "en": "Made... it...",
+     "audio": "ch3.s03.l05",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "He dies there, with his hand on the stake."
+    },
+    {
+     "type": "direction",
+     "text": "The next afternoon, in a village graveyard, the gravedigger straightens up from the hole."
+    },
+    {
+     "type": "line",
+     "id": "ch3.s03.l06",
+     "speaker": "GRAVEDIGGER",
+     "direction": "",
+     "ur": "لمبائی چھ فٹ، چوڑائی تین۔ بس اتنی ہی چاہیے تھی۔",
+     "en": "Six feet long, three wide. That's all he needed.",
+     "audio": "ch3.s03.l06",
+     "hooks": []
+    }
+   ],
+   "depths": {
+    "clear": [
+     "He wanted all the land and got six feet."
+    ],
+    "deep": [
+     "Greed has no finish line. Prayer is always postponed for one more deal."
+    ],
+    "deepest": [
+     "\"Rivalry in more distracted you, until you visited the graves\" (102:1–2). Tolstoy ends his story the same way: six feet was all the man needed."
+    ]
+   }
+  },
+  {
+   "id": "ch3.s04",
+   "key": "4",
+   "title": "The ward",
+   "where": "A general ward at PIMS, where Azad is recovering. Afternoon.",
+   "who": "BURHAN, AZAD, an OLD MAN dying in the next bed, and his SON.",
+   "play": "None. You sit and watch.",
+   "kind": "islamabad",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch3.s04.l01",
+     "speaker": "SON",
+     "direction": "holding his father's hand",
+     "ur": "لا الٰہ الا اللہ... ابو، کہیں: لا الٰہ الا اللہ...",
+     "en": "La ilaha illallah... Abbu, say it: la ilaha illallah...",
+     "audio": "ch3.s04.l01",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch3.s04.l02",
+     "speaker": "OLD MAN",
+     "direction": "",
+     "ur": "میرا فون... میرا فون دو...",
+     "en": "My phone... give me my phone...",
+     "audio": "ch3.s04.l02",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "Crying, the son puts the phone in his hand. Its light falls on the old man's smooth face. He dies holding it."
+    },
+    {
+     "type": "line",
+     "id": "ch3.s04.l03",
+     "speaker": "AZAD",
+     "direction": "quietly",
+     "ur": "یار... یہ میں بھی ہو سکتا تھا۔",
+     "en": "Man... that could have been me.",
+     "audio": "ch3.s04.l03",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch3.s04.l04",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "ابھی بھی ہو سکتے ہیں۔ ہم سب۔",
+     "en": "It still could be. Any of us.",
+     "audio": "ch3.s04.l04",
+     "hooks": []
+    }
+   ],
+   "depths": {
+    "clear": [
+     "At the very end, he reached for his phone, not his Lord."
+    ],
+    "deep": [
+     "The attention economy owns even our last minute. A habit made over a lifetime is what the hand reaches for."
+    ],
+    "deepest": [
+     "\"Every servant will be raised on what he died upon\" (Muslim)."
+    ]
+   }
+  },
+  {
+   "id": "ch3.s05",
+   "key": "5",
+   "title": "The chai stall",
+   "where": "A chai stall outside The Pinnacle, on the night of the sale.",
+   "who": "BURHAN, KHAN CHACHA (the old owner), TWO ROBBERS with knives.",
+   "play": "A protective fight. Burhan has been learning, and if he fights in control the mirror brightens on its own.",
+   "kind": "islamabad",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch3.s05.l01",
+     "speaker": "ROBBER",
+     "direction": "",
+     "ur": "گلہ خالی کر، بڈھے! آج سیل ہے!",
+     "en": "Empty the till, old man! It's sale day!",
+     "audio": "ch3.s05.l01",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "They fight, and the robbers run."
+    },
+    {
+     "type": "line",
+     "id": "ch3.s05.l02",
+     "speaker": "KHAN CHACHA",
+     "direction": "",
+     "ur": "اللہ تمہیں خوش رکھے، بیٹا! چائے پی کے جانا!",
+     "en": "May Allah keep you happy, son! Have some tea before you go!",
+     "audio": "ch3.s05.l02",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "Burhan drinks the tea and leaves money under the cup without saying anything."
+    }
+   ],
+   "depths": {
+    "clear": [
+     "Protect the weak and ask nothing back."
+    ],
+    "deep": [
+     "Khidmat e khalq (serving creation) is one of the four pillars. Service done for no reward is the opposite of the market."
+    ],
+    "deepest": [
+     "The money under the cup is the chapter's station in one small act: zuhd begins in the hand."
+    ]
+   }
+  },
+  {
+   "id": "ch3.s06",
+   "key": "6",
+   "title": "The mall-temple (the Gilding)",
+   "where": "The Pinnacle, now in the Gilding: a cathedral of gold. Shoppers with screen faces kneel before display cases. A giant countdown clock ticks over the atrium. A swarm of glittering wants floats in the air: shoes, phones, watches, keys.",
+   "who": "BURHAN, PLENTY (a figure in a golden suit whose screen face shows a price tag that never stops climbing).",
+   "play": "The swarm follows Burhan, and each want he touches splits into ten more. Zikr slows the swarm but doesn't scatter it. Then comes the new action: Durood. It brings a light that returns tenfold. The countdown chime is a plain tone, never a parody of the azan.",
+   "kind": "gilding",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch3.s06.l01",
+     "speaker": "PLENTY",
+     "direction": "",
+     "ur": "تمہیں اور چاہیے۔ تم اس کے حقدار ہو۔",
+     "en": "You need more. You deserve it.",
+     "audio": "ch3.s06.l01",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch3.s06.l02",
+     "speaker": "PLENTY",
+     "direction": "",
+     "ur": "تم جو خریدتے ہو، وہی تم ہو۔",
+     "en": "You are what you buy.",
+     "audio": "ch3.s06.l02",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "The swarm closes in. Ammi's voice echoes from scene 2:"
+    },
+    {
+     "type": "line",
+     "id": "ch3.s06.l03",
+     "speaker": "AMMI",
+     "direction": "echo",
+     "ur": "پریشانی ہو تو درود پڑھا کرو۔",
+     "en": "When you're troubled, recite durood.",
+     "audio": "ch3.s06.l03",
+     "hooks": [
+      "voice-only",
+      "echo"
+     ]
+    },
+    {
+     "type": "direction",
+     "text": "Prompt: Durood — a light that returns tenfold."
+    },
+    {
+     "type": "line",
+     "id": "ch3.s06.l04",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "اللّٰهُمَّ صَلِّ عَلٰى مُحَمَّدٍ وَّعَلٰى اٰلِ مُحَمَّدٍ",
+     "en": "O Allah, send blessings upon Muhammad and the family of Muhammad.",
+     "audio": "ch3.s06.l04",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "Each blessing breaks into ten points of light, and each point shatters a want. The gold atrium dims. The countdown clock stops at 00:00:00. Burhan sinks to his knees in the light, and the floor opens into the chain."
+    }
+   ],
+   "depths": {
+    "clear": [
+     "Wanting more never ends, and every purchase breeds the next want."
+    ],
+    "deep": [
+     "Advertising manufactures desire and sells it back to you. Shopping becomes a religion, with its own festivals, prayers and kneeling."
+    ],
+    "deepest": [
+     "\"Whoever sends one blessing upon me, Allah sends ten upon him\" (Muslim). Takathur multiplies wants; durood multiplies light. That is the true increase."
+    ]
+   }
+  },
+  {
+   "id": "ch3.s07",
+   "key": "7",
+   "title": "The langar (vision)",
+   "where": "Ajodhan (today's Pakpattan), around 1250. Baba Farid's khanqah, a long mud-walled kitchen with a queue of the poor stretching out of the gate.",
+   "who": "BABA FARID (old, in plain clothes, eating dry bread, featureless), the HUNGRY in the queue, BURHAN.",
+   "play": "Service. Burhan ladles lentils and hands out bread to each person in the queue. There's no score and no reward, only the line getting shorter.",
+   "kind": "vision",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch3.s07.l01",
+     "speaker": "BABA FARID",
+     "direction": "in Punjabi",
+     "ur": "رُکھی سُکھی کھا کے ٹھنڈا پانی پی\nفریدا ویکھ پرائی چوپڑی نہ ترسائیں جی",
+     "en": "Eat your dry bread and drink cold water;\nFarid, seeing another's buttered bread, don't let your heart crave.",
+     "audio": "ch3.s07.l01",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch3.s07.l02",
+     "speaker": "BABA FARID",
+     "direction": "",
+     "ur": "لنگر میں کوئی بیچتا نہیں، کوئی خریدتا نہیں۔ اسی لیے یہاں کوئی بھوکا نہیں رہتا۔",
+     "en": "In the langar no one sells and no one buys. That's why no one here goes hungry.",
+     "audio": "ch3.s07.l02",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch3.s07.l03",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "مگر بازار کہتا ہے چیزیں کم ہیں، اسی لیے قیمت ہے۔",
+     "en": "But the market says things are scarce, and that's why there are prices.",
+     "audio": "ch3.s07.l03",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch3.s07.l04",
+     "speaker": "BABA FARID",
+     "direction": "",
+     "ur": "کمی پیٹ کی نہیں، دل کی ہے۔ پیٹ دو روٹیوں سے بھر جاتا ہے۔ دل سونے کے دو پہاڑوں سے بھی نہیں بھرتا۔",
+     "en": "The lack isn't in the belly; it's in the heart. A belly fills with two loaves. A heart doesn't fill even with two mountains of gold.",
+     "audio": "ch3.s07.l04",
+     "hooks": []
+    }
+   ],
+   "depths": {
+    "clear": [
+     "The saint ate dry bread and fed everyone."
+    ],
+    "deep": [
+     "An economy of giving stands against an economy of wanting. Zuhd is not poverty; it is freedom from craving."
+    ],
+    "deepest": [
+     "Baba Farid's \"two mountains of gold\" echoes the hadith: \"If the son of Adam had two valleys of wealth, he would want a third\" (Bukhari)."
+    ]
+   }
+  },
+  {
+   "id": "ch3.s08",
+   "key": "8",
+   "title": "Two doors (vision)",
+   "where": "Ghiyaspur, near Delhi, about 1320. Nizamuddin Auliya's khanqah by the Yamuna, where the kitchen fires burn day and night.",
+   "who": "NIZAMUDDIN AULIYA (old, in white, featureless), a SULTAN'S MESSENGER carrying trays of gold, the poor, BURHAN.",
+   "play": "You watch the gold handed out before the messenger has even finished speaking.",
+   "kind": "vision",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch3.s08.l01",
+     "speaker": "NIZAMUDDIN",
+     "direction": "to his attendants",
+     "ur": "یہ سب ابھی بانٹ دو۔ رات تک خانقاہ میں ایک سکہ نہ رہے۔",
+     "en": "Give all of this away now. By nightfall, not one coin stays in the khanqah.",
+     "audio": "ch3.s08.l01",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch3.s08.l02",
+     "speaker": "MESSENGER",
+     "direction": "",
+     "ur": "سلطان ملاقات کو آنا چاہتے ہیں۔",
+     "en": "The Sultan wishes to visit.",
+     "audio": "ch3.s08.l02",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch3.s08.l03",
+     "speaker": "NIZAMUDDIN",
+     "direction": "",
+     "ur": "میری خانقاہ کے دو دروازے ہیں۔ اگر سلطان ایک سے آئیں گے، تو میں دوسرے سے نکل جاؤں گا۔",
+     "en": "My khanqah has two doors. If the Sultan comes in by one, I will leave by the other.",
+     "audio": "ch3.s08.l03",
+     "hooks": []
+    }
+   ],
+   "depths": {
+    "clear": [
+     "He gave away every coin and wanted nothing from the king."
+    ],
+    "deep": [
+     "The saints kept away from wealth and power because both feed the hunger. Service to creation needs a heart that wants nothing from it."
+    ],
+    "deepest": [
+     "The two doors are tradition. The kitchen that never closed is history."
+    ]
+   }
+  },
+  {
+   "id": "ch3.s09",
+   "key": "9",
+   "title": "The grave",
+   "where": "Chaudhry Sahib's grave in the village graveyard. Evening.",
+   "who": "BURHAN, ABBA.",
+   "play": "Burhan holds out the envelope to Abba, then the last kashf.",
+   "kind": "islamabad",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch3.s09.l01",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "ابو، یہ پیسے واپس۔ زمین میں نہیں، کسی بھوکے کے لنگر میں لگا دیں۔",
+     "en": "Abbu, here's the money back. Put it into a langar for the hungry, not into land.",
+     "audio": "ch3.s09.l01",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch3.s09.l02",
+     "speaker": "ABBA",
+     "direction": "",
+     "ur": "تم پاگل ہو گئے ہو؟",
+     "en": "Have you gone mad?",
+     "audio": "ch3.s09.l02",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch3.s09.l03",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "شاید۔ مگر چوہدری صاحب کو چھ فٹ ہی ملے۔",
+     "en": "Maybe. But Chaudhry sahib only got six feet.",
+     "audio": "ch3.s09.l03",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "Abba says nothing. He takes the envelope and looks at the grave for a long time."
+    },
+    {
+     "type": "direction",
+     "text": "The Gilding flickers at the grave's edge. Plenty stands there, its price tag still climbing."
+    },
+    {
+     "type": "direction",
+     "text": "Kashf. The price tag cracks. Under the English mask PLENTY, one Urdu word shows through: بھوک. Subtitle: THE HUNGER."
+    },
+    {
+     "type": "line",
+     "id": "ch3.s09.l04",
+     "speaker": "THE HUNGER",
+     "direction": "its true voice, hollow",
+     "ur": "میں کبھی نہیں بھرتا۔ صرف مٹی مجھے چپ کراتی ہے۔",
+     "en": "I am never full. Only earth silences me.",
+     "audio": "ch3.s09.l04",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch3.s09.l05",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "رسول اللہ ﷺ نے فرمایا: ابنِ آدم کا پیٹ مٹی کے سوا کوئی چیز نہیں بھرتی۔",
+     "en": "The Messenger of Allah ﷺ said: nothing fills the son of Adam but dust.",
+     "audio": "ch3.s09.l05",
+     "hooks": []
+    },
+    {
+     "type": "title",
+     "text": "بھوک — THE HUNGER. زہد — ZUHD.",
+     "note": "A second small light glows at the right of Burhan's chest. This is the second latifa, ruh."
+    }
+   ],
+   "depths": {
+    "clear": [
+     "Burhan gives the money back, and the Hunger falls silent at a grave."
+    ],
+    "deep": [
+     "Zuhd means turning down the market's offer even when it comes from your own father, and doing it with respect."
+    ],
+    "deepest": [
+     "\"Nothing fills the belly of the son of Adam but dust\" (Bukhari). The grave is the only thing that satisfies the hunger."
+    ]
+   }
+  }
+ ],
+ "notes": [
+  "No azan parody. The mall's countdown chime is a plain tone, never a call to prayer.",
+  "Scenes and lines with sources:",
+  "Chaudhry's walk reframes Tolstoy's How Much Land Does a Man Need? (1886).",
+  "Baba Farid's couplet is his own, in Punjabi.",
+  "Nizamuddin Auliya's \"two doors\" comes from tradition.",
+  "Durood follows the opening of the Durood Ibrahimi.",
+  "The hadiths are from Bukhari and Muslim, and the Prophet ﷺ is quoted by Burhan, never voiced.",
+  "Names are fictional: \"The Pinnacle\" and \"Zar Gardens\" (zar means gold).",
+  "To confirm with ulama: Baba Farid and Nizamuddin Auliya shown as featureless figures."
+ ]
+}

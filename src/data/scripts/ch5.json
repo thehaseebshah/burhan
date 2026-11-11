@@ -1,0 +1,668 @@
+{
+ "id": "ch5",
+ "number": 5,
+ "title": "Foam",
+ "summary": "",
+ "minutes": 45,
+ "meta": {
+  "veil": "calls itself Comfort; its true name, spoken in Urdu, is جھاگ (subtitle: Foam). Its theme is the love of comfort: wahn.",
+  "station": "Sabr (endurance).",
+  "guides": "Ibn Khaldun, then Salahuddin Ayyubi. Optional side vision: Alp Arslan.",
+  "pillars": "Tazkiah through mujahada; Taleem through teaching Bilal."
+ },
+ "scenes": [
+  {
+   "id": "ch5.s01",
+   "key": "1",
+   "title": "Soft days",
+   "where": "Burhan's hostel room, over several nights. A new phone (bought after chapter 4), the AC humming, food-delivery bags, a screen glowing at 3 a.m.",
+   "who": "BURHAN, COMFORT (a soft voice inside the AC hum and the phone's glow).",
+   "play": "A short montage of soft nights. On the last night, the Fajr alarm rings. Getting up is a slow, heavy input against Comfort's weight. The scene is scripted: whatever the player does, Burhan snoozes this once. Even after progress, comfort pulls back.",
+   "kind": "islamabad",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch5.s01.l01",
+     "speaker": "COMFORT",
+     "direction": "",
+     "ur": "آرام کرو۔ تم نے بہت کچھ کیا ہے۔",
+     "en": "Rest. You've done so much.",
+     "audio": "ch5.s01.l01",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch5.s01.l02",
+     "speaker": "COMFORT",
+     "direction": "",
+     "ur": "کل سے شروع کر لینا۔",
+     "en": "Start tomorrow.",
+     "audio": "ch5.s01.l02",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "He wakes at ten to full sunlight and looks at the time."
+    },
+    {
+     "type": "line",
+     "id": "ch5.s01.l03",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "فجر... پھر نکل گئی۔",
+     "en": "Fajr... gone again.",
+     "audio": "ch5.s01.l03",
+     "hooks": []
+    }
+   ],
+   "depths": {
+    "clear": [
+     "Comfort undoes progress quietly, one soft night at a time."
+    ],
+    "deep": [
+     "Modern life is built to remove every hardship, and a soul with no hardship goes soft."
+    ],
+    "deepest": [
+     "The veil never argues. It only says \"tomorrow.\""
+    ]
+   }
+  },
+  {
+   "id": "ch5.s02",
+   "key": "2",
+   "title": "The flood (the Gilding)",
+   "where": "Jinnah Avenue in the Gilding, flooded with golden water. On its surface floats a foam made of millions of screen-faced people, weightless and smiling, drifting wherever the current goes.",
+   "who": "BURHAN, COMFORT, and SAIN (an echo, remembered).",
+   "play": "The current carries Burhan, and he can't stand. Every attempt to plant his feet slides away.",
+   "kind": "gilding",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch5.s02.l01",
+     "speaker": "COMFORT",
+     "direction": "",
+     "ur": "بہاؤ کے ساتھ بہو۔ مقابلہ کیوں کرنا؟",
+     "en": "Go with the flow. Why resist?",
+     "audio": "ch5.s02.l01",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "Sain's voice comes back to him from some earlier night:"
+    },
+    {
+     "type": "line",
+     "id": "ch5.s02.l02",
+     "speaker": "SAIN",
+     "direction": "echo",
+     "ur": "رسول اللہ ﷺ نے فرمایا تھا: قومیں تم پر ایسے ٹوٹ پڑیں گی جیسے کھانے والے پیالے پر۔ تم بہت ہو گے، مگر سیلاب کی جھاگ کی طرح۔",
+     "en": "The Messenger of Allah ﷺ said: the nations will fall upon you as diners fall upon a bowl. You will be many — but like the foam of a flood.",
+     "audio": "ch5.s02.l02",
+     "hooks": [
+      "echo"
+     ]
+    },
+    {
+     "type": "line",
+     "id": "ch5.s02.l03",
+     "speaker": "SAIN",
+     "direction": "echo",
+     "ur": "پوچھا گیا، یہ کمزوری کیا ہے؟ فرمایا: دنیا کی محبت اور موت کا ڈر۔",
+     "en": "He was asked: what is this weakness? He said: love of the world, and dislike of death.",
+     "audio": "ch5.s02.l03",
+     "hooks": [
+      "echo"
+     ]
+    },
+    {
+     "type": "direction",
+     "text": "The foam closes over him. In the dark under the water, his breath finds Allah... Hu, and the chain opens."
+    }
+   ],
+   "depths": {
+    "clear": [
+     "A crowd of millions with no weight, carried anywhere."
+    ],
+    "deep": [
+     "Numbers mean nothing without spine. Comfort makes a people easy to move, and easy to rule."
+    ],
+    "deepest": [
+     "The hadith of wahn (Abu Dawud). Sain narrates it; the Prophet ﷺ is never voiced."
+    ]
+   }
+  },
+  {
+   "id": "ch5.s03",
+   "key": "3",
+   "title": "Granada, the 1360s (vision)",
+   "where": "The Alhambra in Granada. The Court of the Myrtles: a long still pool, carved plaster, silk, poets reciting at dusk.",
+   "who": "IBN KHALDUN (an envoy from the Maghrib, featureless), COURTIERS, POETS (recitation only, no instruments), BURHAN.",
+   "play": "You walk the palace with Ibn Khaldun. Everything is beautiful, and everything is soft.",
+   "kind": "vision",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch5.s03.l01",
+     "speaker": "IBN KHALDUN",
+     "direction": "",
+     "ur": "عیش قوموں کی رگوں میں نیند بھر دیتا ہے۔ تیسری نسل تک تلوار زنگ کھا جاتی ہے۔",
+     "en": "Luxury pours sleep into a people's veins. By the third generation the sword has rusted.",
+     "audio": "ch5.s03.l01",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch5.s03.l02",
+     "speaker": "IBN KHALDUN",
+     "direction": "",
+     "ur": "پہلی نسل بناتی ہے، دوسری سنبھالتی ہے، تیسری مزے کرتی ہے، چوتھی گنوا دیتی ہے۔",
+     "en": "The first generation builds, the second keeps, the third enjoys, the fourth loses it all.",
+     "audio": "ch5.s03.l02",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch5.s03.l03",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "تو کیا یہ سب ختم ہو جائے گا؟",
+     "en": "So all of this will end?",
+     "audio": "ch5.s03.l03",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch5.s03.l04",
+     "speaker": "IBN KHALDUN",
+     "direction": "",
+     "ur": "دیکھنا چاہو گے؟",
+     "en": "Do you want to see?",
+     "audio": "ch5.s03.l04",
+     "hooks": []
+    }
+   ],
+   "depths": {
+    "clear": [
+     "A great Muslim civilization grew soft in its own beauty."
+    ],
+    "deep": [
+     "Ibn Khaldun's law of dynasties: hardship builds solidarity (asabiyyah), luxury dissolves it, and the fall follows within a few generations."
+    ],
+    "deepest": [
+     "Ibn Khaldun really served at Granada's court in the 1360s. His lines here are written for the game from his Muqaddimah."
+    ]
+   }
+  },
+  {
+   "id": "ch5.s04",
+   "key": "4",
+   "title": "Granada, 1492 (vision)",
+   "where": "A cold January dawn outside Granada's gates.",
+   "who": "",
+   "play": "A short cinematic with no dialogue. Granada's keys are held out on a cushion, and a gloved hand takes them. Church bells ring over the city. The last Muslim king rides away. On a hill, he turns and looks back.",
+   "kind": "vision",
+   "optional": false,
+   "items": [
+    {
+     "type": "direction",
+     "text": "Title card:"
+    },
+    {
+     "type": "card",
+     "id": "ch5.s04.c01",
+     "ur": "غرناطہ، ۲ جنوری ۱۴۹۲",
+     "en": "Granada, 2 January 1492",
+     "audio": "ch5.s04.c01",
+     "hooks": []
+    }
+   ],
+   "depths": {
+    "clear": [
+     "Granada fell. Comfort came first."
+    ],
+    "deep": [
+     "The fourth generation lost what the first had built."
+    ],
+    "deepest": [
+     "Ibn Khaldun served at this court about 130 years before its fall. The hill where the king looked back is still called \"the Moor's sigh.\""
+    ]
+   }
+  },
+  {
+   "id": "ch5.s05",
+   "key": "5",
+   "title": "Before Hattin, 1187 (vision)",
+   "where": "Salahuddin's camp, the night before the battle. A plain tent and hard ground.",
+   "who": "SALAHUDDIN AYYUBI (featureless, in plain armour, recognised by his bearing), SOLDIERS, BURHAN.",
+   "play": "Walking the camp, then the battle at the Horns of Hattin in July heat. The game holds the rules of war: the controls refuse to strike anyone who isn't fighting, and prisoners are taken, not killed. No gore.",
+   "kind": "vision",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch5.s05.l01",
+     "speaker": "SALAHUDDIN",
+     "direction": "",
+     "ur": "میں کیسے مسکراؤں جب اقصیٰ قید میں ہے؟",
+     "en": "How can I smile while Al-Aqsa is in captivity?",
+     "audio": "ch5.s05.l01",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch5.s05.l02",
+     "speaker": "SALAHUDDIN",
+     "direction": "",
+     "ur": "آرام کے بستر پر کوئی شہر آزاد نہیں ہوا۔",
+     "en": "No city was ever freed from a bed of comfort.",
+     "audio": "ch5.s05.l02",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "The battle."
+    }
+   ],
+   "depths": {
+    "clear": [
+     "A leader who refused comfort while his people's holy place was captive."
+    ],
+    "deep": [
+     "Discipline is the opposite of foam, and sabr is a weapon."
+    ],
+    "deepest": [
+     "\"How can I smile while Al-Aqsa is captive\" is tradition. Hattin is history."
+    ]
+   }
+  },
+  {
+   "id": "ch5.s06",
+   "key": "6",
+   "title": "Jerusalem, October 1187 (vision)",
+   "where": "The gates of Jerusalem after its surrender.",
+   "who": "SALAHUDDIN, the city's people leaving under safe conduct, BURHAN.",
+   "play": "You walk through the gate as the defeated go out alive. Many are freed without ransom.",
+   "kind": "vision",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch5.s06.l01",
+     "speaker": "SALAHUDDIN",
+     "direction": "watching the gate",
+     "ur": "اٹھاسی سال پہلے یہاں گلیوں میں خون بہا تھا۔ ہم وہ نہیں ہیں۔",
+     "en": "Eighty-eight years ago, blood ran in these streets. We are not them.",
+     "audio": "ch5.s06.l01",
+     "hooks": []
+    }
+   ],
+   "depths": {
+    "clear": [
+     "The victor spared the city."
+    ],
+    "deep": [
+     "Islamic civilization at war, set against the massacre of 1099. The same words Kharal used in the prologue."
+    ],
+    "deepest": [
+     "Strength and mercy are one thing in a believer. A soft people can do neither."
+    ]
+   }
+  },
+  {
+   "id": "ch5.s07",
+   "key": "7",
+   "title": "Malazgirt, 1071 (optional side vision)",
+   "where": "The plain of Malazgirt before the battle.",
+   "who": "ALP ARSLAN (featureless, dressed in white and perfumed as for burial), his ARMY, BURHAN.",
+   "play": "Optional. It's found only by players who search the camp in scene 5 and find a white cloth folded in a corner.",
+   "kind": "vision",
+   "optional": true,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch5.s07.l01",
+     "speaker": "ALP ARSLAN",
+     "direction": "",
+     "ur": "اگر میں گر گیا تو یہی میرا کفن ہے۔",
+     "en": "If I fall, this is my shroud.",
+     "audio": "ch5.s07.l01",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "He rides out at the head of the charge."
+    }
+   ],
+   "depths": {
+    "clear": [
+     "A sultan who dressed for his own funeral before battle."
+    ],
+    "deep": [
+     "The cure for wahn, the dislike of death, is a man who has already accepted it."
+    ],
+    "deepest": [
+     "The white shroud and the perfume come from the chronicles. Treat them as tradition."
+    ]
+   }
+  },
+  {
+   "id": "ch5.s08",
+   "key": "8",
+   "title": "The chilla",
+   "where": "The mountains above the Margallas, toward the Galiyat. There's a stone hut, and forty days pass in monsoon and cold.",
+   "who": "BURHAN, SAIN.",
+   "play": "A time-lapse of mujahada: climbing in rain, fasting, cold nights, tahajjud, and the breath. Burhan's body and movement visibly change across the days.",
+   "kind": "islamabad",
+   "optional": false,
+   "items": [
+    {
+     "type": "direction",
+     "text": "Back from the vision, at the small mosque:"
+    },
+    {
+     "type": "line",
+     "id": "ch5.s08.l01",
+     "speaker": "SAIN",
+     "direction": "",
+     "ur": "چالیس دن۔ پہاڑ۔ چلو گے؟",
+     "en": "Forty days. The mountains. Will you come?",
+     "audio": "ch5.s08.l01",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "Day 1, on a steep wet slope:"
+    },
+    {
+     "type": "line",
+     "id": "ch5.s08.l02",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "میں تھک گیا ہوں۔",
+     "en": "I'm tired.",
+     "audio": "ch5.s08.l02",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch5.s08.l03",
+     "speaker": "SAIN",
+     "direction": "",
+     "ur": "تھکن سے ہی تو جھاگ اترتی ہے۔",
+     "en": "Tiredness is how the foam comes off.",
+     "audio": "ch5.s08.l03",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "Day 40. At dawn Burhan runs up the ridge ahead of Sain, and his smooth face catches the sunrise more brightly than ever before."
+    },
+    {
+     "type": "line",
+     "id": "ch5.s08.l04",
+     "speaker": "SAIN",
+     "direction": "watching",
+     "ur": "اب پاؤں جم گئے۔",
+     "en": "Now your feet are planted.",
+     "audio": "ch5.s08.l04",
+     "hooks": []
+    }
+   ],
+   "depths": {
+    "clear": [
+     "Forty days of hardship gave Burhan back his feet."
+    ],
+    "deep": [
+     "Mujahada, struggling against the self, breaks the soft shell that comfort grows. It is training, not punishment."
+    ],
+    "deepest": [
+     "\"The mujahid is the one who strives against his own self\" (Tirmidhi). Forty days, arba'in, is the old measure of a chilla."
+    ]
+   }
+  },
+  {
+   "id": "ch5.s09",
+   "key": "9",
+   "title": "The akhara",
+   "where": "An old wrestling pit in Rawalpindi: soft earth, the smell of oil and dust, a banyan overhead.",
+   "who": "BURHAN, PEHLWAN JI (an old wrestler), YOUNG WRESTLERS.",
+   "play": "The kushti tutorial: grips, balance, patience. Burhan is pinned again and again until he stops forcing it. Then he wins a bout by waiting.",
+   "kind": "islamabad",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch5.s09.l01",
+     "speaker": "PEHLWAN JI",
+     "direction": "",
+     "ur": "کشتی زور کا نہیں، صبر کا کھیل ہے۔ جو غصے میں آیا، وہ چت ہوا۔",
+     "en": "Kushti isn't a game of strength; it's a game of patience. Whoever gets angry ends up on his back.",
+     "audio": "ch5.s09.l01",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "After the win:"
+    },
+    {
+     "type": "line",
+     "id": "ch5.s09.l02",
+     "speaker": "PEHLWAN JI",
+     "direction": "",
+     "ur": "شاباش۔ اب مٹی تمہیں پہچانتی ہے۔",
+     "en": "Well done. Now the earth knows you.",
+     "audio": "ch5.s09.l02",
+     "hooks": []
+    }
+   ],
+   "depths": {
+    "clear": [
+     "Patience wins where force fails."
+    ],
+    "deep": [
+     "The anger rule, mastered. The body has become a servant of the heart."
+    ],
+    "deepest": [
+     "The Prophet ﷺ wrestled (tradition, about Rukana). \"The strong believer is better and more beloved to Allah than the weak believer\" (Muslim). The earth that \"knows\" him is the clay under the Gilding's gold."
+    ]
+   }
+  },
+  {
+   "id": "ch5.s10",
+   "key": "10",
+   "title": "The circle in F-9 Park",
+   "where": "F-9 Park under the trees, in the late afternoon.",
+   "who": "BURHAN, BILAL, AZAD (recovering, helping), PARK KIDS, and passers-by filming on their phones.",
+   "play": "Teaching. Burhan runs the circle through the four pillars, each one a short activity: The breath zikr. A story from a book. Telling the truth when it costs you. Picking up the park's litter.",
+   "kind": "islamabad",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch5.s10.l01",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "چار ستون: اصلاح و تزکیہ، تعلیم و تعلم، دعوت و تذکیر، خدمتِ خلق۔ دل میں ذکر، دماغ میں علم، زبان پر سچ، ہاتھ سے خدمت۔",
+     "en": "Four pillars: reform and purification, teaching and learning, inviting and reminding, serving creation. Remembrance in the heart, knowledge in the mind, truth on the tongue, service with the hands.",
+     "audio": "ch5.s10.l01",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch5.s10.l02",
+     "speaker": "BILAL",
+     "direction": "",
+     "ur": "تم بدل گئے ہو، ہیرو۔",
+     "en": "You've changed, hero.",
+     "audio": "ch5.s10.l02",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch5.s10.l03",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "ابھی بدل رہا ہوں۔",
+     "en": "Still changing.",
+     "audio": "ch5.s10.l03",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch5.s10.l04",
+     "speaker": "AZAD",
+     "direction": "to Bilal",
+     "ur": "فجر میں میں جگاؤں گا تمہیں۔",
+     "en": "I'll wake you for Fajr.",
+     "audio": "ch5.s10.l04",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "A passer-by lifts a phone to film Bilal. Bilal turns his back to it."
+    },
+    {
+     "type": "line",
+     "id": "ch5.s10.l05",
+     "speaker": "BILAL",
+     "direction": "",
+     "ur": "میرا چہرہ نہیں، کام دکھاؤ۔",
+     "en": "Don't film my face — film the work.",
+     "audio": "ch5.s10.l05",
+     "hooks": []
+    }
+   ],
+   "depths": {
+    "clear": [
+     "Burhan is now raising others."
+    ],
+    "deep": [
+     "The four pillars passed on. Azad, who was woken in chapter 2, now wakes someone else. The chain grows from person to person."
+    ],
+    "deepest": [
+     "\"The faceless boy of F-9 Park\" begins here. Chapter 6 depends on it."
+    ]
+   }
+  },
+  {
+   "id": "ch5.s11",
+   "key": "11",
+   "title": "The gang",
+   "where": "F-9 Park at dusk.",
+   "who": "BURHAN, BILAL, the DEALERS.",
+   "play": "A protective fight using kushti, fought in control. Burhan wins and lets them go, and the mirror brightens during the fight.",
+   "kind": "islamabad",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch5.s11.l01",
+     "speaker": "DEALER 1",
+     "direction": "",
+     "ur": "بہت نیک بن گیا ہے؟ ہمارا مال کون بیچے گا؟",
+     "en": "Gone all pious, have you? Who'll sell our stuff now?",
+     "audio": "ch5.s11.l01",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "The fight. The dealers pick themselves up and leave."
+    }
+   ],
+   "depths": {
+    "clear": [
+     "Burhan protects Bilal, calmly."
+    ],
+    "deep": [
+     "Strength in the service of others is khidmat with the hands."
+    ],
+    "deepest": [
+     "The same dealers beat him on the trail in chapter 1. Now he can protect the boy who once stood up for him."
+    ]
+   }
+  },
+  {
+   "id": "ch5.s12",
+   "key": "12",
+   "title": "Standing (the Gilding)",
+   "where": "The golden flood again.",
+   "who": "",
+   "play": "This time Burhan can stand. The current breaks around him like water around a rock. Behind him, Bilal, Azad and the park kids stand too, holding each other's shoulders.",
+   "kind": "gilding",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch5.s12.l01",
+     "speaker": "COMFORT",
+     "direction": "fading",
+     "ur": "بہاؤ... کے ساتھ...",
+     "en": "Go... with the...",
+     "audio": "ch5.s12.l01",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "Kashf. Comfort's soft screen cracks. Under the English mask COMFORT, one Urdu word shows through: جھاگ. Subtitle: FOAM."
+    },
+    {
+     "type": "line",
+     "id": "ch5.s12.l02",
+     "speaker": "FOAM",
+     "direction": "its true voice",
+     "ur": "میں نے کسی کو نہیں ڈبویا۔ میں نے بس... کھڑے رہنے کی وجہ چھین لی۔",
+     "en": "I drowned no one. I only... took away the reason to stand.",
+     "audio": "ch5.s12.l02",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "The flood drains away, and the real park returns. Bilal throws his arms around Burhan."
+    },
+    {
+     "type": "line",
+     "id": "ch5.s12.l03",
+     "speaker": "BILAL",
+     "direction": "",
+     "ur": "تم میرے ہیرو ہو۔",
+     "en": "You're my hero.",
+     "audio": "ch5.s12.l03",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "For one frame, a hairline crack runs across Burhan's mirror-face. No one remarks on it."
+    },
+    {
+     "type": "title",
+     "text": "جھاگ — FOAM. صبر — SABR.",
+     "note": "A fourth light glows above the second, on the right of Burhan's chest. This is the fourth latifa, khafi."
+    }
+   ],
+   "depths": {
+    "clear": [
+     "Burhan stands, and others stand with him."
+    ],
+    "deep": [
+     "Sabr isn't waiting. It is standing while the world flows past."
+    ],
+    "deepest": [
+     "Bilal's admiration feeds the last veil, \"I\". The hairline crack sets up chapter 7, and only attentive players will see it."
+    ]
+   }
+  }
+ ],
+ "notes": [
+  "No figurative statues. The Alhambra scene uses the Court of the Myrtles and avoids the lion fountain, because of the owner's stance on statues.",
+  "Sources:",
+  "The hadith of wahn is in Abu Dawud and is narrated by Sain.",
+  "Ibn Khaldun's theory is from the Muqaddimah; his lines are written for the game.",
+  "Salahuddin's \"how can I smile\" and Alp Arslan's shroud are tradition.",
+  "The surrender of Jerusalem and the freeing of many without ransom are history.",
+  "Women: none appear on screen in the visions, pending the ulama.",
+  "To confirm with ulama: Ibn Khaldun, Salahuddin and Alp Arslan shown as featureless figures."
+ ]
+}

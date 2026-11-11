@@ -1,0 +1,646 @@
+{
+ "id": "ch2",
+ "number": 2,
+ "title": "Freefall",
+ "summary": "",
+ "minutes": 35,
+ "meta": {
+  "veil": "calls itself Freedom. Its true name, spoken in Urdu, is گراوٹ (subtitle: Freefall). It stands for liberalism.",
+  "station": "Wara' (restraint).",
+  "guide": "Maulana Rumi.",
+  "pillar": "Islah, reform through restraint.",
+  "shape": "Islamabad (scenes 1–3) → the Gilding (4) → the vision (5) → the Gilding again (6) → the hospital (7) → dawn (8)."
+ },
+ "scenes": [
+  {
+   "id": "ch2.s01",
+   "key": "1",
+   "title": "The flat",
+   "where": "Azad's new rooftop flat in a Blue Area tower. Night. A party: crowd noise, laughter, phones chiming. No music is ever heard, only voices and city noise through the glass.",
+   "who": "BURHAN, AZAD, party guests (screen-lit faces bent over phones).",
+   "play": "Walk through the party. Guests offer drinks and vapes; Burhan can pass by or refuse.",
+   "kind": "islamabad",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch2.s01.l01",
+     "speaker": "AZAD",
+     "direction": "arms wide",
+     "ur": "آ گیا میرا مولوی! دیکھ، یہ ہے آزادی۔ نہ وارڈن، نہ ابو، نہ کوئی گھنٹی۔",
+     "en": "My maulvi's here! Look — this is freedom. No warden, no Abbu, no bell.",
+     "audio": "ch2.s01.l01",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch2.s01.l02",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "تم نے کلاسیں کب سے چھوڑی ہوئی ہیں؟",
+     "en": "Since when have you been skipping classes?",
+     "audio": "ch2.s01.l02",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch2.s01.l03",
+     "speaker": "AZAD",
+     "direction": "",
+     "ur": "کلاسیں؟ بھائی، میں زندگی پڑھ رہا ہوں۔",
+     "en": "Classes? Bro, I'm studying life.",
+     "audio": "ch2.s01.l03",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "He takes a small pouch from his pocket. It is the same kind of pouch the dealers passed around on the trail in chapter 1."
+    },
+    {
+     "type": "line",
+     "id": "ch2.s01.l04",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "یہ کہاں سے لیا؟",
+     "en": "Where did you get that?",
+     "audio": "ch2.s01.l04",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch2.s01.l05",
+     "speaker": "AZAD",
+     "direction": "",
+     "ur": "ریلیکس۔ میرا جسم، میری مرضی۔ میں کسی کو نقصان تو نہیں پہنچا رہا۔",
+     "en": "Relax. My body, my choice. I'm not hurting anyone.",
+     "audio": "ch2.s01.l05",
+     "hooks": []
+    }
+   ],
+   "depths": {
+    "clear": [
+     "Azad thinks freedom means nobody can tell him anything."
+    ],
+    "deep": [
+     "\"I'm not hurting anyone\" is the harm principle, the heart of liberal morality. It cannot see harm done to the self, or to the people who love you."
+    ],
+    "deepest": [
+     "Azad's slogan is borrowed from a different cause. One logic, once accepted, reaches everywhere."
+    ]
+   }
+  },
+  {
+   "id": "ch2.s02",
+   "key": "2",
+   "title": "Every argument fails",
+   "where": "The rooftop edge, away from the party. The city lights are below.",
+   "who": "",
+   "play": "The conversation wheel. Every register works on the crowd meter of Azad's attention, and every one of them bounces off. Sohbat is still locked.",
+   "kind": "islamabad",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch2.s02.l01",
+     "speaker": "BURHAN",
+     "direction": "Burhan, proof",
+     "ur": "اگر صرف تمہاری مرضی معیار ہے، تو کل کی مرضی آج کی مرضی کو جھٹلا دے گی۔ جو معیار روز بدلے، وہ معیار نہیں، موسم ہے۔",
+     "en": "If your will is the only measure, tomorrow's will can overturn today's. A measure that changes every day isn't a measure — it's weather.",
+     "audio": "ch2.s02.l01",
+     "hooks": [
+      "register:burhan"
+     ]
+    },
+    {
+     "type": "line",
+     "id": "ch2.s02.l02",
+     "speaker": "BURHAN",
+     "direction": "Jadal, debate",
+     "ur": "تم کہتے ہو کسی کو نقصان نہیں پہنچا رہے۔ تو پھر یہ بتاؤ، تمہاری امی فون اٹھاتے ہوئے کیا سوچتی ہیں؟",
+     "en": "You say you're not hurting anyone. Then tell me what your mother thinks every time she picks up the phone.",
+     "audio": "ch2.s02.l02",
+     "hooks": [
+      "register:jadal"
+     ]
+    },
+    {
+     "type": "line",
+     "id": "ch2.s02.l03",
+     "speaker": "BURHAN",
+     "direction": "Khitaba, moving speech",
+     "ur": "یاد ہے پہلے سال؟ تم مجھے فجر میں جگاتے تھے۔",
+     "en": "Remember first year? You used to wake me for Fajr.",
+     "audio": "ch2.s02.l03",
+     "hooks": [
+      "register:khitaba"
+     ]
+    },
+    {
+     "type": "direction",
+     "text": "Whatever the player chose:"
+    },
+    {
+     "type": "line",
+     "id": "ch2.s02.l04",
+     "speaker": "AZAD",
+     "direction": "",
+     "ur": "تمہارے پاس ہر بات کی دلیل ہے، بھائی۔ میرے پاس صرف ایک زندگی ہے۔",
+     "en": "You've got an argument for everything, bro. I've only got one life.",
+     "audio": "ch2.s02.l04",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "He walks back into the party."
+    },
+    {
+     "type": "line",
+     "id": "ch2.s02.l05",
+     "speaker": "SOHBAT",
+     "direction": "locked; tooltip",
+     "ur": "",
+     "en": "This can't be chosen. It grows only from time spent together.",
+     "audio": "ch2.s02.l05",
+     "hooks": [
+      "register:sohbat",
+      "locked",
+      "tooltip",
+      "english-only"
+     ]
+    }
+   ],
+   "depths": {
+    "clear": [
+     "You can't argue a friend out of a fall."
+    ],
+    "deep": [
+     "Liberalism doesn't lose arguments; it leaves the room. \"My life\" ends every debate, because no argument can reach a self that is its own final judge."
+    ],
+    "deepest": [
+     "The Khitaba line shows that Azad was once the one who woke Burhan for prayer. His fall is recent, and the game will reverse the roles before the chapter ends."
+    ]
+   }
+  },
+  {
+   "id": "ch2.s03",
+   "key": "3",
+   "title": "The dealers",
+   "where": "The stairwell and landing outside the flat.",
+   "who": "BURHAN, the TWO DEALERS from chapter 1, AZAD.",
+   "play": "A fight Burhan can win, and does. But the game watches how he wins. If he fights in anger, mashing and chasing, he wins and his face still dims. A line appears: You won. Anger still dimmed the mirror. If he fights in control (blocking, holding, letting them go), the mirror stays clear. Most players will fight in anger the first time. That's the lesson.",
+   "kind": "islamabad",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch2.s03.l01",
+     "speaker": "DEALER 1",
+     "direction": "recognising him",
+     "ur": "اوئے، ٹی وی والا ہیرو! آج دلیل لایا ہے یا ہاتھ؟",
+     "en": "Oye, the TV hero! Brought an argument tonight, or your hands?",
+     "audio": "ch2.s03.l01",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "Fight. The dealers flee down the stairs. Azad comes out and sees what happened."
+    },
+    {
+     "type": "line",
+     "id": "ch2.s03.l02",
+     "speaker": "AZAD",
+     "direction": "furious",
+     "ur": "تم کون ہوتے ہو میری زندگی کا فیصلہ کرنے والے؟ نکلو یہاں سے!",
+     "en": "Who are you to decide my life for me? Get out of here!",
+     "audio": "ch2.s03.l02",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "Burhan leaves. As the door closes, Azad climbs the rail at the roof's edge, laughing, arms out to the wind."
+    }
+   ],
+   "depths": {
+    "clear": [
+     "Winning in anger is still losing something."
+    ],
+    "deep": [
+     "Force doesn't free anyone. Burhan has hands now, but no heart behind them yet (the four pillars)."
+    ],
+    "deepest": [
+     "\"The strong one is not the one who throws people down; the strong one is the one who controls himself when angry\" (Bukhari)."
+    ]
+   }
+  },
+  {
+   "id": "ch2.s04",
+   "key": "4",
+   "title": "The tower with no floors (the Gilding)",
+   "where": "The same tower in the Gilding. It's a golden shaft of air with no floors at all. People drift down it slowly, smiling, scrolling, as if floating. A wind blows through everything. It is the voice of the veil.",
+   "who": "BURHAN, AZAD, FREEDOM (a voice in the wind; when it takes a shape, a tall figure whose screen-face shows open sky).",
+   "play": "A falling sequence. The more Burhan thrashes and steers \"freely,\" the faster he falls. Zikr slows him a little, but not enough. He can see Azad below him, falling away and laughing.",
+   "kind": "gilding",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch2.s04.l01",
+     "speaker": "AZAD",
+     "direction": "stepping off the edge",
+     "ur": "دیکھو، میں اُڑ رہا ہوں!",
+     "en": "Look — I'm flying!",
+     "audio": "ch2.s04.l01",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "Burhan jumps after him."
+    },
+    {
+     "type": "line",
+     "id": "ch2.s04.l02",
+     "speaker": "FREEDOM",
+     "direction": "",
+     "ur": "کوئی تمہیں نہیں بتا سکتا کہ کیا کرنا ہے۔",
+     "en": "No one can tell you what to do.",
+     "audio": "ch2.s04.l02",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch2.s04.l03",
+     "speaker": "FREEDOM",
+     "direction": "",
+     "ur": "نہ خدا، نہ باپ، نہ رواج۔ تم آزاد ہو۔",
+     "en": "No God, no father, no custom. You are free.",
+     "audio": "ch2.s04.l03",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch2.s04.l04",
+     "speaker": "BURHAN",
+     "direction": "reaching for Azad, missing",
+     "ur": "آزاد! ہاتھ پکڑو!",
+     "en": "Azad! Take my hand!",
+     "audio": "ch2.s04.l04",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch2.s04.l05",
+     "speaker": "AZAD",
+     "direction": "drifting away",
+     "ur": "کیوں؟ گرنا کتنا ہلکا لگتا ہے!",
+     "en": "Why? Falling feels so light!",
+     "audio": "ch2.s04.l05",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "They fall into blackness. Burhan remembers the Mujaddid's words from chapter 1: a depth that contradicts the surface isn't depth — it's a pit. In the dark, he finds his breath: Allah in, Hu out. The falling slows, then turns into passage. The Silsila opens."
+    }
+   ],
+   "depths": {
+    "clear": [
+     "Total freedom is a free fall. The freer you get, the faster you fall."
+    ],
+    "deep": [
+     "Liberalism removes every floor: God, family, custom. It cannot say why the individual is sovereign, or why anything is owed to anyone. A life with no \"ought\" has nothing to land on."
+    ],
+    "deepest": [
+     "\"Have you seen the one who takes his desire as his god?\" (25:43). In Arabic, hawa (desire) shares its root with hawiyah, the pit (101:9)."
+    ]
+   }
+  },
+  {
+   "id": "ch2.s05",
+   "key": "5",
+   "title": "The frozen dragon (vision)",
+   "where": "Konya, about 1250. Rumi's madrasa, then the story he tells, which becomes a place: the bazaar of Baghdad in winter, then under a rising sun.",
+   "who": "MAULANA RUMI: featureless, in a scholar's turban, known by his silhouette and his voice. His STUDENTS. The SNAKE-CATCHER. The CROWD. The DRAGON: a vast coil of smoke and stone with no face. BURHAN.",
+   "play": "A story inside the story. Burhan walks into Rumi's parable and tries to keep the dragon cold. He can drag tarps over it and shout warnings, but the crowd keeps pulling the covers off to see. The sun climbs no matter what he does.",
+   "kind": "vision",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch2.s05.l01",
+     "speaker": "RUMI",
+     "direction": "to his students, and to Burhan",
+     "ur": "ایک سپیرا پہاڑوں سے ایک مردہ اژدہا گھسیٹ کر بغداد لایا، تماشا دکھانے کو۔ اژدہا مرا نہیں تھا۔ سردی سے ٹھٹھرا ہوا تھا۔",
+     "en": "A snake-catcher dragged a dead dragon from the mountains to Baghdad, to make a show of it. The dragon wasn't dead. It was frozen with cold.",
+     "audio": "ch2.s05.l01",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "The parable plays. Burhan tries to cover it."
+    },
+    {
+     "type": "line",
+     "id": "ch2.s05.l02",
+     "speaker": "SNAKE-CATCHER",
+     "direction": "to the crowd",
+     "ur": "آؤ، آؤ! دیکھو میرا شکار! ایک پیسہ، بس ایک پیسہ!",
+     "en": "Come, come! See my catch! One coin, just one coin!",
+     "audio": "ch2.s05.l02",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch2.s05.l03",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "اسے دھوپ سے بچاؤ! یہ جاگ جائے گا!",
+     "en": "Keep it out of the sun! It'll wake up!",
+     "audio": "ch2.s05.l03",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch2.s05.l04",
+     "speaker": "A MAN IN THE CROWD",
+     "direction": "",
+     "ur": "ہٹو بھائی، ہمیں دیکھنے دو۔ ہمارا حق ہے۔",
+     "en": "Move, brother, let us see. It's our right.",
+     "audio": "ch2.s05.l04",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "The sun warms the stone. The coils shift, and the dragon wakes. It swallows the snake-catcher and a wide stretch of the crowd. Burhan is thrown clear. The bazaar turns to dust, and Rumi's room returns."
+    },
+    {
+     "type": "line",
+     "id": "ch2.s05.l05",
+     "speaker": "RUMI",
+     "direction": "Masnavi, in Persian",
+     "ur": "نفست اژدرهاست، او کی مرده است\nاز غم بی‌آلتی افسرده است",
+     "en": "Your nafs is a dragon — how is it dead?\nIt is only frozen, for want of means.",
+     "audio": "ch2.s05.l05",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch2.s05.l06",
+     "speaker": "RUMI",
+     "direction": "",
+     "ur": "تمہارا نفس بھی وہی اژدہا ہے۔ شرم نے، خوف نے، ماحول نے اسے ٹھنڈا رکھا ہوا تھا۔ جس دن کسی نے کہا \"تم آزاد ہو\"، دھوپ نکل آئی۔",
+     "en": "Your nafs is that same dragon. Shame, fear and the world around you kept it cold. The day someone said \"you are free,\" the sun came out.",
+     "audio": "ch2.s05.l06",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch2.s05.l07",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "تو آزادی بری ہے؟",
+     "en": "So freedom is bad?",
+     "audio": "ch2.s05.l07",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch2.s05.l08",
+     "speaker": "RUMI",
+     "direction": "",
+     "ur": "آزادی یہ نہیں کہ کوئی حد نہ ہو۔ آزادی یہ ہے کہ اللہ کے سوا کسی کی غلامی نہ ہو۔",
+     "en": "Freedom isn't having no limits. Freedom is being no one's slave but Allah's.",
+     "audio": "ch2.s05.l08",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch2.s05.l09",
+     "speaker": "RUMI",
+     "direction": "",
+     "ur": "جو ہر خواہش کا غلام ہو، اسے آزاد کون کہے گا؟",
+     "en": "Who would call a man free who is the slave of every desire?",
+     "audio": "ch2.s05.l09",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch2.s05.l10",
+     "speaker": "RUMI",
+     "direction": "",
+     "ur": "حدیں قید نہیں، پاؤں رکھنے کی جگہ ہیں۔",
+     "en": "Limits aren't a prison. They're a place to put your feet.",
+     "audio": "ch2.s05.l10",
+     "hooks": []
+    }
+   ],
+   "depths": {
+    "clear": [
+     "The desires we call \"free\" are a sleeping dragon, and freedom is the sun that wakes it."
+    ],
+    "deep": [
+     "Shame, fear of Allah, family and custom were never cages. They kept the nafs cold. Liberalism calls them oppression and takes them away, and the crowd demands to see the dragon as a right."
+    ],
+    "deepest": [
+     "The parable of the snake-catcher and the frozen dragon is from the third book of Rumi's Masnavi.",
+     "The Sufis define hurriyat (freedom) as being a slave to nothing created.",
+     "Allah's limits (hudud, 2:229) are the floors."
+    ]
+   }
+  },
+  {
+   "id": "ch2.s06",
+   "key": "6",
+   "title": "Floors (the Gilding)",
+   "where": "The tower again.",
+   "who": "",
+   "play": "The new mechanic: wara', restraint. Burhan places floors under his feet, slabs of clay and stone. They are limits, and they stop the fall. He climbs a stair of his own floors. He reaches Azad and places a floor under him. It cracks under Azad's weight and falls away. A limit can't be laid under someone who won't stand on it.",
+   "kind": "gilding",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch2.s06.l01",
+     "speaker": "FREEDOM",
+     "direction": "mocking",
+     "ur": "دیکھا؟ وہ اپنی مرضی سے گر رہا ہے۔ یہی تو آزادی ہے۔",
+     "en": "See? He's falling by his own choice. That's what freedom is.",
+     "audio": "ch2.s06.l01",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "Kashf. Freedom's sky-screen cracks. Under the English mask FREEDOM one Urdu word shows through: گراوٹ. Subtitle: FREEFALL."
+    },
+    {
+     "type": "line",
+     "id": "ch2.s06.l02",
+     "speaker": "FREEFALL",
+     "direction": "its true voice, flat and tired",
+     "ur": "میں نے کسی کو دھکا نہیں دیا۔ میں نے بس... پکڑنے والا ہاتھ ہٹا دیا۔",
+     "en": "I never pushed anyone. I only... took away the hand that would catch them.",
+     "audio": "ch2.s06.l02",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "The wind dies. Somewhere in the gold, a phone rings. The real world is breaking through. Burhan answers."
+    },
+    {
+     "type": "line",
+     "id": "ch2.s06.l03",
+     "speaker": "A STRANGER",
+     "direction": "phone",
+     "ur": "آپ برہان ہیں؟ آپ کا دوست... پمز ایمرجنسی میں ہے۔ جلدی آئیں۔",
+     "en": "Are you Burhan? Your friend... he's in PIMS emergency. Come quickly.",
+     "audio": "ch2.s06.l03",
+     "hooks": [
+      "via:phone"
+     ]
+    }
+   ],
+   "depths": {
+    "clear": [
+     "Limits save you from falling. Nobody can force them on someone else."
+    ],
+    "deep": [
+     "Liberalism never pushes anyone. It removes the family, the shame and the community that once caught people. Divorce, addiction and loneliness are falls with no one there to catch."
+    ],
+    "deepest": [
+     "Wara' is restraint even in what is doubtful. It is the second of the classic stations, after the tawbah of chapter 1."
+    ]
+   }
+  },
+  {
+   "id": "ch2.s07",
+   "key": "7",
+   "title": "The night at PIMS",
+   "where": "PIMS hospital, Islamabad: an emergency corridor, then a ward. Night until dawn.",
+   "who": "BURHAN, AZAD (in a hospital bed), a DOCTOR, AZAD'S FATHER (arriving at dawn from Multan).",
+   "play": "Sohbat unlocks. It is not a line on the wheel. It is an action: Stay. Holding \"Stay\" lets time pass. The corridor light changes, nurses come and go, and Burhan's phone shows missed calls. He can leave at any time. Nothing stops him. At Fajr he prays in the hospital's prayer room, off-camera, then comes back and stays.",
+   "kind": "islamabad",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch2.s07.l01",
+     "speaker": "DOCTOR",
+     "direction": "",
+     "ur": "اوور ڈوز ہے۔ بچ جائے گا، ان شاء اللہ۔ مگر رات بھاری ہے۔",
+     "en": "It's an overdose. He'll live, in sha Allah. But it's a heavy night.",
+     "audio": "ch2.s07.l01",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "Hours pass. Near dawn, Azad wakes and finds Burhan still in the chair."
+    },
+    {
+     "type": "line",
+     "id": "ch2.s07.l02",
+     "speaker": "AZAD",
+     "direction": "weak",
+     "ur": "تم گئے کیوں نہیں؟",
+     "en": "Why didn't you leave?",
+     "audio": "ch2.s07.l02",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "Burhan says nothing. On the wheel, the Sohbat mark lights for the first time."
+    },
+    {
+     "type": "line",
+     "id": "ch2.s07.l03",
+     "speaker": "AZAD",
+     "direction": "turning to the wall",
+     "ur": "پہلے سال... میں تمہیں فجر میں جگاتا تھا۔",
+     "en": "First year... I used to wake you for Fajr.",
+     "audio": "ch2.s07.l03",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch2.s07.l04",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "کل میں جگاؤں گا۔",
+     "en": "Tomorrow I'll wake you.",
+     "audio": "ch2.s07.l04",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "Azad's shoulders shake. His father's footsteps come down the corridor."
+    }
+   ],
+   "depths": {
+    "clear": [
+     "You can't argue a friend out of a fall. You can stay."
+    ],
+    "deep": [
+     "Company (sohbat) changes people when proofs can't. This is the fourth way of speaking, and it can't be chosen from a menu, only lived."
+    ],
+    "deepest": [
+     "\"A man is upon the religion of his close friend, so let each of you look to whom he befriends\" (Abu Dawud). The one who once woke Burhan will be woken by him now. Reminding (tazkeer) begins as company."
+    ]
+   }
+  },
+  {
+   "id": "ch2.s08",
+   "key": "8",
+   "title": "Dawn at the small mosque",
+   "where": "The small mosque near the caves. Early morning.",
+   "who": "BURHAN, SAIN.",
+   "play": "Walking up, sitting, tea.",
+   "kind": "islamabad",
+   "optional": false,
+   "items": [
+    {
+     "type": "direction",
+     "text": "Sain is sweeping. Burhan sits on the step, exhausted."
+    },
+    {
+     "type": "line",
+     "id": "ch2.s08.l01",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "میں نے ہر دلیل دی۔ کچھ کام نہیں آیا۔ بس رات بھر بیٹھا رہا۔",
+     "en": "I gave him every argument. Nothing worked. I just sat there all night.",
+     "audio": "ch2.s08.l01",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch2.s08.l02",
+     "speaker": "SAIN",
+     "direction": "",
+     "ur": "دلیل دماغ تک جاتی ہے۔ ساتھ دل تک۔",
+     "en": "An argument reaches the mind. Company reaches the heart.",
+     "audio": "ch2.s08.l02",
+     "hooks": []
+    },
+    {
+     "type": "title",
+     "text": "گراوٹ — FREEFALL. ورع — WARA'.",
+     "note": ""
+    }
+   ],
+   "depths": {
+    "clear": [
+     "Burhan learned that staying matters more than winning."
+    ],
+    "deep": [
+     "Restraint for himself, company for others. The second pillar, islah, starts with your own limits."
+    ],
+    "deepest": [
+     "Sain's line is the whole of chapter 2 in eight words."
+    ]
+   }
+  }
+ ],
+ "notes": [
+  "No music at the party. Its sound is voices, laughter and phone chimes.",
+  "The dragon has no face. It's a coil of smoke and stone; animals and creatures default to featureless until the ulama answer.",
+  "Rumi. The parable and the Persian couplet are from the Masnavi, Book 3. Rumi's Urdu lines are written for the game.",
+  "To confirm with ulama: Rumi shown as a featureless figure (see the bible)."
+ ]
+}

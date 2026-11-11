@@ -1,0 +1,421 @@
+{
+ "id": "prologue",
+ "number": 0,
+ "title": "Gogera, 1857",
+ "summary": "",
+ "minutes": 10,
+ "meta": {},
+ "scenes": [
+  {
+   "id": "prologue.s01",
+   "key": "1",
+   "title": "The camp by the Ravi",
+   "where": "Neeli Bar, Punjab, on the bank of the Ravi near Gogera. Night, September 1857.",
+   "who": "NOORA, a 14-year-old rider, and RAI AHMAD KHAN KHARAL, about 80, chief of the Kharals.",
+   "play": "The player controls Noora: walk the camp, brush the mare, feed her. It teaches movement and interaction. Campfires, tethered horses, men sharpening spears.",
+   "kind": "islamabad",
+   "optional": false,
+   "items": [
+    {
+     "type": "direction",
+     "text": "Title card:"
+    },
+    {
+     "type": "card",
+     "id": "prologue.s01.c01",
+     "ur": "نیلی بار، پنجاب — ستمبر ۱۸۵۷",
+     "en": "Neeli Bar, Punjab — September 1857",
+     "audio": "prologue.s01.c01",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "Title card:"
+    },
+    {
+     "type": "card",
+     "id": "prologue.s01.c02",
+     "ur": "ایسٹ انڈیا کمپنی کو دہلی کی جنگ کے لیے گھوڑے چاہییں۔",
+     "en": "The East India Company wants horses for its war in Delhi.",
+     "audio": "prologue.s01.c02",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "prologue.s01.l01",
+     "speaker": "KHARAL",
+     "direction": "",
+     "ur": "نورے پُتر، گھوڑی کو آج رات اچھا چارا دینا۔ کل اسے لمبا دوڑنا ہے۔",
+     "en": "Noora, son, feed the mare well tonight. Tomorrow she runs far.",
+     "audio": "prologue.s01.l01",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "prologue.s01.l02",
+     "speaker": "NOORA",
+     "direction": "",
+     "ur": "سردار جی، کمپنی والے کہتے ہیں بس گھوڑے دے دو، تو لڑائی نہیں ہوگی۔",
+     "en": "Sardar ji, the Company men say: just hand over the horses and there'll be no fight.",
+     "audio": "prologue.s01.l02",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "prologue.s01.l03",
+     "speaker": "KHARAL",
+     "direction": "",
+     "ur": "آج گھوڑے مانگتے ہیں۔ کل زمین مانگیں گے۔ پرسوں ہمارے بچوں کے دماغ۔",
+     "en": "Today they ask for horses. Tomorrow, the land. The day after, our children's minds.",
+     "audio": "prologue.s01.l03",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "prologue.s01.l04",
+     "speaker": "KHARAL",
+     "direction": "",
+     "ur": "ہم اپنی زمین، اپنی عزت اور اپنا گھوڑا کسی کے حوالے نہیں کرتے۔",
+     "en": "We hand our land, our honour and our horse to no one.",
+     "audio": "prologue.s01.l04",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "prologue.s01.l05",
+     "speaker": "NOORA",
+     "direction": "",
+     "ur": "ان کے پاس توپیں ہیں۔",
+     "en": "They have cannons.",
+     "audio": "prologue.s01.l05",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "prologue.s01.l06",
+     "speaker": "KHARAL",
+     "direction": "",
+     "ur": "توپ کا گولہ ختم ہو جاتا ہے، پُتر۔ اللہ کے خزانے ختم نہیں ہوتے۔",
+     "en": "A cannon runs out of shot, son. Allah's treasures never run out.",
+     "audio": "prologue.s01.l06",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "prologue.s01.l07",
+     "speaker": "KHARAL",
+     "direction": "",
+     "ur": "اور سن۔ کل جو ہتھیار نہ اٹھائے، اس پر ہاتھ نہیں اٹھانا۔ نہ عورت پر، نہ بچے پر، نہ بوڑھے پر۔ نہ کھیت جلانا، نہ درخت کاٹنا۔",
+     "en": "And listen. Tomorrow, raise no hand against anyone who doesn't raise a weapon. Not a woman, not a child, not an old man. Don't burn the fields. Don't cut the trees.",
+     "audio": "prologue.s01.l07",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "prologue.s01.l08",
+     "speaker": "NOORA",
+     "direction": "",
+     "ur": "وہ تو ہمارے ساتھ ایسا نہیں کرتے۔",
+     "en": "They don't treat us that way.",
+     "audio": "prologue.s01.l08",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "prologue.s01.l09",
+     "speaker": "KHARAL",
+     "direction": "",
+     "ur": "اسی لیے تو ہم وہ نہیں ہیں۔",
+     "en": "That is exactly why we are not them.",
+     "audio": "prologue.s01.l09",
+     "hooks": []
+    }
+   ],
+   "depths": {
+    "clear": [
+     "An old man refuses to hand his horses to a foreign company, and tells a boy how a Muslim fights."
+    ],
+    "deep": [
+     "Colonial rule came for horses first, then land, then minds. The rules of war Kharal gives are the Islamic ones: no harm to those who don't fight, no burning, no cutting trees."
+    ],
+    "deepest": [
+     "The boy's name, Noora, means light. A boy standing beside an old man foreshadows Bilal standing alone at the end."
+    ]
+   }
+  },
+  {
+   "id": "prologue.s02",
+   "key": "2",
+   "title": "The jungle by the river",
+   "where": "The jungle along the Ravi near Gogera. Afternoon.",
+   "who": "",
+   "play": "The first battle, on horseback and on foot. Noora rides with Kharal's men against a Company column of sepoys and British officers. This teaches riding, strikes, guarding and dodging. Partway through, an unarmed Company water-carrier (bhishti), with his water skin on his back, runs across Noora's path in panic. If the player tries to strike him, the blow will not land. Noora's arm stops. Kharal's voice then calls out:",
+   "kind": "islamabad",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "prologue.s02.l01",
+     "speaker": "KHARAL",
+     "direction": "",
+     "ur": "وہ لڑنے والا نہیں!",
+     "en": "He isn't a fighter!",
+     "audio": "prologue.s02.l01",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "There is no prompt and no score. The game simply won't let the player harm someone who isn't fighting."
+    }
+   ],
+   "depths": {
+    "clear": [
+     "Even in battle there are people you never strike."
+    ],
+    "deep": [
+     "Islamic civilization fought by rules. The game's later colonial scenes show war without them."
+    ],
+    "deepest": [
+     "The mechanic is the lesson: the rule is enforced by the controls, not by a lecture."
+    ]
+   }
+  },
+  {
+   "id": "prologue.s03",
+   "key": "3",
+   "title": "Asr",
+   "where": "A clearing in the jungle. Late afternoon light through the trees.",
+   "who": "",
+   "play": "A lull. Kharal dismounts. His men form a ring around him. Noora guards the ring through waves of attackers.",
+   "kind": "islamabad",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "prologue.s03.l01",
+     "speaker": "KHARAL",
+     "direction": "",
+     "ur": "عصر کا وقت ہو گیا۔",
+     "en": "It's time for Asr.",
+     "audio": "prologue.s03.l01",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "prologue.s03.l02",
+     "speaker": "A RIDER",
+     "direction": "",
+     "ur": "سردار جی، ابھی؟ گورے قریب آ گئے ہیں!",
+     "en": "Sardar ji, now? The goras are close!",
+     "audio": "prologue.s03.l02",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "prologue.s03.l03",
+     "speaker": "KHARAL",
+     "direction": "",
+     "ur": "جب اُس کا وقت ہو جائے، تو اُس سے پہلے کس کا وقت آتا ہے؟",
+     "en": "When His time has come, whose time comes before it?",
+     "audio": "prologue.s03.l03",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "Kharal prays. Noora holds the line. Kharal goes into sujood. A single shot rings out from the trees, off-screen. Nothing is shown."
+    },
+    {
+     "type": "direction",
+     "text": "The sound cuts."
+    },
+    {
+     "type": "direction",
+     "text": "The screen fades to white."
+    },
+    {
+     "type": "direction",
+     "text": "Text cards on white:"
+    },
+    {
+     "type": "card",
+     "id": "prologue.s03.c01",
+     "ur": "رائے احمد خان کھرل ۲۱ ستمبر ۱۸۵۷ کو شہید ہوئے۔ روایت ہے کہ وہ نماز میں تھے۔",
+     "en": "Rai Ahmad Khan Kharal was killed on 21 September 1857. Tradition says he was at prayer.",
+     "audio": "prologue.s03.c01",
+     "hooks": []
+    },
+    {
+     "type": "card",
+     "id": "prologue.s03.c02",
+     "ur": "دو دن بعد دہلی میں کمپنی کا بریگیڈیئر جنرل جان نکلسن زخموں سے مر گیا۔",
+     "en": "Two days later, in Delhi, the Company's Brigadier-General John Nicholson died of his wounds.",
+     "audio": "prologue.s03.c02",
+     "hooks": []
+    }
+   ],
+   "depths": {
+    "clear": [
+     "He would not delay a prayer even in battle, and he died in sujood."
+    ],
+    "deep": [
+     "He was a man without wahn, unafraid of death even at eighty."
+    ],
+    "deepest": [
+     "Burhan's servant's ending is set in sujood too. The game opens and closes with a man bowed to Allah while the world fights."
+    ]
+   }
+  },
+  {
+   "id": "prologue.s04",
+   "key": "4",
+   "title": "The pass",
+   "where": "The old GT Road, climbing the Margalla Pass toward Islamabad. Today, early afternoon.",
+   "who": "BURHAN, 19, half asleep on a bus seat. A SMALL BOY across the aisle, sitting with his father. AMMI on the phone (voice only).",
+   "play": "None. A slow cinematic.",
+   "kind": "islamabad",
+   "optional": false,
+   "items": [
+    {
+     "type": "direction",
+     "text": "The white fades into the glare of the sun. Burhan has earbuds in. He is listening to an English podcast, studying the other side for tomorrow's debate final. The host's smooth voice is the voice of the Moderator in chapter 1:"
+    },
+    {
+     "type": "line",
+     "id": "prologue.s04.l01",
+     "speaker": "PODCAST HOST",
+     "direction": "",
+     "ur": "",
+     "en": "...religion is a private matter. In the public square, we stay neutral.",
+     "audio": "prologue.s04.l01",
+     "hooks": [
+      "english-only"
+     ]
+    },
+    {
+     "type": "direction",
+     "text": "On the hill above the road stands Nicholson's Obelisk. It catches the sun. For one second the whole hillside flashes gold, then it's gone. This is the player's first glimpse of the Gilding, though nothing explains it yet."
+    },
+    {
+     "type": "line",
+     "id": "prologue.s04.l02",
+     "speaker": "SMALL BOY",
+     "direction": "",
+     "ur": "بھائی جان، وہ کس کا مینار ہے؟",
+     "en": "Bhai jaan, whose tower is that?",
+     "audio": "prologue.s04.l02",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "prologue.s04.l03",
+     "speaker": "BURHAN",
+     "direction": "not looking up from his phone",
+     "ur": "پتا نہیں۔ کسی انگریز کا۔",
+     "en": "No idea. Some Englishman's.",
+     "audio": "prologue.s04.l03",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "His phone rings."
+    },
+    {
+     "type": "line",
+     "id": "prologue.s04.l04",
+     "speaker": "AMMI",
+     "direction": "phone",
+     "ur": "بیٹا، پہنچ گئے؟",
+     "en": "Did you get there, beta?",
+     "audio": "prologue.s04.l04",
+     "hooks": [
+      "via:phone",
+      "voice-only"
+     ]
+    },
+    {
+     "type": "line",
+     "id": "prologue.s04.l05",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "بس امی، مارگلہ پہنچ گیا ہوں۔",
+     "en": "Almost, Ammi. I'm at the Margallas.",
+     "audio": "prologue.s04.l05",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "prologue.s04.l06",
+     "speaker": "AMMI",
+     "direction": "",
+     "ur": "ظہر پڑھ لی تھی؟",
+     "en": "Did you pray Zuhr?",
+     "audio": "prologue.s04.l06",
+     "hooks": [
+      "voice-only"
+     ]
+    },
+    {
+     "type": "direction",
+     "text": "Burhan looks out of the window. A beat."
+    },
+    {
+     "type": "line",
+     "id": "prologue.s04.l07",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "جی امی۔",
+     "en": "Yes, Ammi.",
+     "audio": "prologue.s04.l07",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "prologue.s04.l08",
+     "speaker": "AMMI",
+     "direction": "",
+     "ur": "اللہ تمہیں اپنی یاد میں رکھے۔",
+     "en": "May Allah keep you in His remembrance.",
+     "audio": "prologue.s04.l08",
+     "hooks": [
+      "voice-only"
+     ]
+    },
+    {
+     "type": "line",
+     "id": "prologue.s04.l09",
+     "speaker": "BURHAN",
+     "direction": "already back on his phone",
+     "ur": "آمین۔",
+     "en": "Ameen.",
+     "audio": "prologue.s04.l09",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "The bus crests the pass. Islamabad opens below: green sectors, the Margalla ridge, the white Faisal Mosque."
+    },
+    {
+     "type": "title",
+     "text": "بُرہان — BURHAN",
+     "note": ""
+    }
+   ],
+   "depths": {
+    "clear": [
+     "Nobody remembers whose tower stands over the road. Burhan lies to his mother about his prayer."
+    ],
+    "deep": [
+     "The colonizer gets a monument and the resister is forgotten: the Forgetting, set in stone. Burhan studies \"neutral\" arguments for a debate about God, and doesn't pray."
+    ],
+    "deepest": [
+     "The obelisk was raised in 1868 for a general who died two days after Kharal. Ammi's dua turns \"Remember Me; I will remember you\" (2:152) into a mother's prayer, and chapter 1 answers it."
+    ]
+   }
+  }
+ ],
+ "notes": [
+  "Kharal's refusal to hand over horses, his death on 21 September 1857, and Nicholson's death on 23 September 1857 are recorded. That he was killed while praying is tradition. \"We hand our land, our honour and our horse to no one\" echoes a line popularly attributed to him.",
+  "The water-carrier rule is the first of the game's rules of war (see \"Fighting\" in the bible).",
+  "Voices: Kharal speaks Urdu with a Punjabi warmth (puttar, sardar ji). The podcast host is the only English voice. The Gilding speaks English."
+ ]
+}

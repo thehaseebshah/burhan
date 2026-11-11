@@ -1,0 +1,600 @@
+{
+ "id": "ch6",
+ "number": 6,
+ "title": "The Facemaker",
+ "summary": "",
+ "minutes": 35,
+ "meta": {
+  "veil": "calls itself The Artist. Its true name, spoken in Urdu, is چہرہ ساز (subtitle: The Facemaker). It is the human antagonist, Faraz.",
+  "station": "Tawakkul (trust in Allah).",
+  "guide": "Ibn al-Haytham.",
+  "pillar": "Dawat o Tazkeer, the call."
+ },
+ "scenes": [
+  {
+   "id": "ch6.s01",
+   "key": "1",
+   "title": "No azan",
+   "where": "The small mosque near the caves, at Fajr.",
+   "who": "BURHAN.",
+   "play": "Burhan climbs the hill at Fajr time, and for the first time there is no azan. The courtyard has been swept. Sain's broom leans against the wall. He waits. The time for Fajr is running out.",
+   "kind": "islamabad",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch6.s01.l01",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "سائیں؟ سائیں!",
+     "en": "Sain? Sain!",
+     "audio": "ch6.s01.l01",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "Nobody answers. Burhan climbs the few steps of the minaret and gives the azan himself, for the first time. His voice is shaky. This is a cinematic, never a prompt."
+    },
+    {
+     "type": "recitation",
+     "id": "ch6.s01.r01",
+     "ur": "اللّٰهُ أَكْبَرُ، اللّٰهُ أَكْبَرُ...",
+     "en": "Allah is the Greatest, Allah is the Greatest...",
+     "ref": "",
+     "audio": "ch6.s01.r01",
+     "hooks": [
+      "recitation"
+     ]
+    }
+   ],
+   "depths": {
+    "clear": [
+     "Sain is gone, so Burhan calls the prayer himself."
+    ],
+    "deep": [
+     "The call (dawat) passes from teacher to student when the teacher steps away."
+    ],
+    "deepest": [
+     "Shams vanished from Rumi's life too. The murshid's absence is his last lesson."
+    ]
+   }
+  },
+  {
+   "id": "ch6.s02",
+   "key": "2",
+   "title": "The wall",
+   "where": "Saidpur, at the wall Sain rebuilt. Morning.",
+   "who": "BURHAN BILAL BILAL'S CHACHA, his uncle and guardian BILAL'S FATHER, a man's voice reading his own letter",
+   "play": "Under the broom Burhan finds a folded note. In Saidpur, he and Bilal pry out the marked stone. Behind it is a tin box holding a zikr diary, a tasbih and letters.",
+   "kind": "islamabad",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch6.s02.l01",
+     "speaker": "SAIN'S NOTE",
+     "direction": "his handwriting",
+     "ur": "دیوار کا وقت آ گیا۔",
+     "en": "The wall's time has come.",
+     "audio": "ch6.s02.l01",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "Bilal opens the first letter. His father's voice reads it."
+    },
+    {
+     "type": "line",
+     "id": "ch6.s02.l02",
+     "speaker": "BILAL'S FATHER",
+     "direction": "the letter",
+     "ur": "میرے بلال، جب بڑے ہو جاؤ تو سائیں کو ڈھونڈنا۔ وہ تمہیں وہ سکھائیں گے جو میں نہ سکھا سکا۔",
+     "en": "My Bilal, when you are grown, find Sain. He will teach you what I could not.",
+     "audio": "ch6.s02.l02",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch6.s02.l03",
+     "speaker": "BILAL",
+     "direction": "",
+     "ur": "ابا سائیں کو جانتے تھے؟",
+     "en": "Abba knew Sain?",
+     "audio": "ch6.s02.l03",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch6.s02.l04",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "سائیں سب کو جانتے ہیں۔",
+     "en": "Sain knows everyone.",
+     "audio": "ch6.s02.l04",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch6.s02.l05",
+     "speaker": "BILAL",
+     "direction": "holding the tasbih",
+     "ur": "اور اب سائیں کہاں ہیں؟",
+     "en": "And where is Sain now?",
+     "audio": "ch6.s02.l05",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "Burhan doesn't answer."
+    }
+   ],
+   "depths": {
+    "clear": [
+     "The orphan's treasure was his father's faith."
+    ],
+    "deep": [
+     "What a righteous parent leaves behind is not property. It is a path."
+    ],
+    "deepest": [
+     "\"Their father was righteous, so your Lord willed that they reach maturity and take out their treasure\" (18:82). The Kahf story from chapter 4 is complete."
+    ]
+   }
+  },
+  {
+   "id": "ch6.s03",
+   "key": "3",
+   "title": "Face Day",
+   "where": "Islamabad's billboards and screens, then a TV studio.",
+   "who": "The SURAT AD (English voiceover), FARAZ on a talk show.",
+   "play": "A montage across the city: bus stops, Blue Area towers, phone screens.",
+   "kind": "islamabad",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch6.s03.l01",
+     "speaker": "SURAT AD",
+     "direction": "",
+     "ur": "",
+     "en": "Face Day. Get the face you deserve. This Friday, 10 a.m., Parade Ground.",
+     "audio": "ch6.s03.l01",
+     "hooks": [
+      "english-only"
+     ]
+    },
+    {
+     "type": "line",
+     "id": "ch6.s03.l02",
+     "speaker": "FARAZ",
+     "direction": "on the talk show",
+     "ur": "سُورت کا فیس اب صرف فلٹر نہیں۔ یہ آپ کی پہچان ہے۔ یونیورسٹیاں، دفتر، بینک، سب اسے مانیں گے۔",
+     "en": "SURAT's Face isn't just a filter anymore. It's your identity. Universities, offices, banks — all will accept it.",
+     "audio": "ch6.s03.l02",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch6.s03.l03",
+     "speaker": "FARAZ",
+     "direction": "",
+     "ur": "اور ایک خاص دعوت: ایف نائن پارک کا وہ لڑکا جو کبھی چہرہ نہیں دکھاتا۔ بیٹا، جمعے کو اسٹیج پر آؤ۔ ہر ہیرو کو ایک چہرہ چاہیے۔",
+     "en": "And a special invitation: the boy from F-9 Park who never shows his face. Son, come to the stage on Friday. Every hero needs a face.",
+     "audio": "ch6.s03.l03",
+     "hooks": []
+    }
+   ],
+   "depths": {
+    "clear": [
+     "A company wants to give everyone a new face, and Faraz invites the faceless boy on stage."
+    ],
+    "deep": [
+     "One digital identity that controls your studies, your work and your money is a quiet form of slavery."
+    ],
+    "deepest": [
+     "Face Day is set for Friday morning, before Jumu'ah. The Gilding's festival is placed over the believers' gathering.",
+     "Faraz's line echoes chapter 1: \"every winner deserves a face the world remembers.\""
+    ]
+   }
+  },
+  {
+   "id": "ch6.s04",
+   "key": "4",
+   "title": "The filtered marriage",
+   "where": "Burhan's hostel door, late at night.",
+   "who": "BURHAN, SAAD (Faraz's younger brother, Burhan's cousin, married six months ago). His wife is never seen.",
+   "play": "You sit with Saad and make him tea. That's the sohbat.",
+   "kind": "islamabad",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch6.s04.l01",
+     "speaker": "SAAD",
+     "direction": "",
+     "ur": "اس نے کہا میں وہ نہیں ہوں جس سے اس نے شادی کی تھی۔ وہ ٹھیک کہتی ہے۔",
+     "en": "She said I'm not the man she married. She's right.",
+     "audio": "ch6.s04.l01",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch6.s04.l02",
+     "speaker": "SAAD",
+     "direction": "",
+     "ur": "رشتہ ایپ پر دونوں کے چہرے سُورت کے تھے۔ آج ویڈیو کال پر فلٹر گر گیا۔ اسے میرا اصل چہرہ نظر آ گیا، مجھے اس کا۔",
+     "en": "On the rishta app, both our faces were SURAT's. Tonight on a video call the filter dropped. She saw my real face, and I saw hers.",
+     "audio": "ch6.s04.l02",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch6.s04.l03",
+     "speaker": "SAAD",
+     "direction": "",
+     "ur": "چھ مہینے ہم نے دو اجنبیوں کی شادی نبھائی۔",
+     "en": "For six months we kept up a marriage between two strangers.",
+     "audio": "ch6.s04.l03",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch6.s04.l04",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "اصل چہرے سے دوبارہ ملو۔ شاید پہلی بار ملو گے۔",
+     "en": "Meet her again, with your real face. Maybe it'll be the first time.",
+     "audio": "ch6.s04.l04",
+     "hooks": []
+    }
+   ],
+   "depths": {
+    "clear": [
+     "A marriage built on filtered faces breaks when the filters fail."
+    ],
+    "deep": [
+     "When the self is a brand, marriage becomes a merger of two brands. That's why divorces come so fast."
+    ],
+    "deepest": [
+     "Marriage depends on ihsan, being the same whether anyone is watching or not. The Facemaker's world has no unwatched moments."
+    ]
+   }
+  },
+  {
+   "id": "ch6.s05",
+   "key": "5",
+   "title": "The city turns",
+   "where": "Phone feeds and talk shows, then F-9 Park at dusk.",
+   "who": "A TV ANCHOR, a MOB of young men filming on their phones, BURHAN, BILAL, the PARK KIDS.",
+   "play": "A montage of feed captions, in English and Urdu: Why does he hide his face? Extremist? Backward mullah kid.",
+   "kind": "islamabad",
+   "optional": false,
+   "items": [
+    {
+     "type": "direction",
+     "text": "Then a mob arrives and a protective fight begins. Burhan fights in control."
+    },
+    {
+     "type": "line",
+     "id": "ch6.s05.l01",
+     "speaker": "ANCHOR",
+     "direction": "",
+     "ur": "یہ چہرہ چھپانے والے آخر چھپا کیا رہے ہیں؟",
+     "en": "What are these face-hiders actually hiding?",
+     "audio": "ch6.s05.l01",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "The fight. The mob scatters, but someone's video of Burhan protecting the kids goes viral overnight. By morning he is \"the faceless boy's mentor,\" and his own follower count is climbing."
+    }
+   ],
+   "depths": {
+    "clear": [
+     "A city mocks the people who won't wear its faces."
+    ],
+    "deep": [
+     "The old trick: call the believer backward, extremist, hiding something. It is the colonizer's sneer in a modern voice."
+    ],
+    "deepest": [
+     "The viral video feeds the last veil. Burhan's hairline crack from chapter 5 grows longer, and no one mentions it."
+    ]
+   }
+  },
+  {
+   "id": "ch6.s06",
+   "key": "6",
+   "title": "The Hall of Faces (the Gilding)",
+   "where": "Faraz's studio in the Gilding: a hall whose walls are made of screen-faces, every one smiling.",
+   "who": "BURHAN WHISPERS: screen-faced figures that drift toward him THE ARTIST: Faraz's mask, elegant, with a screen face showing a perfect face that never stops changing",
+   "play": "A fight. The whispers swarm, and Burhan's mirror-face throws their own light back at them. They see themselves and crack. The Artist can't be reflected, because his face changes too fast. Burhan is overwhelmed.",
+   "kind": "gilding",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch6.s06.l01",
+     "speaker": "THE ARTIST",
+     "direction": "",
+     "ur": "تم جیسا چاہو، ویسا دکھ سکتے ہو۔",
+     "en": "You can look however you want.",
+     "audio": "ch6.s06.l01",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch6.s06.l02",
+     "speaker": "THE ARTIST",
+     "direction": "",
+     "ur": "سچ وہ ہے جو دکھتا ہے۔",
+     "en": "Truth is what is seen.",
+     "audio": "ch6.s06.l02",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "The faces close in, and the hall goes white. In the white, Burhan finds his breath. The chain opens."
+    }
+   ],
+   "depths": {
+    "clear": [
+     "A world where how you look is who you are."
+    ],
+    "deep": [
+     "Images of nobody now replace the real: AI faces, filters, avatars. Followers become the currency of worth."
+    ],
+    "deepest": [
+     "The hadith of the image-makers, \"give life to what you created,\" is why this game's people have no faces."
+    ]
+   }
+  },
+  {
+   "id": "ch6.s07",
+   "key": "7",
+   "title": "The dark room (vision)",
+   "where": "Cairo, about 1011–1021. A house near al-Azhar with guards outside. Inside is a room kept dark, with a single pinhole in the shutter.",
+   "who": "IBN AL-HAYTHAM (featureless; a scholar under house arrest), GUARDS, BURHAN.",
+   "play": "When the guards look in, Ibn al-Haytham acts mad: he laughs, talks to the walls, and drops his cup. When they leave, he works calmly. In the dark room, the street outside appears on the wall, upside down. People walk on the ceiling. The lesson becomes the mechanic for chapter 7: stop looking at the image and look at where the light comes from.",
+   "kind": "vision",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch6.s07.l01",
+     "speaker": "IBN AL-HAYTHAM",
+     "direction": "once the guards are gone",
+     "ur": "اندھیرے کمرے میں تصویر ہمیشہ الٹی بنتی ہے۔ جو دنیا تمہیں اسکرین پر دکھائی جاتی ہے، وہ بھی۔",
+     "en": "In a dark room, the image always forms upside down. So does the world they show you on a screen.",
+     "audio": "ch6.s07.l01",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch6.s07.l02",
+     "speaker": "IBN AL-HAYTHAM",
+     "direction": "",
+     "ur": "میں نے پاگل پن کا چہرہ پہنا تاکہ سچ بچا سکوں۔ وہ اپنا چہرہ پہنتے ہیں تاکہ سچ چھپا سکیں۔",
+     "en": "I wore the face of madness to save the truth. They wear their faces to hide it.",
+     "audio": "ch6.s07.l02",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch6.s07.l03",
+     "speaker": "IBN AL-HAYTHAM",
+     "direction": "",
+     "ur": "جو آنکھ دیکھے، اسے بھی پرکھو۔",
+     "en": "Test even what your eye sees.",
+     "audio": "ch6.s07.l03",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch6.s07.l04",
+     "speaker": "IBN AL-HAYTHAM",
+     "direction": "turning Burhan away from the wall, toward the pinhole",
+     "ur": "تصویر کو مت دیکھو۔ دیکھو روشنی کہاں سے آ رہی ہے۔",
+     "en": "Don't look at the image. Look at where the light is coming from.",
+     "audio": "ch6.s07.l04",
+     "hooks": []
+    }
+   ],
+   "depths": {
+    "clear": [
+     "Screens show the world upside down."
+    ],
+    "deep": [
+     "The scientific method began with a Muslim who tested appearances instead of trusting them. Every camera descends from his dark room."
+    ],
+    "deepest": [
+     "\"Allah is the Light of the heavens and the earth\" (24:35). Look at the source, not the picture.",
+     "He hid his wisdom behind a mask of madness, which is the malamati way.",
+     "That he feigned madness is tradition. His work on optics is history."
+    ]
+   }
+  },
+  {
+   "id": "ch6.s08",
+   "key": "8",
+   "title": "Faraz's office",
+   "where": "The top floor of SURAT's tower in Blue Area, at night. Glass walls look over the city's lights.",
+   "who": "BURHAN, FARAZ.",
+   "play": "A conversation, then the kashf, seen in a reflection.",
+   "kind": "islamabad",
+   "optional": false,
+   "items": [
+    {
+     "type": "line",
+     "id": "ch6.s08.l01",
+     "speaker": "FARAZ",
+     "direction": "tired, sincere",
+     "ur": "میں لوگوں کو وہ دیتا ہوں جو وہ چاہتے ہیں۔ تم کیا دیتے ہو؟",
+     "en": "I give people what they want. What do you give?",
+     "audio": "ch6.s08.l01",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch6.s08.l02",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "جو انہیں چاہیے۔",
+     "en": "What they need.",
+     "audio": "ch6.s08.l02",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch6.s08.l03",
+     "speaker": "FARAZ",
+     "direction": "",
+     "ur": "چاہیے کا فیصلہ کون کرے گا؟ تم؟ تمہارا سائیں؟",
+     "en": "Who decides what they need? You? Your Sain?",
+     "audio": "ch6.s08.l03",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch6.s08.l04",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "جس نے انہیں بنایا۔",
+     "en": "The One who made them.",
+     "audio": "ch6.s08.l04",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "Faraz turns to the window. In the dark glass, his reflection flickers into the Gilding: the Artist's ever-changing face."
+    },
+    {
+     "type": "direction",
+     "text": "Kashf. The reflection cracks. Under the English mask THE ARTIST, two Urdu words show through: چہرہ ساز. Subtitle: THE FACEMAKER."
+    },
+    {
+     "type": "line",
+     "id": "ch6.s08.l05",
+     "speaker": "THE FACEMAKER",
+     "direction": "Faraz's own voice, hollow, from the glass",
+     "ur": "میں نے ہزاروں چہرے بنائے۔ اپنا ایک بھی نہیں۔",
+     "en": "I made thousands of faces. Not one of my own.",
+     "audio": "ch6.s08.l05",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "The reflection is gone. Faraz turns back, smiling again."
+    },
+    {
+     "type": "line",
+     "id": "ch6.s08.l06",
+     "speaker": "FARAZ",
+     "direction": "",
+     "ur": "جمعے کو آنا، چھوٹے۔ اگلی صف میں تمہاری جگہ رکھی ہے۔",
+     "en": "Come on Friday, little brother. I've kept you a seat in the front row.",
+     "audio": "ch6.s08.l06",
+     "hooks": []
+    }
+   ],
+   "depths": {
+    "clear": [
+     "The man who makes everyone's face has no face of his own."
+    ],
+    "deep": [
+     "The market gives people what they want, so it cannot see what they need. Only their Maker can define that."
+    ],
+    "deepest": [
+     "\"Allah, the Creator, the Maker, the Fashioner\" (59:24). The image-maker imitates the One who gives every face its form. Faraz's front-row seat is bait for the last veil."
+    ]
+   }
+  },
+  {
+   "id": "ch6.s09",
+   "key": "9",
+   "title": "The night before",
+   "where": "The small mosque near the caves. Thursday night.",
+   "who": "BURHAN, BILAL.",
+   "play": "A conversation. After it, Burhan watches Bilal walk down the hill alone.",
+   "kind": "islamabad",
+   "optional": false,
+   "items": [
+    {
+     "type": "direction",
+     "text": "The news on a neighbour's radio says the city will gather at the Parade Ground tomorrow. Bilal's name has been trending all day."
+    },
+    {
+     "type": "line",
+     "id": "ch6.s09.l01",
+     "speaker": "BURHAN",
+     "direction": "",
+     "ur": "میں تمہارے ساتھ اسٹیج پر چلوں گا۔ فراز سے میں بات کروں گا۔ مجھے دلیل آتی ہے۔",
+     "en": "I'll come on stage with you. I'll talk to Faraz. I know how to argue.",
+     "audio": "ch6.s09.l01",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch6.s09.l02",
+     "speaker": "BILAL",
+     "direction": "",
+     "ur": "تم نے کہا تھا، دل اللہ کے ساتھ رکھو، باقی وہ خود سنبھال لے گا۔",
+     "en": "You said: keep your heart with Allah, and He'll handle the rest.",
+     "audio": "ch6.s09.l02",
+     "hooks": []
+    },
+    {
+     "type": "line",
+     "id": "ch6.s09.l03",
+     "speaker": "BILAL",
+     "direction": "",
+     "ur": "یہ میرا کام ہے، ہیرو۔ تم دعا کرنا۔",
+     "en": "This is my job, hero. You pray.",
+     "audio": "ch6.s09.l03",
+     "hooks": []
+    },
+    {
+     "type": "direction",
+     "text": "At the door, Bilal turns and recites the verse he learned in the circle:"
+    },
+    {
+     "type": "recitation",
+     "id": "ch6.s09.r01",
+     "ur": "الَّذِينَ قَالَ لَهُمُ النَّاسُ إِنَّ النَّاسَ قَدْ جَمَعُوا لَكُمْ فَاخْشَوْهُمْ فَزَادَهُمْ إِيمَانًا وَقَالُوا حَسْبُنَا اللَّهُ وَنِعْمَ الْوَكِيلُ",
+     "en": "Those to whom people said, \"The people have gathered against you, so fear them\" — it only increased them in faith, and they said, \"Allah is enough for us, and He is the best to rely on.\"",
+     "ref": "3:173",
+     "audio": "ch6.s09.r01",
+     "hooks": [
+      "recitation"
+     ]
+    },
+    {
+     "type": "direction",
+     "text": "He goes down the hill. Burhan stays at the door. On his mirror-face, the hairline crack has grown a little longer."
+    },
+    {
+     "type": "title",
+     "text": "چہرہ ساز — THE FACEMAKER. توکل — TAWAKKUL.",
+     "note": ""
+    }
+   ],
+   "depths": {
+    "clear": [
+     "The student goes to face the city. The teacher is asked to pray."
+    ],
+    "deep": [
+     "Tawakkul is not passivity. It is doing your part and leaving the outcome to Allah. Bilal's part is to stand; Burhan's part is to stay back."
+    ],
+    "deepest": [
+     "Burhan wanted to go to help, but also to be seen. Bilal's \"you pray\" is the door to the servant's ending. The crack shows what Burhan can't yet see in himself."
+    ]
+   }
+  }
+ ],
+ "notes": [
+  "The azan (scene 1) is a cinematic, never a prompt. Use a licensed or permissioned recording, or a respectful original recording.",
+  "Women: Saad's wife is never seen or voiced, pending the ulama.",
+  "Sources:",
+  "Ibn al-Haytham's optics and dark-room experiments are history. That he feigned madness under al-Hakim is tradition. His lines are written for the game.",
+  "The Quran verses are 18:82, 24:35, 59:24 and 3:173.",
+  "To confirm with ulama: Ibn al-Haytham shown as a featureless figure."
+ ]
+}

@@ -1,0 +1,729 @@
+[
+ {
+  "id": "prologue",
+  "number": 0,
+  "title": "Gogera, 1857",
+  "minutes": 10,
+  "meta": {},
+  "scenes": [
+   {
+    "id": "prologue.s01",
+    "key": "1",
+    "title": "The camp by the Ravi",
+    "kind": "islamabad",
+    "optional": false,
+    "lines": 9
+   },
+   {
+    "id": "prologue.s02",
+    "key": "2",
+    "title": "The jungle by the river",
+    "kind": "islamabad",
+    "optional": false,
+    "lines": 1
+   },
+   {
+    "id": "prologue.s03",
+    "key": "3",
+    "title": "Asr",
+    "kind": "islamabad",
+    "optional": false,
+    "lines": 3
+   },
+   {
+    "id": "prologue.s04",
+    "key": "4",
+    "title": "The pass",
+    "kind": "islamabad",
+    "optional": false,
+    "lines": 9
+   }
+  ]
+ },
+ {
+  "id": "ch1",
+  "number": 1,
+  "title": "The Forgetting",
+  "minutes": 40,
+  "meta": {
+   "veil": "calls itself Neutral; its true name, spoken in Urdu, is بھول (subtitle: The Forgetting). Secularism.",
+   "station": "Tawbah (return).",
+   "guides": "Allama Iqbal, then the Mujaddid Alf Thani.",
+   "shape": "Islamabad (scenes 1–5) → the Gilding (scene 6) → home and the cave (scenes 7–8) → the vision (scenes 9–11) → dawn (scene 12)."
+  },
+  "scenes": [
+   {
+    "id": "ch1.s01",
+    "key": "1",
+    "title": "The final",
+    "kind": "islamabad",
+    "optional": false,
+    "lines": 9
+   },
+   {
+    "id": "ch1.s02",
+    "key": "2",
+    "title": "Backstage",
+    "kind": "islamabad",
+    "optional": false,
+    "lines": 4
+   },
+   {
+    "id": "ch1.s03",
+    "key": "3",
+    "title": "The trail",
+    "kind": "islamabad",
+    "optional": false,
+    "lines": 8
+   },
+   {
+    "id": "ch1.s04",
+    "key": "4",
+    "title": "The sweeper",
+    "kind": "islamabad",
+    "optional": false,
+    "lines": 10
+   },
+   {
+    "id": "ch1.s05",
+    "key": "5",
+    "title": "The first flicker",
+    "kind": "islamabad",
+    "optional": false,
+    "lines": 0
+   },
+   {
+    "id": "ch1.s06",
+    "key": "6",
+    "title": "The Neutral Square (the Gilding)",
+    "kind": "gilding",
+    "optional": false,
+    "lines": 11
+   },
+   {
+    "id": "ch1.s07",
+    "key": "7",
+    "title": "The stairs",
+    "kind": "islamabad",
+    "optional": false,
+    "lines": 4
+   },
+   {
+    "id": "ch1.s08",
+    "key": "8",
+    "title": "The cave",
+    "kind": "islamabad",
+    "optional": false,
+    "lines": 4
+   },
+   {
+    "id": "ch1.s09",
+    "key": "9",
+    "title": "Sirhind, 1934 (vision)",
+    "kind": "vision",
+    "optional": false,
+    "lines": 10
+   },
+   {
+    "id": "ch1.s10",
+    "key": "10",
+    "title": "The House of Debate, about 1580 (vision)",
+    "kind": "vision",
+    "optional": false,
+    "lines": 3
+   },
+   {
+    "id": "ch1.s11",
+    "key": "11",
+    "title": "Gwalior Fort, 1620 (vision)",
+    "kind": "vision",
+    "optional": false,
+    "lines": 7
+   },
+   {
+    "id": "ch1.s12",
+    "key": "12",
+    "title": "Fajr",
+    "kind": "islamabad",
+    "optional": false,
+    "lines": 1
+   }
+  ]
+ },
+ {
+  "id": "ch2",
+  "number": 2,
+  "title": "Freefall",
+  "minutes": 35,
+  "meta": {
+   "veil": "calls itself Freedom. Its true name, spoken in Urdu, is گراوٹ (subtitle: Freefall). It stands for liberalism.",
+   "station": "Wara' (restraint).",
+   "guide": "Maulana Rumi.",
+   "pillar": "Islah, reform through restraint.",
+   "shape": "Islamabad (scenes 1–3) → the Gilding (4) → the vision (5) → the Gilding again (6) → the hospital (7) → dawn (8)."
+  },
+  "scenes": [
+   {
+    "id": "ch2.s01",
+    "key": "1",
+    "title": "The flat",
+    "kind": "islamabad",
+    "optional": false,
+    "lines": 5
+   },
+   {
+    "id": "ch2.s02",
+    "key": "2",
+    "title": "Every argument fails",
+    "kind": "islamabad",
+    "optional": false,
+    "lines": 5
+   },
+   {
+    "id": "ch2.s03",
+    "key": "3",
+    "title": "The dealers",
+    "kind": "islamabad",
+    "optional": false,
+    "lines": 2
+   },
+   {
+    "id": "ch2.s04",
+    "key": "4",
+    "title": "The tower with no floors (the Gilding)",
+    "kind": "gilding",
+    "optional": false,
+    "lines": 5
+   },
+   {
+    "id": "ch2.s05",
+    "key": "5",
+    "title": "The frozen dragon (vision)",
+    "kind": "vision",
+    "optional": false,
+    "lines": 10
+   },
+   {
+    "id": "ch2.s06",
+    "key": "6",
+    "title": "Floors (the Gilding)",
+    "kind": "gilding",
+    "optional": false,
+    "lines": 3
+   },
+   {
+    "id": "ch2.s07",
+    "key": "7",
+    "title": "The night at PIMS",
+    "kind": "islamabad",
+    "optional": false,
+    "lines": 4
+   },
+   {
+    "id": "ch2.s08",
+    "key": "8",
+    "title": "Dawn at the small mosque",
+    "kind": "islamabad",
+    "optional": false,
+    "lines": 2
+   }
+  ]
+ },
+ {
+  "id": "ch3",
+  "number": 3,
+  "title": "The Hunger",
+  "minutes": 35,
+  "meta": {
+   "veil": "calls itself Plenty; its true name, spoken in Urdu, is بھوک (subtitle: The Hunger). It stands for consumerism and capitalism.",
+   "station": "Zuhd (renunciation).",
+   "guides": "Baba Farid, then Nizamuddin Auliya.",
+   "pillar": "Khidmat e Khalq, serving creation.",
+   "new action": "durood.",
+   "shape": "Islamabad (scenes 1–5) → the Gilding (6) → the visions (7–8) → the grave (9)."
+  },
+  "scenes": [
+   {
+    "id": "ch3.s01",
+    "key": "1",
+    "title": "Eleven-eleven",
+    "kind": "islamabad",
+    "optional": false,
+    "lines": 5
+   },
+   {
+    "id": "ch3.s02",
+    "key": "2",
+    "title": "The offer",
+    "kind": "islamabad",
+    "optional": false,
+    "lines": 6
+   },
+   {
+    "id": "ch3.s03",
+    "key": "3",
+    "title": "The walk",
+    "kind": "islamabad",
+    "optional": false,
+    "lines": 6
+   },
+   {
+    "id": "ch3.s04",
+    "key": "4",
+    "title": "The ward",
+    "kind": "islamabad",
+    "optional": false,
+    "lines": 4
+   },
+   {
+    "id": "ch3.s05",
+    "key": "5",
+    "title": "The chai stall",
+    "kind": "islamabad",
+    "optional": false,
+    "lines": 2
+   },
+   {
+    "id": "ch3.s06",
+    "key": "6",
+    "title": "The mall-temple (the Gilding)",
+    "kind": "gilding",
+    "optional": false,
+    "lines": 4
+   },
+   {
+    "id": "ch3.s07",
+    "key": "7",
+    "title": "The langar (vision)",
+    "kind": "vision",
+    "optional": false,
+    "lines": 4
+   },
+   {
+    "id": "ch3.s08",
+    "key": "8",
+    "title": "Two doors (vision)",
+    "kind": "vision",
+    "optional": false,
+    "lines": 3
+   },
+   {
+    "id": "ch3.s09",
+    "key": "9",
+    "title": "The grave",
+    "kind": "islamabad",
+    "optional": false,
+    "lines": 5
+   }
+  ]
+ },
+ {
+  "id": "ch4",
+  "number": 4,
+  "title": "The Slow Descent",
+  "minutes": 50,
+  "meta": {
+   "veil": "calls itself Progress; its true name, spoken in Urdu, is اترائی (subtitle: The Slow Descent). It stands for modernism.",
+   "station": "Faqr (need of Allah).",
+   "guides": "Imam Ghazali, then Ibn Rushd.",
+   "pillar": "Taleem o Taalum, learning."
+  },
+  "scenes": [
+   {
+    "id": "ch4.s01",
+    "key": "1",
+    "title": "The condition",
+    "kind": "islamabad",
+    "optional": false,
+    "lines": 4
+   },
+   {
+    "id": "ch4.s02",
+    "key": "2",
+    "title": "The phone",
+    "kind": "islamabad",
+    "optional": false,
+    "lines": 2
+   },
+   {
+    "id": "ch4.s03",
+    "key": "3",
+    "title": "The chai stall",
+    "kind": "islamabad",
+    "optional": false,
+    "lines": 3
+   },
+   {
+    "id": "ch4.s04",
+    "key": "4",
+    "title": "The wall",
+    "kind": "islamabad",
+    "optional": false,
+    "lines": 4
+   },
+   {
+    "id": "ch4.s05",
+    "key": "5",
+    "title": "The championship",
+    "kind": "islamabad",
+    "optional": false,
+    "lines": 4
+   },
+   {
+    "id": "ch4.s06",
+    "key": "6",
+    "title": "The escalators (the Gilding)",
+    "kind": "gilding",
+    "optional": false,
+    "lines": 3
+   },
+   {
+    "id": "ch4.s07",
+    "key": "7",
+    "title": "Baghdad, 1095 (vision)",
+    "kind": "vision",
+    "optional": false,
+    "lines": 4
+   },
+   {
+    "id": "ch4.s08",
+    "key": "8",
+    "title": "Cordoba (vision)",
+    "kind": "vision",
+    "optional": false,
+    "lines": 6
+   },
+   {
+    "id": "ch4.s09",
+    "key": "9",
+    "title": "Paris, 1270s (vision)",
+    "kind": "vision",
+    "optional": false,
+    "lines": 3
+   },
+   {
+    "id": "ch4.s10",
+    "key": "10",
+    "title": "Giving back (the Gilding)",
+    "kind": "gilding",
+    "optional": false,
+    "lines": 3
+   },
+   {
+    "id": "ch4.s11",
+    "key": "11",
+    "title": "The bulldozers",
+    "kind": "islamabad",
+    "optional": false,
+    "lines": 2
+   },
+   {
+    "id": "ch4.s12",
+    "key": "12",
+    "title": "Under the wall",
+    "kind": "islamabad",
+    "optional": false,
+    "lines": 10
+   },
+   {
+    "id": "ch4.s13",
+    "key": "13",
+    "title": "The professor",
+    "kind": "islamabad",
+    "optional": false,
+    "lines": 5
+   }
+  ]
+ },
+ {
+  "id": "ch5",
+  "number": 5,
+  "title": "Foam",
+  "minutes": 45,
+  "meta": {
+   "veil": "calls itself Comfort; its true name, spoken in Urdu, is جھاگ (subtitle: Foam). Its theme is the love of comfort: wahn.",
+   "station": "Sabr (endurance).",
+   "guides": "Ibn Khaldun, then Salahuddin Ayyubi. Optional side vision: Alp Arslan.",
+   "pillars": "Tazkiah through mujahada; Taleem through teaching Bilal."
+  },
+  "scenes": [
+   {
+    "id": "ch5.s01",
+    "key": "1",
+    "title": "Soft days",
+    "kind": "islamabad",
+    "optional": false,
+    "lines": 3
+   },
+   {
+    "id": "ch5.s02",
+    "key": "2",
+    "title": "The flood (the Gilding)",
+    "kind": "gilding",
+    "optional": false,
+    "lines": 3
+   },
+   {
+    "id": "ch5.s03",
+    "key": "3",
+    "title": "Granada, the 1360s (vision)",
+    "kind": "vision",
+    "optional": false,
+    "lines": 4
+   },
+   {
+    "id": "ch5.s04",
+    "key": "4",
+    "title": "Granada, 1492 (vision)",
+    "kind": "vision",
+    "optional": false,
+    "lines": 0
+   },
+   {
+    "id": "ch5.s05",
+    "key": "5",
+    "title": "Before Hattin, 1187 (vision)",
+    "kind": "vision",
+    "optional": false,
+    "lines": 2
+   },
+   {
+    "id": "ch5.s06",
+    "key": "6",
+    "title": "Jerusalem, October 1187 (vision)",
+    "kind": "vision",
+    "optional": false,
+    "lines": 1
+   },
+   {
+    "id": "ch5.s07",
+    "key": "7",
+    "title": "Malazgirt, 1071 (optional side vision)",
+    "kind": "vision",
+    "optional": true,
+    "lines": 1
+   },
+   {
+    "id": "ch5.s08",
+    "key": "8",
+    "title": "The chilla",
+    "kind": "islamabad",
+    "optional": false,
+    "lines": 4
+   },
+   {
+    "id": "ch5.s09",
+    "key": "9",
+    "title": "The akhara",
+    "kind": "islamabad",
+    "optional": false,
+    "lines": 2
+   },
+   {
+    "id": "ch5.s10",
+    "key": "10",
+    "title": "The circle in F-9 Park",
+    "kind": "islamabad",
+    "optional": false,
+    "lines": 5
+   },
+   {
+    "id": "ch5.s11",
+    "key": "11",
+    "title": "The gang",
+    "kind": "islamabad",
+    "optional": false,
+    "lines": 1
+   },
+   {
+    "id": "ch5.s12",
+    "key": "12",
+    "title": "Standing (the Gilding)",
+    "kind": "gilding",
+    "optional": false,
+    "lines": 3
+   }
+  ]
+ },
+ {
+  "id": "ch6",
+  "number": 6,
+  "title": "The Facemaker",
+  "minutes": 35,
+  "meta": {
+   "veil": "calls itself The Artist. Its true name, spoken in Urdu, is چہرہ ساز (subtitle: The Facemaker). It is the human antagonist, Faraz.",
+   "station": "Tawakkul (trust in Allah).",
+   "guide": "Ibn al-Haytham.",
+   "pillar": "Dawat o Tazkeer, the call."
+  },
+  "scenes": [
+   {
+    "id": "ch6.s01",
+    "key": "1",
+    "title": "No azan",
+    "kind": "islamabad",
+    "optional": false,
+    "lines": 1
+   },
+   {
+    "id": "ch6.s02",
+    "key": "2",
+    "title": "The wall",
+    "kind": "islamabad",
+    "optional": false,
+    "lines": 5
+   },
+   {
+    "id": "ch6.s03",
+    "key": "3",
+    "title": "Face Day",
+    "kind": "islamabad",
+    "optional": false,
+    "lines": 3
+   },
+   {
+    "id": "ch6.s04",
+    "key": "4",
+    "title": "The filtered marriage",
+    "kind": "islamabad",
+    "optional": false,
+    "lines": 4
+   },
+   {
+    "id": "ch6.s05",
+    "key": "5",
+    "title": "The city turns",
+    "kind": "islamabad",
+    "optional": false,
+    "lines": 1
+   },
+   {
+    "id": "ch6.s06",
+    "key": "6",
+    "title": "The Hall of Faces (the Gilding)",
+    "kind": "gilding",
+    "optional": false,
+    "lines": 2
+   },
+   {
+    "id": "ch6.s07",
+    "key": "7",
+    "title": "The dark room (vision)",
+    "kind": "vision",
+    "optional": false,
+    "lines": 4
+   },
+   {
+    "id": "ch6.s08",
+    "key": "8",
+    "title": "Faraz's office",
+    "kind": "islamabad",
+    "optional": false,
+    "lines": 6
+   },
+   {
+    "id": "ch6.s09",
+    "key": "9",
+    "title": "The night before",
+    "kind": "islamabad",
+    "optional": false,
+    "lines": 3
+   }
+  ]
+ },
+ {
+  "id": "ch7",
+  "number": 7,
+  "title": "I",
+  "minutes": 35,
+  "meta": {
+   "veil": "calls itself The Hero. Its true name, spoken in Urdu, is میں (subtitle: I). It is the last veil, a veil of light.",
+   "station": "Rida (contentment), then fana and baqa.",
+   "guides": "Shams Tabrizi, then Uwais al-Qarani.",
+   "last vision": "Madinah at dawn.",
+   "pillars": "all four at once."
+  },
+  "scenes": [
+   {
+    "id": "ch7.s01",
+    "key": "1",
+    "title": "The books in the water (vision)",
+    "kind": "vision",
+    "optional": false,
+    "lines": 7
+   },
+   {
+    "id": "ch7.s02",
+    "key": "2",
+    "title": "The last veil",
+    "kind": "vision",
+    "optional": false,
+    "lines": 3
+   },
+   {
+    "id": "ch7.s03",
+    "key": "3",
+    "title": "The Day of Adornment",
+    "kind": "islamabad",
+    "optional": false,
+    "lines": 2
+   },
+   {
+    "id": "ch7.s04",
+    "key": "4",
+    "title": "The choice",
+    "kind": "islamabad",
+    "optional": false,
+    "lines": 1
+   },
+   {
+    "id": "ch7.s04a",
+    "key": "4a",
+    "title": "The hero's ending",
+    "kind": "islamabad",
+    "optional": false,
+    "lines": 2
+   },
+   {
+    "id": "ch7.s05",
+    "key": "5",
+    "title": "Bilal refuses",
+    "kind": "islamabad",
+    "optional": false,
+    "lines": 3
+   },
+   {
+    "id": "ch7.s06",
+    "key": "6",
+    "title": "The Facemaker falls",
+    "kind": "islamabad",
+    "optional": false,
+    "lines": 1
+   },
+   {
+    "id": "ch7.s07",
+    "key": "7",
+    "title": "Uwais, then Madinah (the last vision)",
+    "kind": "vision",
+    "optional": false,
+    "lines": 6
+   },
+   {
+    "id": "ch7.s08",
+    "key": "8",
+    "title": "The servant's ending",
+    "kind": "islamabad",
+    "optional": false,
+    "lines": 1
+   },
+   {
+    "id": "ch7.s09",
+    "key": "9",
+    "title": "The hidden ending",
+    "kind": "islamabad",
+    "optional": false,
+    "lines": 0
+   }
+  ]
+ }
+]
