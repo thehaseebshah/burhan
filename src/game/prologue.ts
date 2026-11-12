@@ -4,14 +4,15 @@ import { gild, mat, glow } from '../core/engine';
 import { audio } from '../core/audio';
 import { Figure, Horse, type FigureOpts } from '../world/figures';
 import { Actor, Fighter } from '../world/actors';
-import { terrain, forest, campfire, tent, slab, obelisk, cityBelow, faisalMosque, rng, vnoise } from '../world/props';
+import { terrain, forest, campfire, tent, slab, obelisk, cityBelow, faisalMosque, water, rocks, charpoy, car, rng, vnoise } from '../world/props';
+import { K } from '../core/engine';
 import { BURHAN, type SceneFn, type TitleItem, type LineItem } from './director';
 
-const KHARAL: FigureOpts = { scale: 1.02, top: 0xe9e3d3, bottom: 0xd9d2c0, head: 'mirror', clarity: 0.85, headgear: 'turban', gearColor: 0xf4f0e4 };
-const NOORA: FigureOpts = { scale: 0.82, top: 0x8a5f3c, bottom: 0xd9d2c0, head: 'mirror', clarity: 0.55, headgear: 'turban', gearColor: 0xb5553c };
-const riderLook = (i: number): FigureOpts => ({ top: [0x6a6f5a, 0x7a5a48, 0x5a5f6a, 0x8a7a5a][i % 4], bottom: 0xd2cab6, head: 'mirror', clarity: 0.5, headgear: 'turban', gearColor: [0xe8e2d2, 0x9a4a3a, 0x3f6b5a][i % 3], prop: 'spear' });
-const SEPOY: FigureOpts = { top: 0x9a2a22, bottom: 0x2a2a30, head: 'dull', headgear: 'cap', gearColor: 0x1e1e22, prop: 'musket' };
-const OFFICER: FigureOpts = { scale: 1.04, top: 0x7a1f1f, bottom: 0xd9d4c0, head: 'dull', headgear: 'cap', gearColor: 0x14141a, prop: 'stick' };
+const KHARAL: FigureOpts = { scale: 1.02, outfit: 'kameez', top: 0xe9e3d3, bottom: 0xd9d2c0, head: 'mirror', clarity: 0.85, headgear: 'turban', gearColor: 0xf4f0e4 };
+const NOORA: FigureOpts = { scale: 0.82, outfit: 'kameez', top: 0x8a5f3c, bottom: 0xd9d2c0, head: 'mirror', clarity: 0.55, headgear: 'turban', gearColor: 0xb5553c };
+const riderLook = (i: number): FigureOpts => ({ outfit: 'kameez', top: [0x6a6f5a, 0x7a5a48, 0x5a5f6a, 0x8a7a5a][i % 4], bottom: 0xd2cab6, head: 'mirror', clarity: 0.5, headgear: 'turban', gearColor: [0xe8e2d2, 0x9a4a3a, 0x3f6b5a][i % 3], prop: 'spear' });
+const SEPOY: FigureOpts = { outfit: 'uniform', top: 0x9a2a22, bottom: 0x2a2a30, head: 'dull', headgear: 'cap', gearColor: 0x1e1e22, prop: 'musket' };
+const OFFICER: FigureOpts = { scale: 1.04, outfit: 'uniform', top: 0x7a1f1f, bottom: 0xd9d4c0, head: 'dull', headgear: 'cap', gearColor: 0x14141a, prop: 'stick' };
 const BHISHTI: FigureOpts = { scale: 0.95, top: 0xb9a98a, bottom: 0xb9a98a, head: 'dull', headgear: 'turban', gearColor: 0x8a7a5a, prop: 'waterskin' };
 
 // ------------------------------------------------------------------ Scene 1
@@ -26,7 +27,13 @@ const camp: SceneFn = async (ctx) => {
   world.ground = h;
   world.bounds = { x0: -24, x1: 23, z0: -24, z1: 24 };
   ctx.add(terrain(150, 40, h, (x) => (x > 25 ? 0x5a5644 : 0x3c4a30)));
-  ctx.add(slab(70, 0.1, 170, 0x2b4660, 62, -0.9, 0));
+  ctx.add(water(70, 170, 0x2b4660), 62, -0.85, 0);
+  // the camp's things: rope beds, spears stood together, water pots
+  ctx.add(charpoy(), -4.5, 0, 6).rotation.y = 0.5; ctx.add(charpoy(), 4.5, 0, -2.6).rotation.y = -0.9;
+  world.circles.push({ x: -4.5, z: 6, r: 1.1 }, { x: 4.5, z: -2.6, r: 1.1 });
+  for (const [sx, sz] of [[3.2, 3.6], [-7.5, -1.2]]) { for (let i = 0; i < 5; i++) { const sp = new THREE.Mesh(new THREE.CylinderGeometry(0.014, 0.016, 2.4, 6), mat(0x6b4a2a, false, true, K.wood)); sp.position.set(sx + Math.cos(i * 1.26) * 0.1, 1.18, sz + Math.sin(i * 1.26) * 0.1); sp.rotation.set(Math.sin(i * 1.26) * 0.09, 0, -Math.cos(i * 1.26) * 0.09); ctx.add(sp); } world.circles.push({ x: sx, z: sz, r: 0.4 }); }
+  for (const [px, pz] of [[2.6, -3.4], [3.1, -3.0], [-8.6, 8.4]]) { const pot = new THREE.Mesh(new THREE.SphereGeometry(0.2, 14, 10), mat(0x8a4a2e, false, true, K.sand)); pot.scale.y = 0.9; ctx.add(pot, px, 0.17, pz); }
+  { const st = []; for (let i = 0; i < 26; i++) { const a = i * 2.4, d2 = 16 + (i % 7) * 4; st.push({ x: Math.cos(a) * d2, y: h(Math.cos(a) * d2, Math.sin(a) * d2), z: Math.sin(a) * d2, s: 0.25 + (i % 4) * 0.14 }); } ctx.add(rocks(st, 0x5a5850)); }
   const r = rng(11);
   const trees = [];
   for (let i = 0; i < 46; i++) { const a = r() * 6.28, d = 27 + r() * 28; const x = Math.cos(a) * d, z = Math.sin(a) * d; if (x < 24) trees.push({ x, y: h(x, z), z, s: 1 + r() * 0.8 }); }
@@ -44,7 +51,8 @@ const camp: SceneFn = async (ctx) => {
   horseAt(-9, -13, 0x5a3f2a); horseAt(-6, -13, 0x3a2a20); horseAt(0, -13, 0x6b4a32);
   const mare = { x: -3, z: -13 };
   horseAt(mare.x, mare.z, 0x9a7a55);
-  const rail = slab(13, 0.08, 0.08, 0x4a3626, -4.5, 1.0, -14.3); ctx.add(rail);
+  const rail = slab(13, 0.08, 0.08, 0x4a3626, -4.5, 1.0, -14.3, false, K.wood); ctx.add(rail);
+  for (const px of [-10.8, -4.5, 1.8]) ctx.add(slab(0.1, 1.1, 0.1, 0x4a3626, px, 0.55, -14.3, false, K.wood));
   const fodder = { x: 6, z: -10 };
   const pile = new THREE.Mesh(new THREE.ConeGeometry(1.0, 0.9, 7), mat(0xa89858)); ctx.add(pile, fodder.x, 0.45, fodder.z);
   world.circles.push({ x: fodder.x, z: fodder.z, r: 0.9 });
@@ -98,8 +106,9 @@ const jungle: SceneFn = async (ctx) => {
   world.ground = h;
   world.bounds = { x0: -26, x1: 26, z0: -62, z1: 50 };
   ctx.add(terrain(220, 44, h, (x, z) => (x > 35 ? 0x8a8462 : vnoise(x * 0.2, z * 0.2) > 0.55 ? 0x6f7a44 : 0x5c6f3c)));
-  ctx.add(slab(80, 0.1, 240, 0x4a7088, 78, -1.6, 0));
+  ctx.add(water(80, 240, 0x3a6278), 78, -1.55, 0);
   const r = rng(23);
+  { const st = []; for (let i = 0; i < 50; i++) { const x = (r() - 0.5) * 90, z = (r() - 0.5) * 180; st.push({ x, y: h(x, z), z, s: 0.2 + r() * 0.5 }); } ctx.add(rocks(st, 0x8a8674)); }
   const trees = [], scrub = [];
   for (let i = 0; i < 150; i++) {
     const x = (r() - 0.5) * 100, z = (r() - 0.5) * 190 - 5;
@@ -288,9 +297,14 @@ const pass: SceneFn = async (ctx) => {
   }
   for (const [x, z] of [[-1.25, -3], [1.25, -3], [-1.25, 3], [1.25, 3]]) { const w = new THREE.Mesh(new THREE.CylinderGeometry(0.5, 0.5, 0.3, 10), mat(0x1c1c1e)); w.rotation.z = Math.PI / 2; w.position.set(x, 0.5, z); bus.add(w); }
   for (let z = -3; z <= 3.1; z += 1.2) for (const x of [-0.75, 0.75]) bus.add(slab(0.95, 0.45, 0.5, 0x6a4a3a, x, 0.93, z), slab(0.95, 0.55, 0.1, 0x5a4034, x, 1.4, z - 0.28));
+  { const glassM = new THREE.MeshStandardMaterial({ color: 0x9fb4c0, metalness: 0.9, roughness: 0.05, transparent: true, opacity: 0.22 }); for (const sx of [-1.31, 1.31]) { const gl = new THREE.Mesh(new THREE.BoxGeometry(0.02, 0.72, 9), glassM); gl.position.set(sx, 2.05, 0); bus.add(gl); } }
+  bus.add(slab(2.6, 2.1, 0.1, body, 0, 1.7, 4.5, false, K.metal), slab(2.2, 0.9, 0.04, 0x0c1014, 0, 2.05, 4.56, false, K.metal), slab(2.7, 0.25, 0.3, 0x1c1c1e, 0, 0.55, 4.6, false, K.metal), slab(2.7, 0.25, 0.3, 0x1c1c1e, 0, 0.55, -4.6, false, K.metal));
   ctx.root.add(bus);
+  // other traffic on the pass
+  const traffic = [0x8a8f96, 0xd8d4c8, 0x3a4a6a, 0x7a1f1f, 0xb9bcc0].map((c, i) => { const cr = car(c); ctx.root.add(cr); return { cr, z: -40 + i * 58, down: i % 2 === 0 }; });
   const seat = (o: FigureOpts, x: number, z: number, yaw = 0) => { const f = new Figure(o); f.root.position.set(x, 0.72, z); f.root.rotation.y = yaw; f.setPose('sit', true); bus.add(f.root); return f; };
   const burhan = seat({ ...BURHAN, clarity: ctx.state.mirror, prop: 'phone' }, 0.78, 0.55);
+  burhan.setPose('sitHold', true); // the phone, in his hand
   const boy = seat({ scale: 0.62, top: 0xd9a23a, bottom: 0x3a4a6a, head: 'dull' }, -0.5, 0.75, 0.3);
   const father = seat({ top: 0xcfc8b8, bottom: 0xcfc8b8, head: 'dull', headgear: 'cap', gearColor: 0xf0ece0 }, -0.98, 0.55);
   const others = [seat({ top: 0x5a6a5a, head: 'dull' }, 0.78, -1.85), seat({ top: 0x7a5a4a, head: 'dull', headgear: 'cap' }, -0.78, -3.05), seat({ top: 0x4a4a5a, head: 'dull' }, 0.78, 3.0)];
@@ -308,10 +322,10 @@ const pass: SceneFn = async (ctx) => {
   };
   ctx.onUpdate((dt) => {
     z += dt * 4;
+    for (const t of traffic) { t.z += dt * (t.down ? -11 : 7.5); if (t.z < -150) t.z += 330; if (t.z > 180) t.z -= 330; t.cr.position.set(t.down ? -1.9 : 1.75, base(t.z) + 0.02, t.z); t.cr.rotation.set(t.down ? 0.05 : -0.05, t.down ? Math.PI : 0, 0); if (!t.down && Math.abs(t.z - z) < 14) t.z = z + 14 + Math.random() * 40; }
     bus.position.set(0, base(z), z);
     bus.rotation.x = -0.05;
-    burhan.setPose('sit'); figs.forEach((f) => f.update(dt));
-    burhan.armR.rotation.x = -0.75; // the phone, in his hand
+    figs.forEach((f) => f.update(dt));
     if (!inside) return;
     // The camera rides with the bus: ease in the bus's own space, so it never trails behind.
     const wantLook = lookWorld ? lookWorld.clone().sub(bus.position) : ll;

@@ -1,10 +1,10 @@
 // Chapter 1: The Forgetting, scenes 1-6. Script: src/data/scripts/ch1.json.
 import * as THREE from 'three';
-import { gild, mat } from '../core/engine';
+import { gild, mat, K } from '../core/engine';
 import { audio } from '../core/audio';
 import { makeCrowd, makeTrophy, type FigureOpts } from '../world/figures';
 import type { Actor } from '../world/actors';
-import { terrain, forest, slab, lamp, smallMosque, cityBelow, faisalMosque, rng, vnoise } from '../world/props';
+import { terrain, forest, slab, lamp, smallMosque, cityBelow, faisalMosque, building, road, streetLamp, car, rocks, rng, vnoise } from '../world/props';
 import { REGISTERS, type WheelOption, type Register } from '../ui/hud';
 import { BURHAN, type Ctx, type SceneFn, type LineItem } from './director';
 import { AZAD, BILAL, DEALER, FARAZ, MODERATOR, REHAN, SAIN, mosqueHill } from './places';
@@ -18,7 +18,10 @@ const theFinal: SceneFn = async (ctx) => {
   engine.setLight(0x4a5262, 0x16161c, 0.9, 0xffffff, 0.25);
   world.ground = (_x, z) => (z < -3.5 ? 1 : 0);
   ctx.add(slab(44, 0.2, 50, 0x1c1d22, 0, -0.1, 8));
-  ctx.add(slab(20, 1, 8, 0x3a2c22, 0, 0.5, -7.5));
+  ctx.add(slab(20, 1, 8, 0x4a3524, 0, 0.5, -7.5, false, K.wood));
+  for (const sx of [-1, 1]) for (let i = 0; i < 5; i++) ctx.add(slab(1.3, 11, 0.5, 0x5a1418, sx * (10.6 + i * 1.15), 5.5, -9.2 + (i % 2) * 0.35, false, K.cloth));
+  ctx.add(slab(22, 0.25, 0.25, 0x1a1a1e, 0, 9.2, -4.5, false, K.metal));
+  for (let i = -4; i <= 4; i++) { const can = new THREE.Mesh(new THREE.CylinderGeometry(0.16, 0.22, 0.45, 10), mat(0x101012, false, true, K.metal)); can.rotation.x = 0.7; ctx.add(can, i * 2.2, 8.85, -4.4); const lens = new THREE.Mesh(new THREE.CircleGeometry(0.15, 12), new THREE.MeshBasicMaterial({ color: new THREE.Color(0xfff2d8).multiplyScalar(4) })); lens.rotation.x = Math.PI / 2 + 0.7; ctx.add(lens, i * 2.2, 8.66, -4.56); }
   ctx.addAll(slab(44, 14, 0.4, 0x15161b, 0, 7, -11.6), slab(0.4, 14, 50, 0x15161b, -22, 7, 8), slab(0.4, 14, 50, 0x15161b, 22, 7, 8));
   ctx.add(slab(13, 3.2, 0.2, 0x1d2a44, 0, 5.4, -11.3));
   ctx.label('SURAT presents: The National Debate Final', 0, 5.4, -11.1, 'banner', 80);
@@ -31,6 +34,11 @@ const theFinal: SceneFn = async (ctx) => {
     for (let x = -12.5; x <= 12.5; x += 1.02) spots.push({ x: x + (row % 2) * 0.4, y: row * 0.35, z: 3 + row * 1.6, yaw: Math.PI, seated: true });
   }
   ctx.add(makeCrowd(spots, { colors: [0x4a5568, 0x6a5a4a, 0x35506a, 0x705040, 0x4f5f4a, 0x3a3a48] }));
+  { // a seat under every one of them
+    const seatG = new THREE.BoxGeometry(0.5, 0.08, 0.48).translate(0, 0.46, 0.05), backG = new THREE.BoxGeometry(0.5, 0.62, 0.07).translate(0, 0.78, -0.2);
+    const sm = mat(0x5a1c20, false, true, K.cloth);
+    for (const gm of [seatG, backG]) { const inst = new THREE.InstancedMesh(gm, sm, spots.length); const d = new THREE.Object3D(); spots.forEach((sp, i) => { d.position.set(sp.x, sp.y, sp.z); d.rotation.y = Math.PI; d.updateMatrix(); inst.setMatrixAt(i, d.matrix); }); inst.frustumCulled = false; ctx.add(inst); }
+  }
   for (const x of [-8, 8]) { ctx.addAll(slab(0.5, 0.4, 0.8, 0x0e0e10, x, 1.6, 0.5), slab(0.08, 1.4, 0.08, 0x0e0e10, x, 0.7, 0.5)); }
 
   const moderator = ctx.spawn(MODERATOR, 0, -8.7, 0);
@@ -148,9 +156,14 @@ const trail: SceneFn = async (ctx) => {
   for (let i = 0; i < 150; i++) { const x = (r() - 0.5) * 90, z = -r() * 95 + 2; if (nearestOnTrail(x, z).d > 3.2 && z < -1) pines.push({ x, y: h(x, z), z, s: 1 + r() * 0.9 }); }
   ctx.add(forest(pines, 'pine', 0x1f3d2a));
   // Margalla Road, a street lamp, and the low wall at the trailhead
-  ctx.add(slab(0.14, 5, 0.14, 0x3a3c40, -4, 2.5, 3));
-  ctx.add(lamp(0xffc27a, 30, 28), -4, 5, 3);
-  ctx.add(slab(4, 0.46, 0.5, 0x7a756a, 0.6, 0.23, 0.9));
+  ctx.add(road(120, 7), 0, 0.0, 5.6);
+  for (const lx of [-34, -6, 22, 50]) { const sl = streetLamp(6.2); sl.rotation.y = -Math.PI / 2; ctx.add(sl, lx, 0, 1.6); }
+  ctx.add(car(0x6a6f76), -7.5, 0.06, 3.4).rotation.y = Math.PI / 2; ctx.add(car(0xc9c4b8), 9, 0.06, 3.5).rotation.y = Math.PI / 2;
+  world.rects.push({ x0: -9.8, x1: -5.2, z0: 2.5, z1: 4.3 }, { x0: 6.7, x1: 11.3, z0: 2.6, z1: 4.4 });
+  const passing = [0, 1, 2].map((i) => { const cr = car([0x8a8f96, 0x2a3a5a, 0x7a1f1f][i], true); ctx.root.add(cr); return { cr, x: -70 + i * 55, dir: i % 2 ? -1 : 1 }; });
+  ctx.onUpdate((dt) => { for (const p of passing) { p.x += p.dir * dt * 13; if (p.x > 90) p.x = -90; if (p.x < -90) p.x = 90; p.cr.position.set(p.x, 0.06, p.dir > 0 ? 7.4 : 5.2); p.cr.rotation.y = p.dir > 0 ? Math.PI / 2 : -Math.PI / 2; } });
+  { const st = []; for (let i = 0; i < 60; i++) { const x = (r() - 0.5) * 30, z = -r() * 62; const n = nearestOnTrail(x, z); if (n.d > 1.9 && n.d < 7) st.push({ x, y: h(x, z), z, s: 0.2 + r() * 0.5 }); } ctx.add(rocks(st, 0x5a584f)); }
+  ctx.add(slab(4, 0.46, 0.5, 0x7a756a, 0.6, 0.23, 0.9, false, K.brick));
   world.rects.push({ x0: -1.4, x1: 2.6, z0: 0.65, z1: 1.15 });
   for (let i = 0; i < 7; i++) ctx.add(lamp(0xffd9a0, 1.2, 6), 26 + i * 4 + r() * 3, 1.5 + r() * 3, 14 + r() * 16); // Saidpur's lights
   const trophy = makeTrophy(); ctx.add(trophy, 1.15, 0.46, 0.9);
@@ -365,15 +378,19 @@ const LETTERS = ['ب', 'ر', 'ہ', 'ا', 'ن'];
 
 const square: SceneFn = async (ctx) => {
   const { engine, hud, world, input } = ctx;
-  engine.setSky(0x9a7a2a, 0xf0d58a, 24, 150, 0xe6c877);
-  engine.setLight(0xfff0c8, 0x6a5a3a, 1.05, 0xfff2cc, 1.3, [0.3, 1, 0.4]);
+  engine.setSky(0x9a7a2a, 0xf0d58a, 30, 170, 0xd9b964);
+  engine.setLight(0xfff0c8, 0x6a5a3a, 0.8, 0xfff2cc, 0.9, [0.45, 0.8, 0.5]);
   const podium = { x: 0, z: -12 };
   world.ground = (x, z) => (Math.abs(x - podium.x) < 1.6 && Math.abs(z - podium.z) < 1.3 ? 1 : 0);
   world.bounds = { x0: -19, x1: 19.4, z0: -17, z1: 19 };
   // Under the gold: clay and grass. The ground itself is gildable.
   ctx.add(terrain(120, 40, () => 0, (x, z) => (Math.abs(x) < 2.2 || Math.abs(z) < 2.2 ? 0x9a7250 : vnoise(x * 0.3, z * 0.3) > 0.5 ? 0x5f8a4a : 0x6f9552), true));
-  for (const [w, hh, d, x, z] of [[46, 9, 8, 0, -24], [8, 8, 30, -26, -2], [8, 11, 16, 28, -12], [30, 7, 8, -6, 26]]) { ctx.add(slab(w, hh, d, 0xb9a98c, x, hh / 2, z, true)); }
-  ctx.add(slab(3.2, 1, 2.6, 0xa08a6a, podium.x, 0.5, podium.z, true));
+  [[46, 12.4, 8, 0, -24], [8, 9.3, 30, -26, -2], [8, 12.4, 16, 28, -12], [30, 9.3, 8, -6, 26]].forEach(([w, hh, d, x, z], i) => ctx.add(building(w, hh, d, [0xb9a98c, 0xc2b49a, 0xa89c88, 0xb9a98c][i], true, i + 1), x, 0, z));
+  ctx.add(slab(4.4, 0.06, 40, 0xa89a84, 0, 0.0, 0, true, K.tile)); ctx.add(slab(40, 0.06, 4.4, 0xa89a84, 0, 0.0, 0, true, K.tile));
+  for (const [bx, bz] of [[-3.4, 6], [3.4, -5], [-3.4, -7], [7, 3.2], [-9, -3.2]]) { ctx.add(slab(1.8, 0.08, 0.5, 0x6a4a2a, bx, 0.46, bz, true, K.wood)); ctx.add(slab(1.7, 0.42, 0.08, 0x3a3c40, bx, 0.22, bz, true, K.metal)); world.rects.push({ x0: bx - 0.95, x1: bx + 0.95, z0: bz - 0.3, z1: bz + 0.3 }); }
+  for (const [lx, lz] of [[-2.8, -2.8], [2.8, 2.8], [-2.8, 12], [2.8, -9]]) { ctx.add(slab(0.1, 3.4, 0.1, 0x2a2c30, lx, 1.7, lz, true, K.metal)); const head = new THREE.Mesh(new THREE.SphereGeometry(0.2, 12, 10), mat(0xe8e4d8, true, true, K.plain)); ctx.add(head, lx, 3.5, lz); }
+  ctx.add(slab(3.2, 1, 2.6, 0x7a5a3a, podium.x, 0.5, podium.z, true, K.wood));
+  ctx.add(slab(0.7, 1.15, 0.5, 0x4a3524, podium.x, 1.58, podium.z + 0.9, true, K.wood));
   world.rects.push({ x0: podium.x - 1.9, x1: podium.x + 1.9, z0: podium.z - 1.6, z1: podium.z + 1.6 });
   for (const x of [-6, 6]) ctx.add(slab(0.8, 2.4, 0.8, 0x2a2a2e, x, 1.2, -14, true));
   const banners = [ctx.label('NEUTRAL GROUND', 0, 6.4, -19.6, 'neutral', 90), ctx.label('ALL VIEWS WELCOME (KEEP FAITH PRIVATE)', 0, 4.9, -19.6, 'neutral', 90)];

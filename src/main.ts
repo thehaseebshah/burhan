@@ -9,6 +9,7 @@ import { Menu, type MenuHost } from './ui/menu';
 import { CHAPTERS, VEILS, manifest, chapterLabel } from './game/chapters';
 import { Ctx, SceneAbort, type ChapterData } from './game/director';
 import { stubScene } from './game/stub';
+import { loadHuman } from './world/figures';
 
 const params = new URLSearchParams(location.search);
 
@@ -58,7 +59,7 @@ class Game implements MenuHost {
     this.status = 'menu';
     setTimeout(() => { this.hud.fade('#000', 0, 0); this.menu.main(); }, 30);
   }
-  applySettings() { audio.setVolume(settings.volume); this.engine.resize(); }
+  applySettings() { audio.setVolume(settings.volume); this.engine.applyQuality(); }
 
   play(slot: number, chapter: string, scene?: string, fresh = false) {
     this.slot = slot;
@@ -138,5 +139,5 @@ class Game implements MenuHost {
   }
 }
 
-const game = new Game();
-(window as unknown as { game: Game }).game = game;
+// The human body loads once, before any scene builds a person.
+void loadHuman().then(() => { const game = new Game(); (window as unknown as { game: Game }).game = game; });

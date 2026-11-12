@@ -141,7 +141,7 @@ export class Menu {
       <div class="row"><div>Lines move on by themselves<small>Off: every line waits for you</small></div>${this.sel('autoAdvance', onoff)}</div>
       <div class="row"><div>Placeholder voice (text-to-speech)<small>Uses your browser's voice if it has one for Urdu. Never used for recitation.</small></div>${this.sel('tts', onoff)}</div>
       <div class="row"><div>Volume</div><input type="range" min="0" max="1" step="0.05" value="${settings.volume}" data-set="volume"></div>
-      <div class="row"><div>Graphics<small>Auto holds 60 fps by lowering resolution</small></div>${this.sel('quality', [['auto', 'Auto'], ['low', 'Low'], ['high', 'High']])}</div>
+      <div class="row"><div>Graphics<small>Auto holds the frame rate by lowering resolution, then effects</small></div>${this.sel('quality', [['auto', 'Auto'], ['low', 'Low'], ['medium', 'Medium'], ['high', 'High']])}</div>
       <div class="row"><div>Invert camera Y</div>${this.sel('invertY', onoff)}</div>
     </div>
     <h2 style="margin-top:26px">Pending with the ulama</h2>

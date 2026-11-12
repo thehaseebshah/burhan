@@ -21,7 +21,7 @@ export interface Settings extends PendingSwitches {
   tts: boolean;
   autoAdvance: boolean;
   volume: number;
-  quality: 'auto' | 'low' | 'high';
+  quality: 'auto' | 'low' | 'medium' | 'high';
   invertY: boolean;
 }
 

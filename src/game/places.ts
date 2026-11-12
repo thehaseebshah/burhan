@@ -2,18 +2,19 @@
 import * as THREE from 'three';
 import { mat } from '../core/engine';
 import type { FigureOpts } from '../world/figures';
-import { terrain, forest, smallMosque, lamp, slab, rocks, rng, vnoise } from '../world/props';
+import { terrain, forest, smallMosque, lamp, slab, rocks, charpoy, rng, vnoise } from '../world/props';
+import { surface, K } from '../core/engine';
 import type { Ctx } from './director';
 
 export const SAIN: FigureOpts = { scale: 0.97, top: 0x8c9186, bottom: 0x8c9186, head: 'mirror', clarity: 0.78, headgear: 'cap', gearColor: 0xe8e4d8, prop: 'broom' };
 export const BILAL: FigureOpts = { scale: 0.8, top: 0xa8432f, bottom: 0x2f3440, head: 'mirror', clarity: 0.4 };
 export const AZAD: FigureOpts = { top: 0xd9822b, bottom: 0x2b3a55, head: 'dull' };
-export const FARAZ: FigureOpts = { scale: 1.03, top: 0x18181c, bottom: 0x18181c, head: 'dull' };
-export const MODERATOR: FigureOpts = { top: 0x7d8086, bottom: 0x6d7076, head: 'dull' };
-export const REHAN: FigureOpts = { top: 0x3a4a6a, bottom: 0x24262c, head: 'dull' };
-export const DEALER: FigureOpts = { scale: 1.06, top: 0x24262a, bottom: 0x1c1d20, head: 'dull', headgear: 'cap', gearColor: 0x111214 };
+export const FARAZ: FigureOpts = { scale: 1.03, top: 0x18181c, bottom: 0x18181c, head: 'dull', outfit: 'coat' };
+export const MODERATOR: FigureOpts = { top: 0x7d8086, bottom: 0x6d7076, head: 'dull', outfit: 'coat' };
+export const REHAN: FigureOpts = { top: 0x3a4a6a, bottom: 0x24262c, head: 'dull', outfit: 'coat' };
+export const DEALER: FigureOpts = { scale: 1.06, top: 0x24262a, bottom: 0x1c1d20, head: 'dull', outfit: 'western' };
 // Historical guides. How they appear is a pending switch: see spawnRevered().
-export const IQBAL: FigureOpts = { top: 0x34343a, bottom: 0x2c2c30, robe: true, head: 'mirror', clarity: 0.82, headgear: 'furcap', gearColor: 0x2a2420, prop: 'cane' };
+export const IQBAL: FigureOpts = { top: 0x34343a, bottom: 0x2c2c30, outfit: 'coat', head: 'mirror', clarity: 0.82, headgear: 'furcap', gearColor: 0x2a2420, prop: 'cane' };
 export const MUJADDID: FigureOpts = { top: 0xf2efe6, bottom: 0xf2efe6, robe: true, head: 'mirror', clarity: 0.96, headgear: 'turban', gearColor: 0xffffff };
 
 /** The small stone mosque in the Margalla foothills, with the Shah Allah Ditta caves to the west. */
@@ -34,14 +35,20 @@ export function mosqueHill(ctx: Ctx, time: 'night' | 'dawn') {
   world.ground = h;
   world.bounds = { x0: -40.5, x1: 36, z0: -24, z1: 38 };
   const night = time === 'night';
-  ctx.add(terrain(190, 44, h, (x, _z, _y, slope) => (x < -41 || slope > 2 ? (night ? 0x4a4640 : 0x7d766a) : night ? 0x2c3c2c : 0x54703f)));
-  ctx.add(slab(14, 0.1, 13, night ? 0x6f6b60 : 0x9a9588, 0, -0.03, 2.5));
+  ctx.add(terrain(190, 44, h, (x, z, _y, slope) => (x < -41 || slope > 2 ? (night ? 0x4a4640 : 0x7d766a) : Math.abs(x) < 7.4 && z > -10 && z < 9.4 ? 0x8a8478 : night ? 0x2c3c2c : 0x54703f)));
+  ctx.add(slab(14, 0.1, 13, 0x9a9588, 0, -0.03, 2.5, false, K.tile));
+  // a low wall around the courtyard, open toward the path
+  for (const [w, d, x, z] of [[0.35, 13, -7.1, 2.5], [0.35, 13, 7.1, 2.5], [5, 0.35, -4.6, 9.1], [5, 0.35, 4.6, 9.1]]) { ctx.add(slab(w, 0.7, d, 0xa39c8c, x, 0.35, z, false, K.brick)); world.rects.push({ x0: x - w / 2, x1: x + w / 2, z0: z - d / 2, z1: z + d / 2 }); }
   ctx.add(smallMosque(), 0, 0, -4);
   world.rects.push({ x0: -3.2, x1: 3.2, z0: -9.2, z1: -3.9 }, { x0: 3.5, x1: 4.9, z0: -4.4, z1: -2.2 });
   world.circles.push({ x: 4.2, z: -5.5, r: 0.95 });
-  ctx.add(lamp(0xffc87a, night ? 16 : 3, 20), 1.9, 2.5, -3.6);
+  ctx.add(lamp(0xffc87a, night ? 9 : 2, 20), 1.9, 2.6, -3.35);
+  ctx.add(slab(0.03, 0.04, 0.5, 0x1a1612, 1.9, 2.78, -3.6, false, K.metal));
   // a bench, a dented kettle and two cups
-  ctx.add(slab(2.6, 0.45, 0.9, 0x6a4a2a, 5.6, 0.225, 3));
+  ctx.add(charpoy(2.6, 0.9, 0.45), 5.6, 0, 3);
+  const scatter = [];
+  for (let i = 0; i < 40; i++) { const x = (Math.sin(i * 12.9) * 0.5) * 120, z = (Math.cos(i * 7.7) * 0.5) * 100; if (Math.hypot(x, z - 1) > 13 && x > -39) scatter.push({ x, y: h(x, z), z, s: 0.3 + (i % 5) * 0.16 }); }
+  ctx.add(rocks(scatter, night ? 0x5a5650 : 0x8a8478));
   const kettle = new THREE.Mesh(new THREE.CylinderGeometry(0.13, 0.17, 0.26, 7), mat(0x55585c)); ctx.add(kettle, 5.6, 0.58, 3);
   for (const dx of [-0.35, 0.35]) { const cup = new THREE.Mesh(new THREE.CylinderGeometry(0.05, 0.04, 0.08, 6), mat(0xd8d2c2)); ctx.add(cup, 5.6 + dx, 0.49, 3.1); }
   world.rects.push({ x0: 4.3, x1: 6.9, z0: 2.55, z1: 3.45 });
@@ -66,10 +73,12 @@ export function mosqueHill(ctx: Ctx, time: 'night' | 'dawn') {
 
 /** Inside the cave: dark, cool, a wall that can begin to glow. Built far from everything else. */
 export function caveInside(ctx: Ctx, cx = 600) {
-  const rock = new THREE.MeshLambertMaterial({ color: 0x3a342e, flatShading: true, side: THREE.BackSide });
-  const dome = new THREE.Mesh(new THREE.IcosahedronGeometry(6.5, 1), rock); dome.scale.set(1, 0.62, 1.3);
+  const rock = surface(new THREE.MeshStandardMaterial({ color: 0x4a423a, roughness: 0.95, side: THREE.BackSide }), K.rock);
+  const dg = new THREE.IcosahedronGeometry(6.5, 4);
+  { const p = dg.attributes.position; for (let i = 0; i < p.count; i++) { const x = p.getX(i), y = p.getY(i), z = p.getZ(i), k = 1 + (vnoise(x * 0.9 + 2, z * 0.9 + y) - 0.5) * 0.22 + (vnoise(x * 2.7, y * 2.7 + z * 2) - 0.5) * 0.08; p.setXYZ(i, x * k, y * k, z * k); } dg.computeVertexNormals(); }
+  const dome = new THREE.Mesh(dg, rock); dome.userData.noShadow = true; dome.scale.set(1, 0.62, 1.3);
   ctx.add(dome, cx, 0.6, 0);
-  ctx.add(slab(14, 0.2, 18, 0x2a2622, cx, -0.1, 0));
+  ctx.add(slab(14, 0.2, 18, 0x3a332c, cx, -0.1, 0, false, K.rock));
   const wallMat = new THREE.MeshBasicMaterial({ color: 0x000000, fog: false });
   const wall = new THREE.Mesh(new THREE.CircleGeometry(2.6, 20), wallMat); ctx.add(wall, cx, 1.7, -6.9);
   const light = new THREE.PointLight(0xffe2b8, 0.6, 14, 1.4); ctx.add(light, cx, 1.8, -5.4);

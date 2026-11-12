@@ -1,6 +1,6 @@
 // Chapter 1: The Forgetting, scenes 7-12. Script: src/data/scripts/ch1.json.
 import * as THREE from 'three';
-import { mat } from '../core/engine';
+import { mat, K } from '../core/engine';
 import { audio } from '../core/audio';
 import { makeCrowd } from '../world/figures';
 import type { Actor } from '../world/actors';
@@ -16,7 +16,8 @@ const stairs: SceneFn = async (ctx) => {
   const { engine, hud } = ctx;
   engine.setSky(0x06070a, 0x0c0e12, 10, 40);
   engine.setLight(0x343840, 0x0c0c0e, 0.5, 0xffffff, 0.1);
-  ctx.addAll(slab(12, 0.2, 5, 0x44474c, 0, -0.1, 0), slab(12, 7, 0.2, 0x5a5d62, 0, 3.5, -1.1), slab(0.2, 7, 5, 0x5a5d62, -3, 3.5, 0));
+  ctx.addAll(slab(12, 0.2, 5, 0x44474c, 0, -0.1, 0, false, K.tile), slab(12, 7, 0.2, 0x8a8d86, 0, 3.5, -1.1, false, K.plaster), slab(0.2, 7, 5, 0x8a8d86, -3, 3.5, 0, false, K.plaster));
+  ctx.addAll(slab(1.3, 1.5, 0.08, 0x0c1420, -1.2, 2.6, -0.98, false, K.metal), slab(1.5, 0.08, 0.16, 0xcfc8ba, -1.2, 1.82, -0.95), slab(0.06, 1.5, 0.1, 0xcfc8ba, -1.2, 2.6, -0.96));
   for (let i = 0; i < 10; i++) ctx.add(slab(0.36, 0.2 * (i + 1), 2, 0x6a6d72, 1 + i * 0.36, 0.1 * (i + 1), 0));
   ctx.add(slab(0.06, 0.9, 3.8, 0x2e3034, 2.6, 1.9, 1.05)).rotation.z = 0; // a plain rail
   ctx.add(lamp(0xfff0d0, 7, 10), 0.6, 2.9, 0.4);
@@ -134,7 +135,7 @@ const sirhind: SceneFn = async (ctx) => {
   world.ground = (x, z) => (Math.abs(x) < 6.6 ? THREE.MathUtils.clamp((-6.8 - z) / 1.4, 0, 1) * 0.6 : 0);
   world.bounds = { x0: -11, x1: 11, z0: -17, z1: 14 };
   // Mughal miniature colour: red sandstone, cream, lapis. The light is amber, never the Gilding's gold.
-  ctx.add(slab(60, 0.2, 60, 0x8a6a52, 0, -0.1, 0));
+  ctx.add(slab(60, 0.2, 60, 0x9a7a5e, 0, -0.1, 0, false, K.tile));
   ctx.add(slab(13.2, 0.6, 13, 0xb5553c, 0, 0.3, -14.7));
   for (let i = 0; i < 3; i++) ctx.add(slab(13.2, 0.2, 0.47, 0xa94e36, 0, 0.1 + i * 0.2, -7.0 - i * 0.47));
   for (const [x, z] of [[-3, -11.5], [3, -11.5], [-3, -17.5], [3, -17.5]]) ctx.add(slab(0.5, 4, 0.5, 0xe9e0cc, x, 2.6, z));
@@ -181,7 +182,8 @@ const debateHouse: SceneFn = async (ctx) => {
   engine.setSky(0x1a1420, 0x4a2c28, 20, 70);
   engine.setLight(0x8a6a5a, 0x2a1810, 0.85, 0xffc890, 0.5, [0.2, 1, 0.5]);
   world.bounds = { x0: -14.5, x1: 14.5, z0: -9.4, z1: 15 };
-  ctx.addAll(slab(40, 0.2, 40, 0xa8523a, 0, -0.1, 0), slab(40, 0.4, 40, 0x7a3626, 0, 7.2, 0));
+  ctx.addAll(slab(40, 0.2, 40, 0xa8523a, 0, -0.1, 0, false, K.tile), slab(40, 0.4, 40, 0x7a3626, 0, 7.2, 0, false, K.brick));
+  for (const rad of [4.6, 6.5, 8.4]) { const ring = new THREE.Mesh(new THREE.RingGeometry(rad - 0.75, rad + 0.75, 48).rotateX(-Math.PI / 2), mat([0x6a1f24, 0x1f3a5a, 0x2f5a44][Math.round(rad) % 3], false, true, K.cloth)); ctx.add(ring, 0, 0.012, 1.5); }
   for (let a = 0; a < 12; a++) { const x = Math.sin((a / 12) * 6.283) * 13.5, z = Math.cos((a / 12) * 6.283) * 13.5; if (Math.abs(x) > 2 || z < 0) { ctx.add(slab(0.9, 7, 0.9, 0xb5553c, x, 3.5, z)); world.circles.push({ x, z, r: 0.8 }); } }
   ctx.addAll(slab(40, 7, 0.5, 0x9a4630, 0, 3.5, -17), slab(0.5, 7, 40, 0x9a4630, -17, 3.5, 0), slab(0.5, 7, 40, 0x9a4630, 17, 3.5, 0));
   for (const [x, z] of [[-7, -6], [7, -6], [-8, 8], [8, 8], [0, 1]]) ctx.add(lamp(0xffb060, 9, 16), x, 5.6, z);
@@ -253,7 +255,7 @@ const gwalior: SceneFn = async (ctx) => {
   engine.setSky(0x070a14, 0x1c1a22, 14, 75);
   engine.setLight(0x40465c, 0x14100c, 0.6, 0x9aa8d0, 0.3, [-0.3, 1, 0.3]);
   world.bounds = { x0: -11.5, x1: 11.5, z0: -11.5, z1: 12 };
-  ctx.add(slab(32, 0.2, 32, 0x5a4f44, 0, -0.1, 0));
+  ctx.add(slab(32, 0.2, 32, 0x5a4f44, 0, -0.1, 0, false, K.tile));
   ctx.addAll(slab(28, 9, 1, 0x6a5a4a, 0, 4.5, -13.5), slab(1, 9, 28, 0x6a5a4a, -13.5, 4.5, 0), slab(1, 9, 28, 0x6a5a4a, 13.5, 4.5, 0), slab(11, 9, 1, 0x6a5a4a, -8.5, 4.5, 13.5), slab(11, 9, 1, 0x6a5a4a, 8.5, 4.5, 13.5), slab(6, 4, 1, 0x6a5a4a, 0, 7, 13.5));
   for (let x = -2.6; x <= 2.7; x += 0.65) ctx.add(slab(0.1, 5, 0.1, 0x1c1c1e, x, 2.5, 13.4)); // the barred gate
   for (const [x, z] of [[-11.5, -11.5], [11.5, -11.5], [-11.5, 10], [11.5, 10]]) { ctx.add(slab(0.14, 2.2, 0.14, 0x2a1c10, x, 1.1, z)); ctx.add(lamp(0xff9a50, 10, 16), x, 2.4, z); }

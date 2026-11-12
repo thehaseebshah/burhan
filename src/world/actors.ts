@@ -418,7 +418,7 @@ export class Combat {
         audio.whoosh();
       }
     }
-    if (!this.playerDown && !pl.horse) pl.fig.setPose(this.guarding ? 'guard' : 'stand');
+    if (this.active && !this.playerDown && !pl.horse) pl.fig.setPose(this.guarding ? 'guard' : 'stand');
     pl.slow = busy ? 0 : this.guarding ? 0.4 : this.attackT > 0 ? 0.35 : this.rules.untrained ? 0.8 : 1;
 
     // --- everyone else

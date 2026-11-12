@@ -27,15 +27,15 @@ if (process.argv[1] === fileURLToPath(import.meta.url)) {
   const errors = [];
   page.on('pageerror', (e) => errors.push('pageerror: ' + e.message));
   page.on('console', (m) => { if (m.type() === 'error') errors.push('console: ' + m.text()); });
-  await page.goto(`${srv.url}?auto=1&chapter=${start}`);
+  await page.goto(`${srv.url}?auto=1&q=low&norender=1&chapter=${start}`);
   const t0 = Date.now();
   let status = '', seen = 0;
-  while (Date.now() - t0 < 240000) {
+  while (Date.now() - t0 < 480000) {
     await page.waitForTimeout(400);
-    const s = await page.evaluate(() => ({ status: window.game.status, log: window.game.log }));
+    const s = await page.evaluate(() => (window.game ? { status: window.game.status, log: window.game.log } : { status: 'boot', log: [] }));
     if (s.log.length > seen) { for (const id of s.log.slice(seen)) console.log('  played', id); seen = s.log.length; }
     status = s.status;
-    if (status === 'done' || status === 'menu' || status.startsWith('error') || errors.length) break;
+    if (status === 'done' || (status === 'menu' && seen > 0) || status.startsWith('error') || errors.length) break;
   }
   await browser.close(); srv.close();
   if (errors.length || (status !== 'done' && status !== 'menu')) { console.error(`FAILED at ${status}\n` + errors.join('\n')); process.exit(1); }

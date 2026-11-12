@@ -55,15 +55,31 @@ npm run build
   select and in the save slots, and can be read through line by line.
 - Three save slots (localStorage), chapter select, settings, pause, gamepad.
 
+## How it looks
+
+- **Rendering:** physically based materials, real-time sun and moon shadows, a sky with
+  clouds and stars that also lights the scene, bloom, tone mapping and film grading.
+- **Surfaces:** one shader gives every material its grain in world space: brick, plaster,
+  planks, paving, asphalt, cloth, ground, bark, rock, metal, water, and rows of windows on
+  buildings. It also carries the Gilding, as real metallic gold leaf laid in sheets.
+- **People:** a modelled, skinned human body with hands and fingers, dressed by region
+  (top, trousers, shoes, hair), with tunic skirts, coats, turbans and caps on top. The face
+  is a smooth oval: see the hard rules. Crowds use a low-detail copy of the same body.
+- **World:** grass that sways, leafy trees and pines, rocks, water, a stone mosque, campus
+  blocks, a road with street lamps and passing cars, tents, rope beds.
+- **Quality:** Auto, Low, Medium, High in Settings. Auto lowers resolution first, then
+  turns off post-processing, to hold the frame rate. `?q=low|medium|high` forces a tier.
+
 ## How it is put together
 
 | Path | What it is |
 |---|---|
 | `docs/Burhan-complete-docs.md` | The design. The single source for every spoken line. |
 | `tools/build-scripts.mjs` | Converts the eight scripts to JSON: scene id, speaker, Urdu, English, audio id, gameplay hooks. |
+| `tools/build-human.mjs` | Builds the human body (`src/assets/human.json`) from the MakeHuman base mesh: removes the face, reduces the rig, dresses the body. Run with `npm run human`. |
 | `src/data/scripts/*.json` | Generated. Never edit by hand; edit the document and run `npm run scripts`. |
-| `src/core/` | Renderer and the Gilding shader (`engine.ts`), input, placeholder sound, settings and saves. |
-| `src/world/` | Featureless figures and horse, environment pieces, the controller and combat. |
+| `src/core/` | Renderer, sky, shadows, post-processing and the surface and Gilding shader (`engine.ts`), input, placeholder sound, settings and saves. |
+| `src/world/` | The skinned human, horse and crowds (`figures.ts`), the world's pieces (`props.ts`), the controller and combat. |
 | `src/ui/` | Everything the player reads: subtitles, conversation wheel, kashf, menus. All HTML, never WebGL. |
 | `src/game/director.ts` | What scenes are written against: lines, waits, camera, tasks. |
 | `src/game/prologue.ts`, `ch1a.ts`, `ch1b.ts` | The slice's sixteen scenes. |
@@ -75,8 +91,9 @@ loader for it in `src/game/chapters.ts`. Until then it plays through `stub.ts`.
 
 ## Hard rules, and where the code keeps them
 
-1. **No facial features on anyone.** `src/world/figures.ts` draws a face as a smooth sphere
-   and nothing else. Believers' faces are mirrors that polish with the heart
+1. **No facial features on anyone.** `tools/build-human.mjs` projects every vertex of the
+   modelled head onto a smooth oval, so no eyes, nose, mouth or ears survive into the game;
+   `src/world/figures.ts` never draws anything on it. Believers' faces are mirrors that polish with the heart
    (`setClarity`); people in the Gilding get a blank screen. The horse has no features.
    No statues or carved figures exist in `src/world/props.ts`.
 2. **No Prophet and no Sahabi is shown, voiced or stood in for.** None appears in the slice.
@@ -90,7 +107,8 @@ loader for it in `src/game/chapters.ts`. Until then it plays through `stub.ts`.
    non-combatants cannot take damage. Defeated fighters fall and fade; there is no gore.
 7. **Quranic text.** Verses are copied exactly by the converter, flagged `recitation`, shown
    only as HTML overlays, never placed in the 3D world, never sent to text-to-speech.
-8. **Nothing copied** from another game. Every model is built from primitives in this repo.
+8. **Nothing copied** from another game. The human body comes from MakeHuman's CC0 base
+   mesh (not a game asset); everything else is generated in this repo.
 9. **No real brands.** Only the script's fictional names appear (SURAT).
 
 ## Pending switches
@@ -103,6 +121,13 @@ Settings, not decisions:
 - Women: `voice-only` (default; Ammi is a voice and a name on a phone) | `off-screen`.
 - The azan in the vision of Madinah: on/off (chapter 7, not built yet).
 - The organization's name appears nowhere in the game. `npm test` checks this.
+
+## Third-party assets
+
+- **MakeHuman** base mesh, default rig and skin weights, released by the MakeHuman team
+  under CC0 1.0 (<https://github.com/makehumancommunity/makehuman>). Used for the human body.
+- **Noto Nastaliq Urdu**, SIL Open Font License.
+- **three.js**, MIT.
 
 ## Tests
 
@@ -127,7 +152,9 @@ the auto-player run it.
 - Voice recording. Lines are silent with subtitles; an optional browser text-to-speech
   placeholder is in Settings.
 - Recitation and azan recordings (licensed). Captions stand in for them.
-- Final art and models. Everything is primitive shapes.
+- Final art. The human body is a real model, but clothes are generated from it rather
+  than tailored, animation is procedural rather than motion-captured, and buildings,
+  vehicles and props are generated shapes. A studio-level look needs authored assets.
 - Chapters 2–7 and their systems (floors, durood light, the upgrade tree and its reversal,
   kushti, the Hall of Faces, the endings).
 - Physics is a small custom controller (ground following, circle and box obstacles), not

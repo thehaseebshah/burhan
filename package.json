@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "scripts": "node tools/build-scripts.mjs",
+    "human": "node tools/build-human.mjs",
     "dev": "vite",
     "build": "node tools/build-scripts.mjs && tsc --noEmit && vite build",
     "preview": "vite preview",
